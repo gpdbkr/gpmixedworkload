@@ -1,0 +1,2521 @@
+drop table if exists public.mart_catalog_returns;
+NOTICE:  table "mart_catalog_returns" does not exist, skipping
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:18:04|2024-03-19 21:20:48|164
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:20:49|2024-03-19 21:23:26|157
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:23:27|2024-03-19 21:25:04|97
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:25:05|2024-03-19 21:27:31|146
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:27:32|2024-03-19 21:29:46|134
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:29:47|2024-03-19 21:31:23|96
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:31:24|2024-03-19 21:33:48|144
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:33:49|2024-03-19 21:36:06|137
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:36:07|2024-03-19 21:38:05|118
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:38:06|2024-03-19 21:40:36|150
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:40:37|2024-03-19 21:43:08|151
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:43:09|2024-03-19 21:45:15|126
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:45:16|2024-03-19 21:47:50|154
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:47:51|2024-03-19 21:49:49|118
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:49:50|2024-03-19 21:51:26|96
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:51:27|2024-03-19 21:53:03|96
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:53:04|2024-03-19 21:54:07|63
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:54:08|2024-03-19 21:56:31|143
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:56:32|2024-03-19 21:58:41|129
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 21:58:42|2024-03-19 22:00:34|112
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:00:35|2024-03-19 22:02:01|86
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:02:02|2024-03-19 22:03:33|91
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:03:34|2024-03-19 22:06:21|167
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:06:22|2024-03-19 22:08:52|150
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:08:53|2024-03-19 22:10:34|101
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:10:36|2024-03-19 22:12:22|106
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:12:23|2024-03-19 22:14:36|133
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:14:37|2024-03-19 22:17:19|162
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:17:20|2024-03-19 22:19:00|100
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:19:01|2024-03-19 22:21:10|129
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:21:11|2024-03-19 22:23:23|132
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:23:24|2024-03-19 22:25:46|142
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:25:47|2024-03-19 22:27:05|78
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:27:06|2024-03-19 22:28:33|87
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:28:34|2024-03-19 22:29:49|75
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:29:50|2024-03-19 22:31:54|124
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:31:55|2024-03-19 22:33:48|113
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:33:49|2024-03-19 22:35:40|111
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:35:41|2024-03-19 22:37:28|107
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:37:29|2024-03-19 22:39:40|131
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:39:41|2024-03-19 22:41:28|107
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:41:29|2024-03-19 22:43:29|120
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:43:30|2024-03-19 22:45:43|133
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:45:44|2024-03-19 22:47:20|96
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:47:21|2024-03-19 22:49:42|141
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:49:43|2024-03-19 22:52:13|150
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:52:14|2024-03-19 22:53:44|90
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:53:45|2024-03-19 22:55:08|83
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:55:09|2024-03-19 22:56:26|77
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:56:27|2024-03-19 22:58:37|130
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 22:58:38|2024-03-19 23:01:00|142
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 23:01:01|2024-03-19 23:02:59|118
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 23:03:00|2024-03-19 23:04:52|112
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 23:04:53|2024-03-19 23:06:58|125
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 23:06:59|2024-03-19 23:09:17|138
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 23:09:18|2024-03-19 23:10:46|88
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 23:10:47|2024-03-19 23:12:52|125
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 23:12:53|2024-03-19 23:14:53|120
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+SELECT 9485469
+mart.02.public.mart_catalog_returns.sh|2024-03-19 23:14:54|2024-03-19 23:16:42|108
+drop table if exists public.mart_catalog_returns;
+DROP TABLE
+create table public.mart_catalog_returns
+with (appendonly=true, compresslevel=7, compresstype=zstd)
+as
+select
+array_agg(cr_returned_date_sk          ) cr_returned_date_sk      
+, array_agg(cr_returned_time_sk          ) cr_returned_time_sk      
+, cr_item_sk                               
+, cr_refunded_customer_sk       
+, array_agg(cr_refunded_cdemo_sk         ) cr_refunded_cdemo_sk     
+, array_agg(cr_refunded_hdemo_sk         ) cr_refunded_hdemo_sk     
+, array_agg(cr_refunded_addr_sk          ) cr_refunded_addr_sk      
+, array_agg(cr_returning_customer_sk     ) cr_returning_customer_sk 
+, array_agg(cr_returning_cdemo_sk        ) cr_returning_cdemo_sk    
+, array_agg(cr_returning_hdemo_sk        ) cr_returning_hdemo_sk    
+, array_agg(cr_returning_addr_sk         ) cr_returning_addr_sk     
+, array_agg(cr_call_center_sk            ) cr_call_center_sk        
+, array_agg(cr_catalog_page_sk           ) cr_catalog_page_sk       
+, array_agg(cr_ship_mode_sk              ) cr_ship_mode_sk          
+, array_agg(cr_warehouse_sk              ) cr_warehouse_sk          
+, array_agg(cr_reason_sk                 ) cr_reason_sk             
+, array_agg(cr_order_number              ) cr_order_number          
+, array_agg(cr_return_quantity           ) cr_return_quantity       
+, array_agg(cr_return_amount             ) cr_return_amount         
+, array_agg(cr_return_tax                ) cr_return_tax            
+, array_agg(cr_return_amt_inc_tax        ) cr_return_amt_inc_tax    
+, array_agg(cr_fee                       ) cr_fee                   
+, array_agg(cr_return_ship_cost          ) cr_return_ship_cost      
+, array_agg(cr_refunded_cash             ) cr_refunded_cash         
+, array_agg(cr_reversed_charge           ) cr_reversed_charge       
+, array_agg(cr_store_credit              ) cr_store_credit          
+, array_agg(cr_net_loss                  ) cr_net_loss
+from
+tpcds.catalog_returns
+where
+        cr_returned_date_sk between 2450879 and 2451022
+group by cr_item_sk, cr_refunded_customer_sk
+
+distributed randomly;
+ERROR:  canceling statement due to user request
+mart.02.public.mart_catalog_returns.sh|2024-03-19 23:16:43|2024-03-19 23:18:14|91

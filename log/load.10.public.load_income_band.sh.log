@@ -1,0 +1,1626 @@
+drop table if exists public.load_income_band;
+NOTICE:  table "load_income_band" does not exist, skipping
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:18:04|2024-03-19 21:18:27|23
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:18:28|2024-03-19 21:18:47|19
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:18:48|2024-03-19 21:19:22|34
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:19:23|2024-03-19 21:19:52|29
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:19:53|2024-03-19 21:20:21|28
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:20:22|2024-03-19 21:21:32|70
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:21:33|2024-03-19 21:22:07|34
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:22:08|2024-03-19 21:22:40|32
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:22:41|2024-03-19 21:23:01|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:23:02|2024-03-19 21:23:28|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:23:29|2024-03-19 21:23:53|24
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:23:54|2024-03-19 21:24:32|38
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:24:33|2024-03-19 21:24:53|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:24:54|2024-03-19 21:25:13|19
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:25:14|2024-03-19 21:25:26|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:25:27|2024-03-19 21:25:43|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:25:44|2024-03-19 21:26:02|18
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:26:03|2024-03-19 21:26:27|24
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:26:28|2024-03-19 21:26:42|14
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:26:43|2024-03-19 21:27:10|27
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:27:11|2024-03-19 21:28:03|52
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:28:04|2024-03-19 21:28:28|24
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:28:29|2024-03-19 21:28:50|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:28:51|2024-03-19 21:29:18|27
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:29:19|2024-03-19 21:30:00|41
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:30:01|2024-03-19 21:30:22|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:30:23|2024-03-19 21:31:05|42
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:31:06|2024-03-19 21:31:30|24
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:31:31|2024-03-19 21:31:41|10
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:31:42|2024-03-19 21:32:03|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:32:04|2024-03-19 21:32:23|19
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:32:24|2024-03-19 21:32:34|10
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:32:35|2024-03-19 21:32:53|18
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:32:54|2024-03-19 21:33:07|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:33:08|2024-03-19 21:33:28|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:33:29|2024-03-19 21:34:03|34
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:34:04|2024-03-19 21:34:45|41
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:34:46|2024-03-19 21:35:04|18
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:35:05|2024-03-19 21:35:52|47
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:35:53|2024-03-19 21:36:14|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:36:15|2024-03-19 21:36:51|36
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:36:52|2024-03-19 21:37:08|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:37:09|2024-03-19 21:37:35|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:37:36|2024-03-19 21:37:52|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:37:53|2024-03-19 21:38:28|35
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:38:29|2024-03-19 21:39:14|45
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:39:15|2024-03-19 21:39:40|25
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:39:41|2024-03-19 21:40:05|24
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:40:06|2024-03-19 21:40:36|30
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:40:37|2024-03-19 21:40:51|14
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:40:52|2024-03-19 21:41:28|36
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:41:29|2024-03-19 21:41:55|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:41:56|2024-03-19 21:42:09|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:42:10|2024-03-19 21:42:19|9
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:42:20|2024-03-19 21:42:28|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:42:29|2024-03-19 21:42:40|11
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:42:41|2024-03-19 21:42:54|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:42:55|2024-03-19 21:43:36|41
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:43:37|2024-03-19 21:44:16|39
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:44:17|2024-03-19 21:44:41|24
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:44:42|2024-03-19 21:45:14|32
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:45:15|2024-03-19 21:45:34|19
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:45:35|2024-03-19 21:46:06|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:46:07|2024-03-19 21:46:25|18
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:46:26|2024-03-19 21:46:41|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:46:42|2024-03-19 21:46:53|11
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:46:54|2024-03-19 21:47:08|14
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:47:09|2024-03-19 21:47:15|6
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:47:16|2024-03-19 21:47:26|10
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:47:27|2024-03-19 21:47:57|30
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:47:58|2024-03-19 21:48:24|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:48:25|2024-03-19 21:48:52|27
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:48:53|2024-03-19 21:49:08|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:49:09|2024-03-19 21:49:16|7
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:49:17|2024-03-19 21:49:33|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:49:34|2024-03-19 21:49:43|9
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:49:44|2024-03-19 21:49:52|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:49:53|2024-03-19 21:50:05|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:50:06|2024-03-19 21:50:33|27
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:50:34|2024-03-19 21:50:45|11
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:50:46|2024-03-19 21:50:59|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:51:00|2024-03-19 21:51:12|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:51:13|2024-03-19 21:51:26|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:51:27|2024-03-19 21:51:35|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:51:36|2024-03-19 21:51:43|7
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:51:44|2024-03-19 21:51:52|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:51:53|2024-03-19 21:52:08|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:52:09|2024-03-19 21:52:40|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:52:41|2024-03-19 21:53:09|28
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:53:10|2024-03-19 21:53:41|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:53:42|2024-03-19 21:54:13|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:54:14|2024-03-19 21:54:36|22
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:54:37|2024-03-19 21:54:51|14
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:54:52|2024-03-19 21:55:05|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:55:06|2024-03-19 21:55:25|19
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:55:26|2024-03-19 21:55:33|7
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:55:34|2024-03-19 21:55:49|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:55:50|2024-03-19 21:56:03|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:56:04|2024-03-19 21:56:38|34
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:56:39|2024-03-19 21:56:56|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:56:57|2024-03-19 21:57:27|30
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:57:28|2024-03-19 21:58:19|51
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:58:20|2024-03-19 21:58:58|38
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:58:59|2024-03-19 21:59:44|45
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 21:59:45|2024-03-19 22:00:28|43
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:00:29|2024-03-19 22:00:46|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:00:47|2024-03-19 22:01:11|24
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:01:12|2024-03-19 22:01:41|29
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:01:42|2024-03-19 22:02:12|30
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:02:13|2024-03-19 22:02:33|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:02:34|2024-03-19 22:02:57|23
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:02:58|2024-03-19 22:03:22|24
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:03:23|2024-03-19 22:03:38|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:03:39|2024-03-19 22:04:17|38
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:04:18|2024-03-19 22:04:35|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:04:36|2024-03-19 22:04:47|11
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:04:48|2024-03-19 22:05:02|14
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:05:03|2024-03-19 22:05:53|50
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:05:54|2024-03-19 22:06:26|32
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:06:27|2024-03-19 22:06:50|23
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:06:51|2024-03-19 22:07:16|25
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:07:17|2024-03-19 22:07:31|14
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:07:32|2024-03-19 22:07:47|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:07:48|2024-03-19 22:08:00|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:08:01|2024-03-19 22:08:25|24
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:08:26|2024-03-19 22:08:39|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:08:40|2024-03-19 22:08:51|11
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:08:52|2024-03-19 22:09:05|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:09:06|2024-03-19 22:09:14|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:09:15|2024-03-19 22:09:32|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:09:33|2024-03-19 22:09:49|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:09:50|2024-03-19 22:09:59|9
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:10:00|2024-03-19 22:10:07|7
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:10:08|2024-03-19 22:10:30|22
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:10:31|2024-03-19 22:11:02|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:11:03|2024-03-19 22:11:20|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:11:21|2024-03-19 22:11:37|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:11:38|2024-03-19 22:12:14|36
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:12:15|2024-03-19 22:12:40|25
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:12:41|2024-03-19 22:13:12|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:13:13|2024-03-19 22:13:44|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:13:45|2024-03-19 22:14:02|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:14:03|2024-03-19 22:14:34|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:14:35|2024-03-19 22:14:55|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:14:56|2024-03-19 22:15:17|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:15:18|2024-03-19 22:15:31|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:15:32|2024-03-19 22:15:44|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:15:45|2024-03-19 22:16:05|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:16:06|2024-03-19 22:16:27|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:16:28|2024-03-19 22:16:45|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:16:46|2024-03-19 22:17:03|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:17:04|2024-03-19 22:17:30|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:17:31|2024-03-19 22:17:48|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:17:49|2024-03-19 22:18:03|14
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:18:04|2024-03-19 22:18:18|14
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:18:19|2024-03-19 22:18:38|19
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:18:39|2024-03-19 22:18:56|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:18:57|2024-03-19 22:19:13|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:19:14|2024-03-19 22:19:29|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:19:30|2024-03-19 22:19:46|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:19:47|2024-03-19 22:19:59|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:20:00|2024-03-19 22:20:21|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:20:22|2024-03-19 22:20:48|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:20:49|2024-03-19 22:21:26|37
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:21:27|2024-03-19 22:22:03|36
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:22:04|2024-03-19 22:22:25|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:22:26|2024-03-19 22:22:46|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:22:47|2024-03-19 22:23:10|23
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:23:11|2024-03-19 22:23:31|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:23:32|2024-03-19 22:24:06|34
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:24:07|2024-03-19 22:24:29|22
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:24:30|2024-03-19 22:24:43|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:24:44|2024-03-19 22:24:55|11
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:24:56|2024-03-19 22:25:33|37
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:25:34|2024-03-19 22:26:05|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:26:06|2024-03-19 22:26:32|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:26:33|2024-03-19 22:26:49|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:26:50|2024-03-19 22:27:03|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:27:04|2024-03-19 22:27:24|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:27:25|2024-03-19 22:27:33|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:27:34|2024-03-19 22:27:47|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:27:48|2024-03-19 22:28:17|29
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:28:18|2024-03-19 22:28:40|22
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:28:41|2024-03-19 22:29:12|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:29:13|2024-03-19 22:29:41|28
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:29:42|2024-03-19 22:30:02|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:30:03|2024-03-19 22:30:19|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:30:20|2024-03-19 22:31:08|48
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:31:09|2024-03-19 22:31:32|23
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:31:33|2024-03-19 22:31:53|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:31:54|2024-03-19 22:32:16|22
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:32:17|2024-03-19 22:32:23|6
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:32:24|2024-03-19 22:32:38|14
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:32:39|2024-03-19 22:32:48|9
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:32:49|2024-03-19 22:33:01|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:33:02|2024-03-19 22:33:16|14
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:33:17|2024-03-19 22:33:27|10
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:33:28|2024-03-19 22:33:34|6
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:33:35|2024-03-19 22:33:50|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:33:51|2024-03-19 22:33:58|7
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:33:59|2024-03-19 22:34:15|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:34:16|2024-03-19 22:34:28|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:34:29|2024-03-19 22:34:38|9
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:34:39|2024-03-19 22:34:43|4
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:34:44|2024-03-19 22:34:52|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:34:53|2024-03-19 22:35:19|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:35:20|2024-03-19 22:35:41|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:35:42|2024-03-19 22:36:16|34
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:36:17|2024-03-19 22:36:37|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:36:38|2024-03-19 22:37:18|40
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:37:19|2024-03-19 22:37:50|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:37:51|2024-03-19 22:38:22|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:38:23|2024-03-19 22:38:43|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:38:44|2024-03-19 22:39:06|22
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:39:07|2024-03-19 22:39:23|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:39:24|2024-03-19 22:39:44|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:39:45|2024-03-19 22:39:54|9
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:39:55|2024-03-19 22:40:06|11
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:40:07|2024-03-19 22:40:37|30
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:40:38|2024-03-19 22:41:25|47
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:41:26|2024-03-19 22:41:52|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:41:53|2024-03-19 22:42:09|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:42:10|2024-03-19 22:42:54|44
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:42:55|2024-03-19 22:43:14|19
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:43:15|2024-03-19 22:43:22|7
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:43:23|2024-03-19 22:43:36|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:43:37|2024-03-19 22:44:10|33
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:44:11|2024-03-19 22:44:32|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:44:33|2024-03-19 22:44:45|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:44:46|2024-03-19 22:45:05|19
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:45:06|2024-03-19 22:45:26|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:45:27|2024-03-19 22:45:51|24
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:45:52|2024-03-19 22:46:15|23
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:46:16|2024-03-19 22:46:36|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:46:37|2024-03-19 22:46:49|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:46:50|2024-03-19 22:47:02|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:47:03|2024-03-19 22:47:20|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:47:21|2024-03-19 22:47:34|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:47:35|2024-03-19 22:47:47|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:47:48|2024-03-19 22:48:05|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:48:06|2024-03-19 22:48:19|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:48:20|2024-03-19 22:48:46|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:48:47|2024-03-19 22:49:26|39
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:49:27|2024-03-19 22:50:19|52
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:50:20|2024-03-19 22:50:55|35
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:50:56|2024-03-19 22:51:31|35
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:51:32|2024-03-19 22:51:53|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:51:54|2024-03-19 22:52:22|28
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:52:23|2024-03-19 22:52:43|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:52:44|2024-03-19 22:52:58|14
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:52:59|2024-03-19 22:53:10|11
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:53:11|2024-03-19 22:53:19|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:53:20|2024-03-19 22:53:35|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:53:36|2024-03-19 22:53:56|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:53:57|2024-03-19 22:54:09|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:54:10|2024-03-19 22:54:19|9
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:54:20|2024-03-19 22:54:31|11
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:54:32|2024-03-19 22:55:01|29
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:55:02|2024-03-19 22:55:33|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:55:34|2024-03-19 22:55:56|22
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:55:57|2024-03-19 22:56:23|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:56:24|2024-03-19 22:56:42|18
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:56:43|2024-03-19 22:57:04|21
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:57:05|2024-03-19 22:57:33|28
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:57:34|2024-03-19 22:58:08|34
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:58:09|2024-03-19 22:58:37|28
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:58:38|2024-03-19 22:59:01|23
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:59:02|2024-03-19 22:59:27|25
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:59:28|2024-03-19 22:59:44|16
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 22:59:45|2024-03-19 23:00:17|32
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:00:18|2024-03-19 23:00:53|35
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:00:54|2024-03-19 23:01:31|37
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:01:32|2024-03-19 23:01:49|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:01:50|2024-03-19 23:01:57|7
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:01:58|2024-03-19 23:02:08|10
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:02:09|2024-03-19 23:02:16|7
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:02:17|2024-03-19 23:02:32|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:02:33|2024-03-19 23:02:56|23
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:02:57|2024-03-19 23:03:10|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:03:11|2024-03-19 23:03:23|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:03:25|2024-03-19 23:03:32|7
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:03:33|2024-03-19 23:03:38|5
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:03:39|2024-03-19 23:03:46|7
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:03:47|2024-03-19 23:03:59|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:04:00|2024-03-19 23:04:12|12
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:04:13|2024-03-19 23:04:21|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:04:22|2024-03-19 23:04:30|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:04:31|2024-03-19 23:04:39|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:04:40|2024-03-19 23:04:49|9
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:04:50|2024-03-19 23:05:07|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:05:08|2024-03-19 23:05:36|28
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:05:37|2024-03-19 23:06:04|27
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:06:05|2024-03-19 23:06:32|27
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:06:33|2024-03-19 23:07:10|37
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:07:11|2024-03-19 23:07:42|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:07:43|2024-03-19 23:08:17|34
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:08:18|2024-03-19 23:08:29|11
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:08:30|2024-03-19 23:08:39|9
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:08:40|2024-03-19 23:08:49|9
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:08:50|2024-03-19 23:08:58|8
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:08:59|2024-03-19 23:09:10|11
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:09:11|2024-03-19 23:09:38|27
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:09:39|2024-03-19 23:10:02|23
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:10:03|2024-03-19 23:10:36|33
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:10:37|2024-03-19 23:11:04|27
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:11:05|2024-03-19 23:11:27|22
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:11:28|2024-03-19 23:11:37|9
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:11:38|2024-03-19 23:11:53|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:11:54|2024-03-19 23:12:20|26
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:12:21|2024-03-19 23:12:41|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:12:42|2024-03-19 23:12:55|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:12:56|2024-03-19 23:13:24|28
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:13:25|2024-03-19 23:13:42|17
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:13:43|2024-03-19 23:13:53|10
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:13:54|2024-03-19 23:14:24|30
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:14:25|2024-03-19 23:14:53|28
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:14:54|2024-03-19 23:15:32|38
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:15:33|2024-03-19 23:15:53|20
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:15:54|2024-03-19 23:16:25|31
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:16:26|2024-03-19 23:16:54|28
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:16:55|2024-03-19 23:17:05|10
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:17:06|2024-03-19 23:17:21|15
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:17:22|2024-03-19 23:17:35|13
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:17:36|2024-03-19 23:17:54|18
+drop table if exists public.load_income_band;
+DROP TABLE
+create table public.load_income_band as select * from tpcds.income_band distributed randomly;
+SELECT 20
+load.10.public.load_income_band.sh|2024-03-19 23:17:55|2024-03-19 23:18:03|8

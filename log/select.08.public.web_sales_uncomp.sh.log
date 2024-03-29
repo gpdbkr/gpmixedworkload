@@ -1,0 +1,159 @@
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:18:04|2024-03-19 21:20:53|169
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:20:54|2024-03-19 21:23:59|185
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:24:00|2024-03-19 21:25:58|118
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:25:59|2024-03-19 21:28:22|143
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:28:23|2024-03-19 21:30:31|128
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:30:32|2024-03-19 21:32:31|119
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:32:32|2024-03-19 21:35:20|168
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:35:21|2024-03-19 21:37:52|151
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:37:53|2024-03-19 21:39:58|125
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:39:59|2024-03-19 21:42:10|131
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:42:11|2024-03-19 21:44:40|149
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:44:41|2024-03-19 21:47:10|149
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:47:11|2024-03-19 21:49:24|133
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:49:25|2024-03-19 21:51:46|141
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:51:47|2024-03-19 21:53:49|122
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:53:50|2024-03-19 21:55:40|110
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:55:41|2024-03-19 21:58:15|154
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 21:58:16|2024-03-19 22:00:53|157
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:00:54|2024-03-19 22:02:21|87
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:02:22|2024-03-19 22:04:20|118
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:04:21|2024-03-19 22:07:29|188
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:07:30|2024-03-19 22:09:53|143
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:09:54|2024-03-19 22:11:26|92
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:11:27|2024-03-19 22:13:20|113
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:13:21|2024-03-19 22:16:16|175
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:16:17|2024-03-19 22:18:47|150
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:18:48|2024-03-19 22:20:01|73
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:20:02|2024-03-19 22:22:08|126
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:22:09|2024-03-19 22:24:33|144
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:24:34|2024-03-19 22:27:13|159
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:27:14|2024-03-19 22:28:50|96
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:28:51|2024-03-19 22:30:01|70
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:30:02|2024-03-19 22:32:52|170
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:32:53|2024-03-19 22:34:58|125
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:34:59|2024-03-19 22:37:27|148
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:37:28|2024-03-19 22:39:21|113
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:39:22|2024-03-19 22:41:55|153
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:41:56|2024-03-19 22:44:40|164
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:44:41|2024-03-19 22:46:38|117
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:46:39|2024-03-19 22:48:43|124
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:48:44|2024-03-19 22:50:37|113
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:50:38|2024-03-19 22:52:59|141
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:53:00|2024-03-19 22:55:03|123
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:55:04|2024-03-19 22:56:35|91
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:56:36|2024-03-19 22:59:21|165
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 22:59:22|2024-03-19 23:02:12|170
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 23:02:13|2024-03-19 23:03:44|91
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 23:03:45|2024-03-19 23:06:23|158
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 23:06:24|2024-03-19 23:09:29|185
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 23:09:30|2024-03-19 23:11:07|97
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 23:11:08|2024-03-19 23:14:26|198
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+select.08.public.web_sales_uncomp.sh|2024-03-19 23:14:27|2024-03-19 23:17:16|169
+select * from public.web_sales_uncomp
+where ws_sold_date_sk = 2451253;
+ERROR:  canceling statement due to user request

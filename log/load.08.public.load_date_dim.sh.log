@@ -1,0 +1,1576 @@
+drop table if exists public.load_date_dim;
+NOTICE:  table "load_date_dim" does not exist, skipping
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:18:04|2024-03-19 21:18:27|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:18:28|2024-03-19 21:18:48|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:18:49|2024-03-19 21:19:40|51
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:19:41|2024-03-19 21:20:21|40
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:20:22|2024-03-19 21:21:30|68
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:21:31|2024-03-19 21:22:07|36
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:22:08|2024-03-19 21:22:45|37
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:22:46|2024-03-19 21:23:17|31
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:23:18|2024-03-19 21:23:38|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:23:39|2024-03-19 21:24:06|27
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:24:07|2024-03-19 21:24:40|33
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:24:41|2024-03-19 21:25:04|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:25:05|2024-03-19 21:25:15|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:25:16|2024-03-19 21:25:35|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:25:36|2024-03-19 21:25:48|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:25:49|2024-03-19 21:26:02|13
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:26:03|2024-03-19 21:26:26|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:26:27|2024-03-19 21:26:40|13
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:26:41|2024-03-19 21:27:09|28
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:27:10|2024-03-19 21:27:54|44
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:27:55|2024-03-19 21:28:18|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:28:19|2024-03-19 21:28:45|26
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:28:46|2024-03-19 21:29:19|33
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:29:20|2024-03-19 21:30:00|40
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:30:01|2024-03-19 21:30:30|29
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:30:31|2024-03-19 21:31:05|34
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:31:06|2024-03-19 21:31:30|24
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:31:31|2024-03-19 21:31:41|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:31:42|2024-03-19 21:32:14|32
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:32:15|2024-03-19 21:32:34|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:32:35|2024-03-19 21:32:51|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:32:52|2024-03-19 21:33:01|9
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:33:02|2024-03-19 21:33:15|13
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:33:16|2024-03-19 21:33:59|43
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:34:00|2024-03-19 21:34:45|45
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:34:46|2024-03-19 21:35:04|18
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:35:05|2024-03-19 21:35:52|47
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:35:53|2024-03-19 21:36:16|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:36:17|2024-03-19 21:36:51|34
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:36:52|2024-03-19 21:37:09|17
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:37:10|2024-03-19 21:37:36|26
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:37:37|2024-03-19 21:37:52|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:37:53|2024-03-19 21:38:28|35
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:38:29|2024-03-19 21:39:14|45
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:39:15|2024-03-19 21:39:40|25
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:39:41|2024-03-19 21:40:05|24
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:40:06|2024-03-19 21:40:36|30
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:40:37|2024-03-19 21:40:52|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:40:53|2024-03-19 21:41:31|38
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:41:32|2024-03-19 21:41:57|25
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:41:58|2024-03-19 21:42:10|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:42:11|2024-03-19 21:42:25|14
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:42:26|2024-03-19 21:42:30|4
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:42:31|2024-03-19 21:42:41|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:42:42|2024-03-19 21:43:08|26
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:43:09|2024-03-19 21:43:38|29
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:43:39|2024-03-19 21:44:18|39
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:44:19|2024-03-19 21:44:51|32
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:44:52|2024-03-19 21:45:26|34
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:45:27|2024-03-19 21:45:55|28
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:45:56|2024-03-19 21:46:16|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:46:17|2024-03-19 21:46:31|14
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:46:32|2024-03-19 21:46:47|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:46:48|2024-03-19 21:46:57|9
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:46:58|2024-03-19 21:47:09|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:47:10|2024-03-19 21:47:15|5
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:47:16|2024-03-19 21:47:25|9
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:47:26|2024-03-19 21:47:52|26
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:47:53|2024-03-19 21:48:19|26
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:48:20|2024-03-19 21:48:52|32
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:48:53|2024-03-19 21:49:08|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:49:09|2024-03-19 21:49:16|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:49:17|2024-03-19 21:49:33|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:49:34|2024-03-19 21:49:46|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:49:47|2024-03-19 21:49:58|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:49:59|2024-03-19 21:50:26|27
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:50:27|2024-03-19 21:50:43|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:50:44|2024-03-19 21:51:08|24
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:51:09|2024-03-19 21:51:19|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:51:20|2024-03-19 21:51:30|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:51:31|2024-03-19 21:51:39|8
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:51:40|2024-03-19 21:51:47|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:51:48|2024-03-19 21:51:59|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:52:00|2024-03-19 21:52:26|26
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:52:27|2024-03-19 21:53:09|42
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:53:10|2024-03-19 21:53:41|31
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:53:42|2024-03-19 21:54:13|31
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:54:14|2024-03-19 21:54:34|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:54:35|2024-03-19 21:54:49|14
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:54:50|2024-03-19 21:55:05|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:55:06|2024-03-19 21:55:25|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:55:26|2024-03-19 21:55:34|8
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:55:35|2024-03-19 21:55:50|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:55:51|2024-03-19 21:55:59|8
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:56:00|2024-03-19 21:56:25|25
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:56:26|2024-03-19 21:56:51|25
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:56:52|2024-03-19 21:57:09|17
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:57:10|2024-03-19 21:57:43|33
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:57:44|2024-03-19 21:58:40|56
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:58:41|2024-03-19 21:59:26|45
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:59:27|2024-03-19 21:59:52|25
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 21:59:53|2024-03-19 22:00:43|50
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:00:44|2024-03-19 22:01:04|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:01:05|2024-03-19 22:01:41|36
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:01:42|2024-03-19 22:02:13|31
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:02:14|2024-03-19 22:02:33|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:02:34|2024-03-19 22:02:57|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:02:58|2024-03-19 22:03:21|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:03:22|2024-03-19 22:03:45|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:03:46|2024-03-19 22:04:17|31
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:04:18|2024-03-19 22:04:33|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:04:34|2024-03-19 22:04:47|13
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:04:48|2024-03-19 22:05:03|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:05:04|2024-03-19 22:05:54|50
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:05:55|2024-03-19 22:06:29|34
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:06:30|2024-03-19 22:06:50|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:06:51|2024-03-19 22:07:15|24
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:07:16|2024-03-19 22:07:26|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:07:27|2024-03-19 22:07:43|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:07:44|2024-03-19 22:07:57|13
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:07:58|2024-03-19 22:08:16|18
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:08:17|2024-03-19 22:08:40|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:08:41|2024-03-19 22:08:58|17
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:08:59|2024-03-19 22:09:10|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:09:11|2024-03-19 22:09:20|9
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:09:21|2024-03-19 22:09:42|21
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:09:43|2024-03-19 22:09:53|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:09:54|2024-03-19 22:10:01|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:10:02|2024-03-19 22:10:23|21
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:10:24|2024-03-19 22:10:39|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:10:40|2024-03-19 22:11:07|27
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:11:08|2024-03-19 22:11:20|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:11:21|2024-03-19 22:11:35|14
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:11:36|2024-03-19 22:12:03|27
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:12:04|2024-03-19 22:12:36|32
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:12:37|2024-03-19 22:13:02|25
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:13:03|2024-03-19 22:13:26|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:13:27|2024-03-19 22:14:01|34
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:14:02|2024-03-19 22:14:24|22
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:14:25|2024-03-19 22:14:41|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:14:42|2024-03-19 22:15:06|24
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:15:07|2024-03-19 22:15:19|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:15:20|2024-03-19 22:15:31|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:15:32|2024-03-19 22:15:44|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:15:45|2024-03-19 22:16:05|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:16:06|2024-03-19 22:16:34|28
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:16:35|2024-03-19 22:16:54|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:16:55|2024-03-19 22:17:19|24
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:17:20|2024-03-19 22:17:40|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:17:41|2024-03-19 22:18:00|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:18:01|2024-03-19 22:18:16|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:18:17|2024-03-19 22:18:31|14
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:18:32|2024-03-19 22:18:52|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:18:53|2024-03-19 22:19:06|13
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:19:07|2024-03-19 22:19:16|9
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:19:17|2024-03-19 22:19:28|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:19:29|2024-03-19 22:19:48|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:19:49|2024-03-19 22:20:09|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:20:10|2024-03-19 22:20:41|31
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:20:42|2024-03-19 22:21:24|42
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:21:25|2024-03-19 22:22:03|38
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:22:04|2024-03-19 22:22:28|24
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:22:30|2024-03-19 22:22:46|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:22:47|2024-03-19 22:23:23|36
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:23:24|2024-03-19 22:23:45|21
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:23:46|2024-03-19 22:24:23|37
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:24:24|2024-03-19 22:24:34|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:24:35|2024-03-19 22:24:51|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:24:52|2024-03-19 22:25:16|24
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:25:17|2024-03-19 22:25:45|28
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:25:46|2024-03-19 22:26:05|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:26:06|2024-03-19 22:26:33|27
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:26:34|2024-03-19 22:26:49|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:26:50|2024-03-19 22:27:05|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:27:06|2024-03-19 22:27:24|18
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:27:25|2024-03-19 22:27:41|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:27:42|2024-03-19 22:27:59|17
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:28:00|2024-03-19 22:28:33|33
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:28:34|2024-03-19 22:28:52|18
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:28:53|2024-03-19 22:29:12|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:29:13|2024-03-19 22:29:39|26
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:29:40|2024-03-19 22:30:02|22
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:30:03|2024-03-19 22:30:22|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:30:23|2024-03-19 22:31:27|64
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:31:28|2024-03-19 22:31:40|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:31:42|2024-03-19 22:32:15|33
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:32:16|2024-03-19 22:32:24|8
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:32:25|2024-03-19 22:32:38|13
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:32:39|2024-03-19 22:32:48|9
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:32:49|2024-03-19 22:33:00|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:33:01|2024-03-19 22:33:17|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:33:18|2024-03-19 22:33:30|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:33:31|2024-03-19 22:33:43|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:33:44|2024-03-19 22:33:55|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:33:56|2024-03-19 22:34:08|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:34:09|2024-03-19 22:34:28|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:34:29|2024-03-19 22:34:36|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:34:37|2024-03-19 22:34:41|4
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:34:42|2024-03-19 22:34:49|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:34:50|2024-03-19 22:35:08|18
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:35:09|2024-03-19 22:35:41|32
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:35:42|2024-03-19 22:36:20|38
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:36:21|2024-03-19 22:36:36|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:36:37|2024-03-19 22:37:05|28
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:37:06|2024-03-19 22:37:50|44
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:37:51|2024-03-19 22:38:24|33
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:38:25|2024-03-19 22:38:45|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:38:46|2024-03-19 22:39:16|30
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:39:17|2024-03-19 22:39:30|13
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:39:31|2024-03-19 22:39:50|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:39:51|2024-03-19 22:39:58|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:39:59|2024-03-19 22:40:14|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:40:15|2024-03-19 22:41:15|60
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:41:16|2024-03-19 22:41:52|36
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:41:53|2024-03-19 22:42:09|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:42:10|2024-03-19 22:42:53|43
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:42:54|2024-03-19 22:43:16|22
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:43:17|2024-03-19 22:43:24|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:43:25|2024-03-19 22:43:51|26
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:43:52|2024-03-19 22:44:28|36
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:44:29|2024-03-19 22:44:44|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:44:45|2024-03-19 22:45:04|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:45:05|2024-03-19 22:45:20|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:45:21|2024-03-19 22:45:41|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:45:42|2024-03-19 22:46:09|27
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:46:10|2024-03-19 22:46:33|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:46:34|2024-03-19 22:46:44|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:46:45|2024-03-19 22:47:00|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:47:01|2024-03-19 22:47:08|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:47:09|2024-03-19 22:47:29|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:47:30|2024-03-19 22:47:39|9
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:47:40|2024-03-19 22:47:56|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:47:57|2024-03-19 22:48:16|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:48:17|2024-03-19 22:48:30|13
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:48:31|2024-03-19 22:49:07|36
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:49:08|2024-03-19 22:50:01|53
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:50:02|2024-03-19 22:50:51|49
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:50:52|2024-03-19 22:51:18|26
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:51:19|2024-03-19 22:51:43|24
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:51:44|2024-03-19 22:52:01|17
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:52:02|2024-03-19 22:52:33|31
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:52:34|2024-03-19 22:52:54|20
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:52:55|2024-03-19 22:53:01|6
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:53:02|2024-03-19 22:53:14|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:53:15|2024-03-19 22:53:25|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:53:26|2024-03-19 22:53:44|18
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:53:45|2024-03-19 22:54:09|24
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:54:10|2024-03-19 22:54:21|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:54:22|2024-03-19 22:54:32|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:54:33|2024-03-19 22:55:01|28
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:55:02|2024-03-19 22:55:33|31
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:55:34|2024-03-19 22:55:56|22
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:55:57|2024-03-19 22:56:24|27
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:56:25|2024-03-19 22:56:42|17
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:56:43|2024-03-19 22:57:05|22
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:57:06|2024-03-19 22:57:33|27
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:57:34|2024-03-19 22:58:15|41
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:58:16|2024-03-19 22:58:39|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:58:40|2024-03-19 22:59:23|43
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:59:24|2024-03-19 22:59:36|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 22:59:37|2024-03-19 23:00:08|31
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:00:09|2024-03-19 23:00:45|36
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:00:46|2024-03-19 23:01:28|42
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:01:29|2024-03-19 23:01:44|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:01:45|2024-03-19 23:01:55|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:01:56|2024-03-19 23:02:08|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:02:09|2024-03-19 23:02:16|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:02:17|2024-03-19 23:02:32|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:02:33|2024-03-19 23:02:55|22
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:02:56|2024-03-19 23:03:12|16
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:03:13|2024-03-19 23:03:24|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:03:25|2024-03-19 23:03:32|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:03:33|2024-03-19 23:03:38|5
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:03:39|2024-03-19 23:03:45|6
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:03:46|2024-03-19 23:03:56|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:03:57|2024-03-19 23:04:06|9
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:04:07|2024-03-19 23:04:18|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:04:19|2024-03-19 23:04:28|9
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:04:29|2024-03-19 23:04:41|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:04:42|2024-03-19 23:04:49|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:04:50|2024-03-19 23:05:08|18
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:05:09|2024-03-19 23:05:35|26
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:05:36|2024-03-19 23:05:59|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:06:00|2024-03-19 23:06:32|32
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:06:33|2024-03-19 23:07:11|38
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:07:12|2024-03-19 23:07:42|30
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:07:43|2024-03-19 23:08:17|34
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:08:18|2024-03-19 23:08:30|12
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:08:31|2024-03-19 23:08:41|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:08:42|2024-03-19 23:08:50|8
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:08:51|2024-03-19 23:09:01|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:09:02|2024-03-19 23:09:24|22
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:09:25|2024-03-19 23:09:35|10
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:09:36|2024-03-19 23:10:01|25
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:10:02|2024-03-19 23:10:36|34
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:10:37|2024-03-19 23:11:06|29
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:11:07|2024-03-19 23:11:29|22
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:11:30|2024-03-19 23:11:37|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:11:38|2024-03-19 23:11:53|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:11:54|2024-03-19 23:12:35|41
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:12:36|2024-03-19 23:12:55|19
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:12:56|2024-03-19 23:13:28|32
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:13:29|2024-03-19 23:13:46|17
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:13:47|2024-03-19 23:14:09|22
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:14:10|2024-03-19 23:14:37|27
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:14:38|2024-03-19 23:15:09|31
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:15:10|2024-03-19 23:15:41|31
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:15:42|2024-03-19 23:16:12|30
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:16:13|2024-03-19 23:16:50|37
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:16:51|2024-03-19 23:16:59|8
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:17:00|2024-03-19 23:17:15|15
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:17:16|2024-03-19 23:17:27|11
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:17:28|2024-03-19 23:17:51|23
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:17:52|2024-03-19 23:17:59|7
+drop table if exists public.load_date_dim;
+DROP TABLE
+create table public.load_date_dim as select * from tpcds.date_dim distributed randomly;
+SELECT 73049
+load.08.public.load_date_dim.sh|2024-03-19 23:18:00|2024-03-19 23:18:10|10

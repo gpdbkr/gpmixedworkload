@@ -1,0 +1,1197 @@
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:18:04|2024-03-19 21:22:26|262
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:22:27|2024-03-19 21:24:52|145
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:24:53|2024-03-19 21:27:21|148
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:27:22|2024-03-19 21:30:29|187
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:30:30|2024-03-19 21:34:17|227
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:34:18|2024-03-19 21:37:00|162
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:37:01|2024-03-19 21:39:38|157
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:39:39|2024-03-19 21:42:03|144
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:42:04|2024-03-19 21:44:25|141
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:44:26|2024-03-19 21:47:17|171
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:47:18|2024-03-19 21:49:01|103
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:49:02|2024-03-19 21:51:29|147
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:51:30|2024-03-19 21:53:15|105
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:53:16|2024-03-19 21:55:53|157
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:55:54|2024-03-19 21:58:42|168
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 21:58:43|2024-03-19 22:01:03|140
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:01:04|2024-03-19 22:02:56|112
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:02:57|2024-03-19 22:06:06|189
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:06:07|2024-03-19 22:08:59|172
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:09:00|2024-03-19 22:10:54|114
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:10:55|2024-03-19 22:12:50|115
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:12:51|2024-03-19 22:16:25|214
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:16:26|2024-03-19 22:18:49|143
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:18:50|2024-03-19 22:20:48|118
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:20:49|2024-03-19 22:24:01|192
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:24:02|2024-03-19 22:26:59|177
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:27:00|2024-03-19 22:29:18|138
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:29:19|2024-03-19 22:32:26|187
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:32:27|2024-03-19 22:34:40|133
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:34:41|2024-03-19 22:36:23|102
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:36:24|2024-03-19 22:38:43|139
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:38:44|2024-03-19 22:41:42|178
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:41:43|2024-03-19 22:44:20|157
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:44:21|2024-03-19 22:46:48|147
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:46:49|2024-03-19 22:49:00|131
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:49:01|2024-03-19 22:52:57|236
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:52:58|2024-03-19 22:54:45|107
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:54:46|2024-03-19 22:56:41|115
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:56:42|2024-03-19 22:59:56|194
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 22:59:57|2024-03-19 23:02:40|163
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 23:02:41|2024-03-19 23:05:39|178
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 23:05:40|2024-03-19 23:08:29|169
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 23:08:30|2024-03-19 23:10:54|144
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 23:10:55|2024-03-19 23:14:11|196
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+tpcds.40.sh|2024-03-19 23:14:12|2024-03-19 23:16:46|154
+select
+   w_state
+  ,i_item_id
+  ,sum(case when (cast(d_date as date) < cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_before
+  ,sum(case when (cast(d_date as date) >= cast ('2002-06-16' as date))
+ 		then cs_sales_price - coalesce(cr_refunded_cash,0) else 0 end) as sales_after
+ from
+   catalog_sales left outer join catalog_returns on
+       (cs_order_number = cr_order_number
+        and cs_item_sk = cr_item_sk)
+  ,warehouse
+  ,item
+  ,date_dim
+ where
+     i_current_price between 0.99 and 1.49
+ and i_item_sk          = cs_item_sk
+ and cs_warehouse_sk    = w_warehouse_sk
+ and cs_sold_date_sk    = d_date_sk
+ and d_date between (cast ('2002-06-16' as date) - '30 days'::interval)
+                and (cast ('2002-06-16' as date) + '30 days'::interval)
+ group by
+    w_state,i_item_id
+ order by w_state,i_item_id
+limit 100;
+ERROR:  canceling statement due to user request
+tpcds.40.sh|2024-03-19 23:16:47|2024-03-19 23:18:14|87

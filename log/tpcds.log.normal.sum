@@ -1,0 +1,521 @@
+############################################################################
+############################################################################
+GEN_DATA_SCALE: 3000
+RANDOM_DISTRIBUTION: false
+MULTI_USER_COUNT: 5
+RUN_COMPILE_TPCDS: true
+RUN_GEN_DATA: true
+GEN_NEW_DATA: true
+RUN_INIT: true
+RUN_DDL: true
+RUN_LOAD: true
+RUN_SQL: true
+SINGLE_USER_ITERATIONS: 1
+RUN_SINGLE_USER_REPORTS: true
+RUN_MULTI_USER: true
+RUN_MULTI_USER_REPORTS: true
+BENCH_ROLE: dsbench
+GPFDIST_LOCATION: p
+############################################################################
+Run /data/poc/TPC-DS/00_compile_tpcds/rollout.sh
+######################################################################
+                                START
+----------------------------------------------------------------------
+STEP .......... : compile_tpcds
+TIMESTAMP ..... : 2024. 03. 19. (화) 13:28:14 KST
+----------------------------------------------------------------------
+./mkheader column_list.txt
+./distcomp -i tpcds.dst -o tpcds.idx
+----------------------------------------------------------------------
+                               FINISHED
+----------------------------------------------------------------------
+STEP .......... : compile_tpcds
+TIMESTAMP ..... : 2024. 03. 19. (화) 13:28:17 KST
+ELAPSED TIME .. : 00h:00m:03s
+######################################################################
+######################################################################
+                                START
+----------------------------------------------------------------------
+STEP .......... : gen_data
+TIMESTAMP ..... : 2024. 03. 19. (화) 13:28:17 KST
+----------------------------------------------------------------------
+kill any orphaned dsdgen processes on segment hosts
+parallel:  64
+Generate queries based on scale
+ Creating: /data/poc/TPC-DS/05_sql/101.dsbench.01.sql
+----------------------------------------------------------------------
+                               FINISHED
+----------------------------------------------------------------------
+STEP .......... : gen_data
+TIMESTAMP ..... : 2024. 03. 19. (화) 14:03:03 KST
+ELAPSED TIME .. : 00h:34m:46s
+######################################################################
+Run /data/poc/TPC-DS/02_init/rollout.sh
+######################################################################
+                                START
+----------------------------------------------------------------------
+STEP .......... : init
+TIMESTAMP ..... : 2024. 03. 19. (화) 14:03:03 KST
+----------------------------------------------------------------------
+changing gp_autostats_mode to none
+20240319:14:03:06:638994 gpconfig:satamdw:gpadmin-[INFO]:-completed successfully with parameters '-c gp_autostats_mode -v none --masteronly'
+update cluster because of config changes
+20240319:14:03:06:639094 gpstop:satamdw:gpadmin-[INFO]:-Starting gpstop with args: -u
+20240319:14:03:06:639094 gpstop:satamdw:gpadmin-[INFO]:-Gathering information and validating the environment...
+20240319:14:03:06:639094 gpstop:satamdw:gpadmin-[INFO]:-Obtaining Greenplum Master catalog information
+20240319:14:03:06:639094 gpstop:satamdw:gpadmin-[INFO]:-Obtaining Segment details from master...
+20240319:14:03:06:639094 gpstop:satamdw:gpadmin-[INFO]:-Greenplum Version: 'postgres (Greenplum Database) 6.25.3 build commit:367edc6b4dfd909fe38fc288ade9e294d74e3f9a'
+20240319:14:03:06:639094 gpstop:satamdw:gpadmin-[INFO]:-Signalling all postmaster processes to reload
+.....
+----------------------------------------------------------------------
+                               FINISHED
+----------------------------------------------------------------------
+STEP .......... : init
+TIMESTAMP ..... : 2024. 03. 19. (화) 14:03:11 KST
+ELAPSED TIME .. : 00h:00m:08s
+######################################################################
+Run /data/poc/TPC-DS/03_ddl/rollout.sh
+######################################################################
+                                START
+----------------------------------------------------------------------
+STEP .......... : ddl
+TIMESTAMP ..... : 2024. 03. 19. (화) 14:03:11 KST
+----------------------------------------------------------------------
+;
+----------------------------------------------------------------------
+                               FINISHED
+----------------------------------------------------------------------
+STEP .......... : ddl
+TIMESTAMP ..... : 2024. 03. 19. (화) 14:03:27 KST
+ELAPSED TIME .. : 00h:00m:16s
+######################################################################
+Run /data/poc/TPC-DS/04_load/rollout.sh
+######################################################################
+                                START
+----------------------------------------------------------------------
+STEP .......... : load
+TIMESTAMP ..... : 2024. 03. 19. (화) 14:03:27 KST
+----------------------------------------------------------------------
+Unable to start gpfdist on port 4002
+Unable to start gpfdist on port 4001
+Unable to start gpfdist on port 4003
+Unable to start gpfdist on port 4004
+Unable to start gpfdist on port 4005
+Unable to start gpfdist on port 4007
+Unable to start gpfdist on port 4008
+Unable to start gpfdist on port 4001
+Unable to start gpfdist on port 4009
+Unable to start gpfdist on port 4010
+Unable to start gpfdist on port 4011
+Unable to start gpfdist on port 4002
+Unable to start gpfdist on port 4013
+Unable to start gpfdist on port 4012
+Unable to start gpfdist on port 4006
+Unable to start gpfdist on port 4014
+Unable to start gpfdist on port 4015
+Unable to start gpfdist on port 4016
+Unable to start gpfdist on port 4003
+Unable to start gpfdist on port 4004
+Unable to start gpfdist on port 4005
+Unable to start gpfdist on port 4006
+Unable to start gpfdist on port 4007
+Unable to start gpfdist on port 4008
+Unable to start gpfdist on port 4009
+Unable to start gpfdist on port 4001
+Unable to start gpfdist on port 4010
+Unable to start gpfdist on port 4011
+Unable to start gpfdist on port 4002
+Unable to start gpfdist on port 4012
+Unable to start gpfdist on port 4013
+Unable to start gpfdist on port 4014
+Unable to start gpfdist on port 4016
+Unable to start gpfdist on port 4015
+Unable to start gpfdist on port 4003
+Unable to start gpfdist on port 4004
+Unable to start gpfdist on port 4001
+Unable to start gpfdist on port 4006
+Unable to start gpfdist on port 4005
+Unable to start gpfdist on port 4008
+Unable to start gpfdist on port 4007
+Unable to start gpfdist on port 4002
+Unable to start gpfdist on port 4009
+Unable to start gpfdist on port 4003
+Unable to start gpfdist on port 4011
+Unable to start gpfdist on port 4012
+Unable to start gpfdist on port 4010
+Unable to start gpfdist on port 4013
+Unable to start gpfdist on port 4015
+Unable to start gpfdist on port 4016
+Unable to start gpfdist on port 4014
+Unable to start gpfdist on port 4004
+Unable to start gpfdist on port 4006
+Unable to start gpfdist on port 4005
+Unable to start gpfdist on port 4008
+Unable to start gpfdist on port 4009
+Unable to start gpfdist on port 4007
+Unable to start gpfdist on port 4011
+Unable to start gpfdist on port 4012
+Unable to start gpfdist on port 4014
+Unable to start gpfdist on port 4013
+Unable to start gpfdist on port 4015
+Unable to start gpfdist on port 4016
+Unable to start gpfdist on port 4010
+finished truncate ...
+----------------------------------------------------------------------
+                               FINISHED
+----------------------------------------------------------------------
+STEP .......... : load
+TIMESTAMP ..... : 2024. 03. 19. (화) 14:31:06 KST
+ELAPSED TIME .. : 00h:27m:39s
+######################################################################
+Run /data/poc/TPC-DS/05_sql/rollout.sh
+######################################################################
+                                START
+----------------------------------------------------------------------
+STEP .......... : sql
+TIMESTAMP ..... : 2024. 03. 19. (화) 14:31:06 KST
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+                               FINISHED
+----------------------------------------------------------------------
+STEP .......... : sql
+TIMESTAMP ..... : 2024. 03. 19. (화) 16:08:40 KST
+ELAPSED TIME .. : 01h:37m:34s
+######################################################################
+Run /data/poc/TPC-DS/06_single_user_reports/rollout.sh
+######################################################################
+                                START
+----------------------------------------------------------------------
+STEP .......... : single_user_reports
+TIMESTAMP ..... : 2024. 03. 19. (화) 16:08:40 KST
+----------------------------------------------------------------------
+********************************************************************************
+Generate Data
+********************************************************************************
+time	value
+Seconds	2086
+Minutes	34.7666666666667
+Hours	0.579444444444444
+********************************************************************************
+Data Loads
+********************************************************************************
+table_name	tuples	seconds
+call_center	48	0
+catalog_page	36000	0
+catalog_returns	431979168	44
+catalog_sales	4320024860	391
+customer	30000000	2
+customer_address	15000000	3
+customer_demographics	1920800	1
+household_demographics	7200	0
+income_band	20	0
+inventory	1033560000	21
+item	360000	1
+promotion	1800	0
+reason	67	0
+ship_mode	20	0
+store	1350	0
+store_returns	863994070	48
+store_sales	8639977448	788
+time_dim	86400	1
+warehouse	22	1
+web_page	3600	0
+web_returns	216004538	14
+web_sales	2160017309	221
+web_site	66	1
+********************************************************************************
+Analyze
+********************************************************************************
+schema_name	seconds
+gpdb	48
+tpcds	108
+********************************************************************************
+Queries
+********************************************************************************
+id	tuples	duration
+01	100	7
+02	2513	83
+03	100	5
+04	100	228
+05	100	37
+06	52	2
+07	100	8
+08	10	3
+09	1	95
+10	100	10
+11	100	129
+12	100	0
+13	1	15
+14	200	167
+15	100	3
+16	1	77
+17	100	24
+18	100	17
+19	100	2
+20	100	2
+21	100	1
+22	100	5
+23	101	1133
+24	4373	903
+25	100	14
+26	100	5
+27	100	8
+28	1	51
+29	100	38
+30	100	4
+31	277	20
+32	1	3
+33	100	4
+34	100	10
+35	100	23
+36	100	19
+37	8	10
+38	1	58
+39	19873	7
+40	100	5
+41	95	0
+42	13	2
+43	100	16
+44	0	21
+45	100	3
+46	100	22
+47	100	52
+48	1	12
+49	100	7
+50	100	37
+51	100	56
+52	100	2
+53	100	5
+54	100	3
+55	100	2
+56	100	2
+57	100	30
+58	74	1
+59	100	118
+60	100	4
+61	1	4
+62	100	16
+63	100	6
+64	100	86
+65	100	143
+66	22	7
+67	100	628
+68	100	8
+69	0	1
+70	76	33
+71	100	4
+72	100	114
+73	795	6
+74	100	98
+75	0	48
+76	100	24
+77	100	3
+78	100	276
+79	100	26
+80	100	14
+81	100	6
+82	16	17
+83	100	1
+84	100	3
+85	66	7
+86	100	10
+87	1	62
+88	1	75
+89	100	7
+90	1	7
+91	48	1
+92	1	2
+93	100	51
+94	1	29
+95	1	282
+96	1	20
+97	1	67
+98	53570	2
+99	100	29
+----------------------------------------------------------------------
+                               FINISHED
+----------------------------------------------------------------------
+STEP .......... : single_user_reports
+TIMESTAMP ..... : 2024. 03. 19. (화) 16:08:41 KST
+ELAPSED TIME .. : 00h:00m:01s
+######################################################################
+######################################################################
+                                START
+----------------------------------------------------------------------
+STEP .......... : multi_user
+TIMESTAMP ..... : 2024. 03. 19. (화) 16:08:41 KST
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+                               FINISHED
+----------------------------------------------------------------------
+STEP .......... : multi_user
+TIMESTAMP ..... : 2024. 03. 19. (화) 20:35:28 KST
+ELAPSED TIME .. : 04h:26m:47s
+######################################################################
+Run /data/poc/TPC-DS/08_multi_user_reports/rollout.sh
+######################################################################
+                                START
+----------------------------------------------------------------------
+STEP .......... : multi_user_reports
+TIMESTAMP ..... : 2024. 03. 19. (화) 20:35:28 KST
+----------------------------------------------------------------------
+query_id	session_1	session_2	session_3	session_4	session_5	session_6	session_7	session_8	session_9	session_10
+01	17	13	23	18	19	0	0	0	0	0
+02	186	180	195	153	162	0	0	0	0	0
+03	9	9	7	9	10	0	0	0	0	0
+04	601	709	730	720	721	0	0	0	0	0
+05	54	80	92	76	77	0	0	0	0	0
+06	4	5	5	3	6	0	0	0	0	0
+07	24	21	23	26	30	0	0	0	0	0
+08	8	7	5	8	8	0	0	0	0	0
+09	206	324	223	271	245	0	0	0	0	0
+10	30	22	23	34	25	0	0	0	0	0
+11	624	419	380	406	426	0	0	0	0	0
+12	2	2	2	3	4	0	0	0	0	0
+13	29	29	20	23	25	0	0	0	0	0
+14	612	608	566	548	605	0	0	0	0	0
+15	7	8	7	8	8	0	0	0	0	0
+16	199	182	127	213	199	0	0	0	0	0
+17	61	58	53	63	64	0	0	0	0	0
+18	40	25	22	24	21	0	0	0	0	0
+19	7	8	7	9	8	0	0	0	0	0
+20	3	4	3	4	4	0	0	0	0	0
+21	2	2	2	2	1	0	0	0	0	0
+22	14	14	12	10	18	0	0	0	0	0
+23	3193	2870	3152	3264	3042	0	0	0	0	0
+24	2475	2554	2641	2635	2406	0	0	0	0	0
+25	31	33	31	35	29	0	0	0	0	0
+26	10	16	14	14	11	0	0	0	0	0
+27	19	15	18	18	21	0	0	0	0	0
+28	141	190	147	178	172	0	0	0	0	0
+29	107	110	96	104	119	0	0	0	0	0
+30	8	7	8	8	8	0	0	0	0	0
+31	74	55	75	69	61	0	0	0	0	0
+32	8	9	8	8	10	0	0	0	0	0
+33	6	8	7	8	6	0	0	0	0	0
+34	26	21	16	22	18	0	0	0	0	0
+35	104	67	74	29	74	0	0	0	0	0
+36	38	37	40	43	36	0	0	0	0	0
+37	24	19	22	31	21	0	0	0	0	0
+38	221	231	288	168	263	0	0	0	0	0
+39	12	18	13	13	15	0	0	0	0	0
+40	9	17	13	9	10	0	0	0	0	0
+41	0	0	0	0	0	0	0	0	0	0
+42	3	4	6	3	3	0	0	0	0	0
+43	34	33	34	24	38	0	0	0	0	0
+44	73	60	89	63	59	0	0	0	0	0
+45	9	7	13	7	7	0	0	0	0	0
+46	47	48	47	50	43	0	0	0	0	0
+47	99	86	85	85	102	0	0	0	0	0
+48	27	33	23	18	28	0	0	0	0	0
+49	22	14	9	6	16	0	0	0	0	0
+50	78	81	80	85	81	0	0	0	0	0
+51	202	149	168	106	154	0	0	0	0	0
+52	3	3	2	4	4	0	0	0	0	0
+53	9	11	12	13	12	0	0	0	0	0
+54	10	8	6	9	8	0	0	0	0	0
+55	3	3	4	3	4	0	0	0	0	0
+56	7	7	6	6	5	0	0	0	0	0
+57	69	85	59	60	64	0	0	0	0	0
+58	2	2	3	2	3	0	0	0	0	0
+59	227	248	221	249	226	0	0	0	0	0
+60	11	7	12	13	12	0	0	0	0	0
+61	4	10	18	10	7	0	0	0	0	0
+62	34	29	31	36	39	0	0	0	0	0
+63	12	11	12	14	16	0	0	0	0	0
+64	181	197	244	162	185	0	0	0	0	0
+65	352	365	313	358	361	0	0	0	0	0
+66	13	16	12	11	15	0	0	0	0	0
+67	1776	1828	1702	1757	1567	0	0	0	0	0
+68	9	15	13	15	17	0	0	0	0	0
+69	2	20	2	2	18	0	0	0	0	0
+70	72	67	59	80	78	0	0	0	0	0
+71	8	7	5	7	6	0	0	0	0	0
+72	380	373	354	389	357	0	0	0	0	0
+73	15	13	13	14	10	0	0	0	0	0
+74	288	252	347	439	365	0	0	0	0	0
+75	166	119	123	143	153	0	0	0	0	0
+76	42	50	49	46	47	0	0	0	0	0
+77	12	7	9	8	11	0	0	0	0	0
+78	662	687	627	676	679	0	0	0	0	0
+79	73	45	81	37	86	0	0	0	0	0
+80	31	35	37	26	31	0	0	0	0	0
+81	14	11	14	13	11	0	0	0	0	0
+82	25	47	35	31	47	0	0	0	0	0
+83	2	1	3	4	3	0	0	0	0	0
+84	9	7	15	8	13	0	0	0	0	0
+85	17	13	16	13	16	0	0	0	0	0
+86	20	19	21	26	22	0	0	0	0	0
+87	219	204	205	278	214	0	0	0	0	0
+88	182	220	228	91	228	0	0	0	0	0
+89	17	19	14	15	18	0	0	0	0	0
+90	15	18	17	21	23	0	0	0	0	0
+91	1	1	1	1	2	0	0	0	0	0
+92	6	5	5	5	7	0	0	0	0	0
+93	87	91	0	94	103	0	0	0	0	0
+94	75	89	58	82	95	0	0	0	0	0
+95	643	649	675	687	620	0	0	0	0	0
+96	48	53	47	43	50	0	0	0	0	0
+97	190	214	155	149	178	0	0	0	0	0
+98	5	4	4	4	4	0	0	0	0	0
+99	36	54	73	58	59	0	0	0	0	0
+----------------------------------------------------------------------
+                               FINISHED
+----------------------------------------------------------------------
+STEP .......... : multi_user_reports
+TIMESTAMP ..... : 2024. 03. 19. (화) 20:35:28 KST
+ELAPSED TIME .. : 00h:00m:00s
+######################################################################
+Run /data/poc/TPC-DS/09_score/rollout.sh
+######################################################################
+                                START
+----------------------------------------------------------------------
+STEP .......... : score
+TIMESTAMP ..... : 2024. 03. 19. (화) 20:35:28 KST
+----------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ BINDIR = /usr/local/greenplum-db-6.25.3/bin
+DOCDIR = /usr/local/greenplum-db-6.25.3/share/doc/postgresql
+HTMLDIR = /usr/local/greenplum-db-6.25.3/share/doc/postgresql
+INCLUDEDIR = /usr/local/greenplum-db-6.25.3/include
+PKGINCLUDEDIR = /usr/local/greenplum-db-6.25.3/include/postgresql
+INCLUDEDIR-SERVER = /usr/local/greenplum-db-6.25.3/include/postgresql/server
+LIBDIR = /usr/local/greenplum-db-6.25.3/lib
+PKGLIBDIR = /usr/local/greenplum-db-6.25.3/lib/postgresql
+LOCALEDIR = /usr/local/greenplum-db-6.25.3/share/locale
+MANDIR = /usr/local/greenplum-db-6.25.3/man
+SHAREDIR = /usr/local/greenplum-db-6.25.3/share/postgresql
+SYSCONFDIR = /usr/local/greenplum-db-6.25.3/etc/postgresql
+PGXS = /usr/local/greenplum-db-6.25.3/lib/postgresql/pgxs/src/makefiles/pgxs.mk
+VERSION = PostgreSQL 9.4.26
+--------------------------------------------------------------------------------
+Number of Streams (Sq)	5
+Scale Factor (SF)	3000
+Load (seconds)			1537
+Analyze (seconds)			156
+1 User Queries (seconds)		5853
+Sum of Elapse Time for all Concurrent Queries (seconds)	78973
+Throughput Test Elapsed Time (seconds)	15946
+--------------------------------------------------------------------------------
+TPC-DS v1.3.1 (QphDS@SF = floor(SF * Q / sum(TPT, TTT, TLD)))
+Q (3 * Sq * 99)		1485
+TPT (seconds)		29265
+TTT (seconds)		157946
+TLD (seconds)		76
+Score			23
+--------------------------------------------------------------------------------
+TPC-DS v2.2.0 (QphDS@SF = floor(SF * Q / geomean(TPT, TTT, TLD)))
+Q (Sq * 99)		495
+TPT (hours)		8.129
+TTT (hours)		8.859
+TLD (hours)		0.021
+Score			1286681
+--------------------------------------------------------------------------------
+----------------------------------------------------------------------
+                               FINISHED
+----------------------------------------------------------------------
+STEP .......... : score
+TIMESTAMP ..... : 2024. 03. 19. (화) 20:35:28 KST
+ELAPSED TIME .. : 00h:00m:00s
+######################################################################

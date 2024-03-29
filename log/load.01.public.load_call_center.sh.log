@@ -1,0 +1,1586 @@
+drop table if exists public.load_call_center;
+NOTICE:  table "load_call_center" does not exist, skipping
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:18:04|2024-03-19 21:18:27|23
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:18:28|2024-03-19 21:18:52|24
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:18:53|2024-03-19 21:19:36|43
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:19:37|2024-03-19 21:19:59|22
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:20:00|2024-03-19 21:20:55|55
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:20:56|2024-03-19 21:21:45|49
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:21:46|2024-03-19 21:22:34|48
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:22:35|2024-03-19 21:22:52|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:22:53|2024-03-19 21:23:11|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:23:12|2024-03-19 21:23:28|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:23:29|2024-03-19 21:23:53|24
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:23:54|2024-03-19 21:24:26|32
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:24:27|2024-03-19 21:24:52|25
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:24:53|2024-03-19 21:25:14|21
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:25:15|2024-03-19 21:25:26|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:25:27|2024-03-19 21:25:41|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:25:42|2024-03-19 21:25:52|10
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:25:53|2024-03-19 21:26:24|31
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:26:25|2024-03-19 21:26:40|15
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:26:41|2024-03-19 21:27:09|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:27:10|2024-03-19 21:27:55|45
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:27:56|2024-03-19 21:28:19|23
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:28:20|2024-03-19 21:28:46|26
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:28:47|2024-03-19 21:29:07|20
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:29:08|2024-03-19 21:29:46|38
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:29:47|2024-03-19 21:30:09|22
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:30:10|2024-03-19 21:30:49|39
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:30:50|2024-03-19 21:31:23|33
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:31:24|2024-03-19 21:31:34|10
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:31:35|2024-03-19 21:31:49|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:31:50|2024-03-19 21:32:25|35
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:32:26|2024-03-19 21:32:45|19
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:32:46|2024-03-19 21:32:57|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:32:58|2024-03-19 21:33:14|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:33:15|2024-03-19 21:33:57|42
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:33:58|2024-03-19 21:34:49|51
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:34:50|2024-03-19 21:35:18|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:35:19|2024-03-19 21:35:56|37
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:35:57|2024-03-19 21:36:16|19
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:36:17|2024-03-19 21:36:51|34
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:36:52|2024-03-19 21:37:08|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:37:09|2024-03-19 21:37:41|32
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:37:42|2024-03-19 21:38:05|23
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:38:06|2024-03-19 21:39:01|55
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:39:02|2024-03-19 21:39:26|24
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:39:27|2024-03-19 21:39:58|31
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:39:59|2024-03-19 21:40:18|19
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:40:19|2024-03-19 21:40:47|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:40:48|2024-03-19 21:41:05|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:41:06|2024-03-19 21:41:49|43
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:41:50|2024-03-19 21:42:02|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:42:03|2024-03-19 21:42:10|7
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:42:11|2024-03-19 21:42:26|15
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:42:27|2024-03-19 21:42:32|5
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:42:33|2024-03-19 21:42:45|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:42:46|2024-03-19 21:43:11|25
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:43:12|2024-03-19 21:43:54|42
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:43:55|2024-03-19 21:44:28|33
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:44:29|2024-03-19 21:44:59|30
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:45:00|2024-03-19 21:45:26|26
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:45:27|2024-03-19 21:45:55|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:45:56|2024-03-19 21:46:15|19
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:46:16|2024-03-19 21:46:27|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:46:28|2024-03-19 21:46:42|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:46:43|2024-03-19 21:46:52|9
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:46:53|2024-03-19 21:47:09|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:47:10|2024-03-19 21:47:15|5
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:47:16|2024-03-19 21:47:28|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:47:29|2024-03-19 21:48:13|44
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:48:14|2024-03-19 21:48:49|35
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:48:50|2024-03-19 21:49:08|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:49:09|2024-03-19 21:49:17|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:49:18|2024-03-19 21:49:33|15
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:49:34|2024-03-19 21:49:43|9
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:49:44|2024-03-19 21:49:52|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:49:53|2024-03-19 21:50:05|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:50:06|2024-03-19 21:50:35|29
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:50:36|2024-03-19 21:50:54|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:50:55|2024-03-19 21:51:18|23
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:51:19|2024-03-19 21:51:29|10
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:51:30|2024-03-19 21:51:39|9
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:51:40|2024-03-19 21:51:48|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:51:49|2024-03-19 21:52:06|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:52:07|2024-03-19 21:52:38|31
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:52:39|2024-03-19 21:53:12|33
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:53:13|2024-03-19 21:53:41|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:53:42|2024-03-19 21:54:13|31
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:54:14|2024-03-19 21:54:38|24
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:54:39|2024-03-19 21:54:49|10
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:54:50|2024-03-19 21:55:04|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:55:05|2024-03-19 21:55:23|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:55:24|2024-03-19 21:55:33|9
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:55:34|2024-03-19 21:55:49|15
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:55:50|2024-03-19 21:56:01|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:56:02|2024-03-19 21:56:26|24
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:56:27|2024-03-19 21:56:54|27
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:56:55|2024-03-19 21:57:32|37
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:57:33|2024-03-19 21:58:24|51
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:58:25|2024-03-19 21:58:58|33
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:58:59|2024-03-19 21:59:50|51
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 21:59:51|2024-03-19 22:00:28|37
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:00:29|2024-03-19 22:00:46|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:00:47|2024-03-19 22:01:15|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:01:16|2024-03-19 22:01:51|35
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:01:52|2024-03-19 22:02:15|23
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:02:16|2024-03-19 22:02:33|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:02:34|2024-03-19 22:02:57|23
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:02:58|2024-03-19 22:03:24|26
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:03:25|2024-03-19 22:03:45|20
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:03:46|2024-03-19 22:04:17|31
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:04:18|2024-03-19 22:04:35|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:04:36|2024-03-19 22:04:47|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:04:48|2024-03-19 22:05:02|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:05:03|2024-03-19 22:05:54|51
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:05:55|2024-03-19 22:06:29|34
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:06:30|2024-03-19 22:06:50|20
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:06:51|2024-03-19 22:07:18|27
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:07:19|2024-03-19 22:07:32|13
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:07:33|2024-03-19 22:07:49|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:07:50|2024-03-19 22:08:01|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:08:02|2024-03-19 22:08:18|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:08:19|2024-03-19 22:08:40|21
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:08:41|2024-03-19 22:08:57|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:08:58|2024-03-19 22:09:10|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:09:11|2024-03-19 22:09:20|9
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:09:21|2024-03-19 22:09:42|21
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:09:43|2024-03-19 22:09:55|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:09:56|2024-03-19 22:10:02|6
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:10:03|2024-03-19 22:10:23|20
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:10:24|2024-03-19 22:10:44|20
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:10:45|2024-03-19 22:11:18|33
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:11:19|2024-03-19 22:11:26|7
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:11:27|2024-03-19 22:11:44|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:11:45|2024-03-19 22:12:14|29
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:12:15|2024-03-19 22:12:41|26
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:12:42|2024-03-19 22:13:13|31
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:13:14|2024-03-19 22:13:43|29
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:13:44|2024-03-19 22:14:02|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:14:03|2024-03-19 22:14:34|31
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:14:35|2024-03-19 22:14:51|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:14:52|2024-03-19 22:15:17|25
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:15:18|2024-03-19 22:15:30|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:15:31|2024-03-19 22:15:44|13
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:15:45|2024-03-19 22:16:03|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:16:04|2024-03-19 22:16:22|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:16:23|2024-03-19 22:16:41|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:16:42|2024-03-19 22:16:56|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:16:57|2024-03-19 22:17:19|22
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:17:20|2024-03-19 22:17:48|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:17:49|2024-03-19 22:18:06|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:18:07|2024-03-19 22:18:22|15
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:18:23|2024-03-19 22:18:42|19
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:18:43|2024-03-19 22:18:56|13
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:18:57|2024-03-19 22:19:12|15
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:19:13|2024-03-19 22:19:29|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:19:30|2024-03-19 22:19:48|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:19:49|2024-03-19 22:20:06|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:20:07|2024-03-19 22:20:28|21
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:20:29|2024-03-19 22:21:09|40
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:21:10|2024-03-19 22:21:39|29
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:21:40|2024-03-19 22:22:18|38
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:22:19|2024-03-19 22:22:37|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:22:38|2024-03-19 22:22:52|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:22:53|2024-03-19 22:23:23|30
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:23:24|2024-03-19 22:23:45|21
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:23:46|2024-03-19 22:24:23|37
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:24:24|2024-03-19 22:24:34|10
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:24:35|2024-03-19 22:24:51|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:24:52|2024-03-19 22:25:29|37
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:25:30|2024-03-19 22:25:54|24
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:25:55|2024-03-19 22:26:29|34
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:26:30|2024-03-19 22:26:37|7
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:26:38|2024-03-19 22:26:54|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:26:55|2024-03-19 22:27:06|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:27:07|2024-03-19 22:27:24|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:27:25|2024-03-19 22:27:43|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:27:44|2024-03-19 22:28:02|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:28:03|2024-03-19 22:28:34|31
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:28:35|2024-03-19 22:28:52|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:28:53|2024-03-19 22:29:13|20
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:29:14|2024-03-19 22:29:42|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:29:43|2024-03-19 22:30:00|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:30:01|2024-03-19 22:30:18|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:30:19|2024-03-19 22:31:25|66
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:31:26|2024-03-19 22:31:40|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:31:42|2024-03-19 22:32:11|29
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:32:12|2024-03-19 22:32:20|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:32:21|2024-03-19 22:32:32|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:32:33|2024-03-19 22:32:44|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:32:45|2024-03-19 22:32:55|10
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:32:56|2024-03-19 22:33:17|21
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:33:18|2024-03-19 22:33:30|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:33:31|2024-03-19 22:33:43|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:33:44|2024-03-19 22:33:55|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:33:56|2024-03-19 22:34:07|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:34:08|2024-03-19 22:34:28|20
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:34:29|2024-03-19 22:34:38|9
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:34:39|2024-03-19 22:34:43|4
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:34:44|2024-03-19 22:34:52|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:34:53|2024-03-19 22:35:19|26
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:35:20|2024-03-19 22:35:42|22
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:35:43|2024-03-19 22:36:26|43
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:36:27|2024-03-19 22:36:46|19
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:36:47|2024-03-19 22:37:22|35
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:37:23|2024-03-19 22:37:50|27
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:37:51|2024-03-19 22:38:24|33
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:38:25|2024-03-19 22:38:46|21
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:38:47|2024-03-19 22:39:15|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:39:16|2024-03-19 22:39:30|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:39:31|2024-03-19 22:39:48|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:39:49|2024-03-19 22:40:01|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:40:02|2024-03-19 22:40:21|19
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:40:22|2024-03-19 22:41:18|56
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:41:19|2024-03-19 22:41:54|35
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:41:55|2024-03-19 22:42:12|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:42:13|2024-03-19 22:42:53|40
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:42:54|2024-03-19 22:43:11|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:43:12|2024-03-19 22:43:24|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:43:25|2024-03-19 22:43:50|25
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:43:51|2024-03-19 22:44:11|20
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:44:12|2024-03-19 22:44:32|20
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:44:33|2024-03-19 22:44:45|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:44:46|2024-03-19 22:45:04|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:45:05|2024-03-19 22:45:21|16
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:45:22|2024-03-19 22:45:40|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:45:41|2024-03-19 22:46:09|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:46:10|2024-03-19 22:46:33|23
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:46:34|2024-03-19 22:46:43|9
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:46:44|2024-03-19 22:47:02|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:47:03|2024-03-19 22:47:20|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:47:21|2024-03-19 22:47:34|13
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:47:35|2024-03-19 22:47:48|13
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:47:49|2024-03-19 22:48:17|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:48:18|2024-03-19 22:48:25|7
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:48:26|2024-03-19 22:48:52|26
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:48:53|2024-03-19 22:49:26|33
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:49:27|2024-03-19 22:50:19|52
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:50:20|2024-03-19 22:50:55|35
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:50:56|2024-03-19 22:51:31|35
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:51:32|2024-03-19 22:51:53|21
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:51:54|2024-03-19 22:52:22|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:52:23|2024-03-19 22:52:41|18
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:52:42|2024-03-19 22:52:55|13
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:52:56|2024-03-19 22:53:00|4
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:53:01|2024-03-19 22:53:14|13
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:53:15|2024-03-19 22:53:24|9
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:53:25|2024-03-19 22:53:44|19
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:53:45|2024-03-19 22:54:02|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:54:03|2024-03-19 22:54:11|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:54:12|2024-03-19 22:54:20|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:54:21|2024-03-19 22:54:33|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:54:34|2024-03-19 22:55:01|27
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:55:02|2024-03-19 22:55:33|31
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:55:34|2024-03-19 22:56:06|32
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:56:07|2024-03-19 22:56:29|22
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:56:30|2024-03-19 22:57:00|30
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:57:01|2024-03-19 22:57:27|26
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:57:28|2024-03-19 22:57:50|22
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:57:51|2024-03-19 22:58:37|46
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:58:38|2024-03-19 22:59:08|30
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:59:09|2024-03-19 22:59:37|28
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 22:59:38|2024-03-19 23:00:08|30
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:00:09|2024-03-19 23:00:45|36
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:00:46|2024-03-19 23:01:28|42
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:01:29|2024-03-19 23:01:43|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:01:44|2024-03-19 23:01:55|11
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:01:56|2024-03-19 23:02:08|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:02:09|2024-03-19 23:02:16|7
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:02:17|2024-03-19 23:02:32|15
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:02:33|2024-03-19 23:02:56|23
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:02:57|2024-03-19 23:03:12|15
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:03:13|2024-03-19 23:03:25|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:03:26|2024-03-19 23:03:32|6
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:03:33|2024-03-19 23:03:38|5
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:03:39|2024-03-19 23:03:46|7
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:03:47|2024-03-19 23:03:59|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:04:00|2024-03-19 23:04:12|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:04:13|2024-03-19 23:04:21|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:04:22|2024-03-19 23:04:30|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:04:31|2024-03-19 23:04:41|10
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:04:42|2024-03-19 23:04:51|9
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:04:52|2024-03-19 23:05:11|19
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:05:12|2024-03-19 23:05:42|30
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:05:43|2024-03-19 23:06:07|24
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:06:08|2024-03-19 23:06:32|24
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:06:33|2024-03-19 23:07:09|36
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:07:10|2024-03-19 23:07:54|44
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:07:55|2024-03-19 23:08:19|24
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:08:20|2024-03-19 23:08:32|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:08:33|2024-03-19 23:08:45|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:08:46|2024-03-19 23:08:54|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:08:55|2024-03-19 23:09:00|5
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:09:01|2024-03-19 23:09:24|23
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:09:25|2024-03-19 23:09:34|9
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:09:35|2024-03-19 23:09:55|20
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:09:56|2024-03-19 23:10:25|29
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:10:26|2024-03-19 23:11:05|39
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:11:06|2024-03-19 23:11:28|22
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:11:29|2024-03-19 23:11:37|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:11:38|2024-03-19 23:11:53|15
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:11:54|2024-03-19 23:12:20|26
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:12:21|2024-03-19 23:12:41|20
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:12:42|2024-03-19 23:12:56|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:12:57|2024-03-19 23:13:27|30
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:13:28|2024-03-19 23:13:42|14
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:13:43|2024-03-19 23:13:56|13
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:13:57|2024-03-19 23:14:26|29
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:14:27|2024-03-19 23:15:09|42
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:15:10|2024-03-19 23:15:41|31
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:15:42|2024-03-19 23:15:57|15
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:15:58|2024-03-19 23:16:40|42
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:16:41|2024-03-19 23:16:58|17
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:16:59|2024-03-19 23:17:11|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:17:12|2024-03-19 23:17:24|12
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:17:25|2024-03-19 23:17:50|25
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:17:51|2024-03-19 23:17:59|8
+drop table if exists public.load_call_center;
+DROP TABLE
+create table public.load_call_center as select * from tpcds.call_center distributed randomly;
+SELECT 48
+load.01.public.load_call_center.sh|2024-03-19 23:18:00|2024-03-19 23:18:09|9

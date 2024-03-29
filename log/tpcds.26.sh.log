@@ -1,0 +1,1027 @@
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:18:04|2024-03-19 21:22:26|262
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:22:27|2024-03-19 21:24:38|131
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:24:39|2024-03-19 21:27:17|158
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:27:18|2024-03-19 21:29:46|148
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:29:47|2024-03-19 21:31:17|90
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:31:18|2024-03-19 21:34:58|220
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:34:59|2024-03-19 21:37:48|169
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:37:49|2024-03-19 21:39:22|93
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:39:23|2024-03-19 21:42:06|163
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:42:07|2024-03-19 21:43:44|97
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:43:45|2024-03-19 21:46:16|151
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:46:17|2024-03-19 21:48:17|120
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:48:18|2024-03-19 21:50:44|146
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:50:45|2024-03-19 21:52:42|117
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:52:43|2024-03-19 21:54:41|118
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:54:42|2024-03-19 21:58:05|203
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 21:58:06|2024-03-19 22:00:49|163
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:00:50|2024-03-19 22:02:21|91
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:02:22|2024-03-19 22:03:46|84
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:03:47|2024-03-19 22:06:58|191
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:06:59|2024-03-19 22:09:48|169
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:09:49|2024-03-19 22:11:03|74
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:11:04|2024-03-19 22:12:07|63
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:12:08|2024-03-19 22:14:32|144
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:14:33|2024-03-19 22:17:33|180
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:17:34|2024-03-19 22:19:15|101
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:19:16|2024-03-19 22:21:20|124
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:21:21|2024-03-19 22:23:24|123
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:23:25|2024-03-19 22:25:57|152
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:25:58|2024-03-19 22:27:55|117
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:27:56|2024-03-19 22:29:20|84
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:29:21|2024-03-19 22:32:25|184
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:32:26|2024-03-19 22:34:21|115
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:34:22|2024-03-19 22:35:44|82
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:35:45|2024-03-19 22:37:54|129
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:37:55|2024-03-19 22:39:51|116
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:39:52|2024-03-19 22:41:46|114
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:41:47|2024-03-19 22:44:29|162
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:44:30|2024-03-19 22:46:48|138
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:46:49|2024-03-19 22:49:16|147
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:49:17|2024-03-19 22:52:11|174
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:52:12|2024-03-19 22:53:55|103
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:53:56|2024-03-19 22:56:31|155
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:56:32|2024-03-19 22:59:51|199
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 22:59:52|2024-03-19 23:01:49|117
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 23:01:50|2024-03-19 23:03:19|89
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 23:03:20|2024-03-19 23:04:17|57
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 23:04:18|2024-03-19 23:06:25|127
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 23:06:26|2024-03-19 23:09:27|181
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 23:09:28|2024-03-19 23:10:41|73
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 23:10:42|2024-03-19 23:12:54|132
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 23:12:55|2024-03-19 23:15:05|130
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+tpcds.26.sh|2024-03-19 23:15:06|2024-03-19 23:17:57|171
+select  i_item_id,
+        avg(cs_quantity) agg1,
+        avg(cs_list_price) agg2,
+        avg(cs_coupon_amt) agg3,
+        avg(cs_sales_price) agg4
+ from catalog_sales, customer_demographics, date_dim, item, promotion
+ where cs_sold_date_sk = d_date_sk and
+       cs_item_sk = i_item_sk and
+       cs_bill_cdemo_sk = cd_demo_sk and
+       cs_promo_sk = p_promo_sk and
+       cd_gender = 'M' and
+       cd_marital_status = 'M' and
+       cd_education_status = 'Secondary' and
+       (p_channel_email = 'N' or p_channel_event = 'N') and
+       d_year = 2000
+ group by i_item_id
+ order by i_item_id
+ limit 100;
+ERROR:  canceling statement due to user request
+tpcds.26.sh|2024-03-19 23:17:58|2024-03-19 23:18:11|13

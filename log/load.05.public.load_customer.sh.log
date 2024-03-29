@@ -1,0 +1,621 @@
+drop table if exists public.load_customer;
+NOTICE:  table "load_customer" does not exist, skipping
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:18:04|2024-03-19 21:19:13|69
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:19:14|2024-03-19 21:20:35|81
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:20:36|2024-03-19 21:22:07|91
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:22:08|2024-03-19 21:23:25|77
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:23:26|2024-03-19 21:24:23|57
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:24:24|2024-03-19 21:25:13|49
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:25:14|2024-03-19 21:26:11|57
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:26:12|2024-03-19 21:27:17|65
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:27:18|2024-03-19 21:28:46|88
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:28:47|2024-03-19 21:29:46|59
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:29:47|2024-03-19 21:30:49|62
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:30:50|2024-03-19 21:31:59|69
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:32:00|2024-03-19 21:33:08|68
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:33:09|2024-03-19 21:34:17|68
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:34:18|2024-03-19 21:35:31|73
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:35:32|2024-03-19 21:36:51|79
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:36:52|2024-03-19 21:37:41|49
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:37:42|2024-03-19 21:38:39|57
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:38:40|2024-03-19 21:39:45|65
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:39:46|2024-03-19 21:40:37|51
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:40:38|2024-03-19 21:41:25|47
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:41:26|2024-03-19 21:42:32|66
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:42:33|2024-03-19 21:43:20|47
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:43:21|2024-03-19 21:44:18|57
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:44:19|2024-03-19 21:45:06|47
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:45:07|2024-03-19 21:46:14|67
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:46:15|2024-03-19 21:47:09|54
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:47:10|2024-03-19 21:48:00|50
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:48:01|2024-03-19 21:49:05|64
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:49:06|2024-03-19 21:49:58|52
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:49:59|2024-03-19 21:51:00|61
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:51:01|2024-03-19 21:52:02|61
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:52:03|2024-03-19 21:53:03|60
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:53:04|2024-03-19 21:53:54|50
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:53:55|2024-03-19 21:54:36|41
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:54:37|2024-03-19 21:55:34|57
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:55:35|2024-03-19 21:56:26|51
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:56:27|2024-03-19 21:57:33|66
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:57:35|2024-03-19 21:59:00|85
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 21:59:01|2024-03-19 22:00:06|65
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:00:07|2024-03-19 22:01:08|61
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:01:09|2024-03-19 22:02:01|52
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:02:02|2024-03-19 22:02:54|52
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:02:55|2024-03-19 22:03:34|39
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:03:35|2024-03-19 22:04:26|51
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:04:27|2024-03-19 22:05:58|91
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:05:59|2024-03-19 22:07:01|62
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:07:02|2024-03-19 22:08:16|74
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:08:17|2024-03-19 22:09:10|53
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:09:11|2024-03-19 22:09:53|42
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:09:54|2024-03-19 22:10:24|30
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:10:25|2024-03-19 22:11:10|45
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:11:11|2024-03-19 22:12:03|52
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:12:04|2024-03-19 22:13:13|69
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:13:14|2024-03-19 22:14:34|80
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:14:35|2024-03-19 22:15:44|69
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:15:45|2024-03-19 22:16:48|63
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:16:49|2024-03-19 22:17:25|36
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:17:26|2024-03-19 22:18:20|54
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:18:21|2024-03-19 22:18:56|35
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:18:57|2024-03-19 22:19:41|44
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:19:42|2024-03-19 22:20:26|44
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:20:27|2024-03-19 22:21:24|57
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:21:25|2024-03-19 22:22:31|66
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:22:32|2024-03-19 22:23:24|52
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:23:25|2024-03-19 22:24:23|58
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:24:24|2024-03-19 22:25:20|56
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:25:21|2024-03-19 22:26:15|54
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:26:16|2024-03-19 22:26:56|40
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:26:57|2024-03-19 22:27:37|40
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:27:38|2024-03-19 22:28:33|55
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:28:34|2024-03-19 22:29:10|36
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:29:11|2024-03-19 22:30:03|52
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:30:04|2024-03-19 22:31:08|64
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:31:09|2024-03-19 22:32:11|62
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:32:12|2024-03-19 22:32:57|45
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:32:58|2024-03-19 22:33:46|48
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:33:47|2024-03-19 22:34:28|41
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:34:29|2024-03-19 22:35:20|51
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:35:21|2024-03-19 22:36:20|59
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:36:21|2024-03-19 22:37:05|44
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:37:06|2024-03-19 22:38:06|60
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:38:07|2024-03-19 22:39:01|54
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:39:02|2024-03-19 22:40:01|59
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:40:02|2024-03-19 22:40:56|54
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:40:57|2024-03-19 22:42:06|69
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:42:07|2024-03-19 22:43:18|71
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:43:19|2024-03-19 22:44:18|59
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:44:19|2024-03-19 22:45:09|50
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:45:10|2024-03-19 22:45:56|46
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:45:57|2024-03-19 22:46:41|44
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:46:42|2024-03-19 22:47:22|40
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:47:23|2024-03-19 22:48:30|67
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:48:31|2024-03-19 22:49:38|67
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:49:39|2024-03-19 22:50:59|80
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:51:00|2024-03-19 22:52:00|60
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:52:01|2024-03-19 22:52:52|51
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:52:53|2024-03-19 22:53:27|34
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:53:28|2024-03-19 22:54:14|46
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:54:15|2024-03-19 22:54:59|44
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:55:00|2024-03-19 22:55:54|54
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:55:55|2024-03-19 22:56:48|53
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:56:49|2024-03-19 22:57:50|61
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:57:51|2024-03-19 22:59:33|102
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 22:59:34|2024-03-19 23:00:45|71
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:00:46|2024-03-19 23:01:39|53
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:01:40|2024-03-19 23:02:16|36
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:02:17|2024-03-19 23:02:59|42
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:03:00|2024-03-19 23:03:38|38
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:03:39|2024-03-19 23:04:28|49
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:04:29|2024-03-19 23:05:26|57
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:05:27|2024-03-19 23:06:38|71
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:06:39|2024-03-19 23:07:44|65
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:07:45|2024-03-19 23:08:51|66
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:08:52|2024-03-19 23:09:37|45
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:09:38|2024-03-19 23:10:30|52
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:10:31|2024-03-19 23:11:26|55
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:11:27|2024-03-19 23:12:14|47
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:12:15|2024-03-19 23:13:24|69
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:13:25|2024-03-19 23:14:15|50
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:14:16|2024-03-19 23:15:43|87
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:15:44|2024-03-19 23:16:34|50
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+SELECT 30000000
+load.05.public.load_customer.sh|2024-03-19 23:16:35|2024-03-19 23:17:37|62
+drop table if exists public.load_customer;
+DROP TABLE
+create table public.load_customer as select * from tpcds.customer distributed randomly;
+ERROR:  canceling statement due to user request
+load.05.public.load_customer.sh|2024-03-19 23:17:38|2024-03-19 23:18:12|34

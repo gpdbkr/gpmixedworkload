@@ -1,0 +1,406 @@
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 21:18:04|2024-03-19 21:22:30|266
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 21:22:31|2024-03-19 21:25:40|189
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 21:25:41|2024-03-19 21:30:45|304
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 21:30:46|2024-03-19 21:35:34|288
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 21:35:35|2024-03-19 21:40:46|311
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 21:40:47|2024-03-19 21:45:59|312
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 21:46:00|2024-03-19 21:50:57|297
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 21:50:58|2024-03-19 21:54:31|213
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 21:54:32|2024-03-19 22:00:54|382
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:00:55|2024-03-19 22:04:12|197
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:04:13|2024-03-19 22:10:26|373
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:10:27|2024-03-19 22:14:21|234
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:14:22|2024-03-19 22:19:14|292
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:19:15|2024-03-19 22:23:28|253
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:23:29|2024-03-19 22:28:41|312
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:28:42|2024-03-19 22:34:16|334
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:34:17|2024-03-19 22:37:46|209
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:37:47|2024-03-19 22:42:26|279
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:42:27|2024-03-19 22:46:46|259
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:46:47|2024-03-19 22:51:36|289
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:51:37|2024-03-19 22:55:11|214
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 22:55:12|2024-03-19 23:00:49|337
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 23:00:50|2024-03-19 23:04:50|240
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 23:04:51|2024-03-19 23:09:36|285
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 23:09:37|2024-03-19 23:12:57|200
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+tpcds.37.sh|2024-03-19 23:12:58|2024-03-19 23:17:43|285
+select  i_item_id
+       ,i_item_desc
+       ,i_current_price
+ from item, inventory, date_dim, catalog_sales
+ where i_current_price between 20 and 20 + 30
+ and inv_item_sk = i_item_sk
+ and d_date_sk=inv_date_sk
+ and d_date between cast('1999-01-12' as date) and (cast('1999-01-12' as date) +  '60 days'::interval)
+ and i_manufact_id in (671,771,832,855)
+ and inv_quantity_on_hand between 100 and 500
+ and cs_item_sk = i_item_sk
+ group by i_item_id,i_item_desc,i_current_price
+ order by i_item_id
+ limit 100;
+ERROR:  canceling statement due to user request
+tpcds.37.sh|2024-03-19 23:17:44|2024-03-19 23:18:14|30

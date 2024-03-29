@@ -1,0 +1,96 @@
+drop table if exists public.load_inventory;
+NOTICE:  table "load_inventory" does not exist, skipping
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 21:18:04|2024-03-19 21:25:08|424
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 21:25:09|2024-03-19 21:31:30|381
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 21:31:31|2024-03-19 21:38:38|427
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 21:38:39|2024-03-19 21:44:51|372
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 21:44:52|2024-03-19 21:51:56|424
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 21:51:57|2024-03-19 21:58:02|365
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 21:58:03|2024-03-19 22:03:26|323
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 22:03:27|2024-03-19 22:10:49|442
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 22:10:50|2024-03-19 22:17:27|397
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 22:17:28|2024-03-19 22:23:27|359
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 22:23:28|2024-03-19 22:28:42|314
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 22:28:43|2024-03-19 22:35:08|385
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 22:35:09|2024-03-19 22:40:37|328
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 22:40:38|2024-03-19 22:47:00|382
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 22:47:01|2024-03-19 22:53:11|370
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 22:53:12|2024-03-19 22:58:43|331
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 22:58:44|2024-03-19 23:05:39|415
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+SELECT 1033560000
+load.11.public.load_inventory.sh|2024-03-19 23:05:40|2024-03-19 23:11:37|357
+drop table if exists public.load_inventory;
+DROP TABLE
+create table public.load_inventory as select * from tpcds.inventory distributed randomly;
+ERROR:  canceling statement due to user request
+load.11.public.load_inventory.sh|2024-03-19 23:11:38|2024-03-19 23:18:15|397

@@ -1,0 +1,1486 @@
+drop table if exists public.load_item;
+NOTICE:  table "load_item" does not exist, skipping
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:18:04|2024-03-19 21:18:27|23
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:18:28|2024-03-19 21:19:00|32
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:19:01|2024-03-19 21:19:50|49
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:19:51|2024-03-19 21:20:29|38
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:20:30|2024-03-19 21:21:32|62
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:21:33|2024-03-19 21:22:07|34
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:22:08|2024-03-19 21:22:45|37
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:22:46|2024-03-19 21:23:17|31
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:23:18|2024-03-19 21:23:38|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:23:39|2024-03-19 21:24:08|29
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:24:09|2024-03-19 21:24:43|34
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:24:44|2024-03-19 21:25:04|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:25:05|2024-03-19 21:25:15|10
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:25:16|2024-03-19 21:25:35|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:25:36|2024-03-19 21:25:49|13
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:25:50|2024-03-19 21:26:22|32
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:26:23|2024-03-19 21:26:42|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:26:43|2024-03-19 21:27:10|27
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:27:11|2024-03-19 21:27:57|46
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:27:58|2024-03-19 21:28:25|27
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:28:26|2024-03-19 21:28:49|23
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:28:50|2024-03-19 21:29:43|53
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:29:44|2024-03-19 21:30:09|25
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:30:10|2024-03-19 21:30:49|39
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:30:50|2024-03-19 21:31:25|35
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:31:26|2024-03-19 21:31:34|8
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:31:35|2024-03-19 21:31:49|14
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:31:50|2024-03-19 21:32:27|37
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:32:28|2024-03-19 21:32:37|9
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:32:38|2024-03-19 21:32:53|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:32:54|2024-03-19 21:33:08|14
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:33:09|2024-03-19 21:33:28|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:33:29|2024-03-19 21:34:07|38
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:34:08|2024-03-19 21:34:46|38
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:34:47|2024-03-19 21:35:18|31
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:35:19|2024-03-19 21:35:57|38
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:35:58|2024-03-19 21:36:16|18
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:36:17|2024-03-19 21:36:51|34
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:36:52|2024-03-19 21:37:10|18
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:37:11|2024-03-19 21:37:33|22
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:37:34|2024-03-19 21:37:52|18
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:37:53|2024-03-19 21:38:41|48
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:38:42|2024-03-19 21:39:25|43
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:39:26|2024-03-19 21:39:59|33
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:40:00|2024-03-19 21:40:37|37
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:40:38|2024-03-19 21:40:53|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:40:54|2024-03-19 21:41:29|35
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:41:30|2024-03-19 21:41:59|29
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:42:00|2024-03-19 21:42:10|10
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:42:11|2024-03-19 21:42:25|14
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:42:26|2024-03-19 21:42:31|5
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:42:32|2024-03-19 21:42:41|9
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:42:42|2024-03-19 21:43:08|26
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:43:09|2024-03-19 21:43:37|28
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:43:38|2024-03-19 21:44:18|40
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:44:19|2024-03-19 21:44:52|33
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:44:53|2024-03-19 21:45:27|34
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:45:28|2024-03-19 21:45:57|29
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:45:58|2024-03-19 21:46:17|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:46:18|2024-03-19 21:46:31|13
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:46:32|2024-03-19 21:46:47|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:46:48|2024-03-19 21:46:59|11
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:47:00|2024-03-19 21:47:12|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:47:13|2024-03-19 21:47:18|5
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:47:19|2024-03-19 21:47:36|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:47:37|2024-03-19 21:48:13|36
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:48:14|2024-03-19 21:48:48|34
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:48:49|2024-03-19 21:49:08|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:49:09|2024-03-19 21:49:16|7
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:49:17|2024-03-19 21:49:33|16
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:49:34|2024-03-19 21:49:45|11
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:49:46|2024-03-19 21:49:58|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:49:59|2024-03-19 21:50:28|29
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:50:29|2024-03-19 21:50:44|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:50:45|2024-03-19 21:51:02|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:51:03|2024-03-19 21:51:18|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:51:19|2024-03-19 21:51:31|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:51:32|2024-03-19 21:51:39|7
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:51:40|2024-03-19 21:51:51|11
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:51:52|2024-03-19 21:52:13|21
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:52:14|2024-03-19 21:52:50|36
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:52:51|2024-03-19 21:53:21|30
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:53:22|2024-03-19 21:53:57|35
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:53:58|2024-03-19 21:54:18|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:54:19|2024-03-19 21:54:42|23
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:54:43|2024-03-19 21:54:58|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:54:59|2024-03-19 21:55:19|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:55:20|2024-03-19 21:55:29|9
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:55:30|2024-03-19 21:55:43|13
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:55:44|2024-03-19 21:55:55|11
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:55:56|2024-03-19 21:56:17|21
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:56:18|2024-03-19 21:56:53|35
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:56:54|2024-03-19 21:57:32|38
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:57:33|2024-03-19 21:58:26|53
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:58:27|2024-03-19 21:59:00|33
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:59:01|2024-03-19 21:59:41|40
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 21:59:42|2024-03-19 22:00:30|48
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:00:31|2024-03-19 22:00:51|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:00:52|2024-03-19 22:01:14|22
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:01:15|2024-03-19 22:01:53|38
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:01:54|2024-03-19 22:02:23|29
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:02:24|2024-03-19 22:02:43|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:02:44|2024-03-19 22:03:09|25
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:03:10|2024-03-19 22:03:28|18
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:03:29|2024-03-19 22:03:45|16
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:03:46|2024-03-19 22:04:21|35
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:04:22|2024-03-19 22:04:43|21
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:04:44|2024-03-19 22:05:02|18
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:05:03|2024-03-19 22:05:53|50
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:05:54|2024-03-19 22:06:26|32
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:06:27|2024-03-19 22:06:50|23
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:06:51|2024-03-19 22:07:16|25
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:07:17|2024-03-19 22:07:32|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:07:33|2024-03-19 22:07:50|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:07:51|2024-03-19 22:08:09|18
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:08:10|2024-03-19 22:08:36|26
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:08:37|2024-03-19 22:08:51|14
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:08:52|2024-03-19 22:09:13|21
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:09:14|2024-03-19 22:09:22|8
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:09:23|2024-03-19 22:09:41|18
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:09:42|2024-03-19 22:09:55|13
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:09:57|2024-03-19 22:10:07|10
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:10:08|2024-03-19 22:10:31|23
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:10:32|2024-03-19 22:11:02|30
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:11:03|2024-03-19 22:11:19|16
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:11:20|2024-03-19 22:11:30|10
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:11:31|2024-03-19 22:12:04|33
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:12:05|2024-03-19 22:12:36|31
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:12:37|2024-03-19 22:13:02|25
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:13:03|2024-03-19 22:13:26|23
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:13:27|2024-03-19 22:14:10|43
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:14:11|2024-03-19 22:14:34|23
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:14:35|2024-03-19 22:14:55|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:14:56|2024-03-19 22:15:15|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:15:16|2024-03-19 22:15:28|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:15:29|2024-03-19 22:15:39|10
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:15:40|2024-03-19 22:15:57|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:15:58|2024-03-19 22:16:19|21
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:16:20|2024-03-19 22:16:38|18
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:16:39|2024-03-19 22:16:56|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:16:57|2024-03-19 22:17:19|22
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:17:20|2024-03-19 22:17:50|30
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:17:51|2024-03-19 22:18:10|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:18:11|2024-03-19 22:18:31|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:18:32|2024-03-19 22:18:52|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:18:53|2024-03-19 22:19:06|13
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:19:07|2024-03-19 22:19:23|16
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:19:24|2024-03-19 22:19:39|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:19:40|2024-03-19 22:19:51|11
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:19:52|2024-03-19 22:20:06|14
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:20:07|2024-03-19 22:20:41|34
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:20:42|2024-03-19 22:21:24|42
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:21:25|2024-03-19 22:22:03|38
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:22:04|2024-03-19 22:22:28|24
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:22:29|2024-03-19 22:22:45|16
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:22:46|2024-03-19 22:23:05|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:23:06|2024-03-19 22:23:34|28
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:23:35|2024-03-19 22:24:07|32
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:24:08|2024-03-19 22:24:30|22
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:24:31|2024-03-19 22:24:46|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:24:47|2024-03-19 22:24:56|9
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:24:57|2024-03-19 22:25:33|36
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:25:34|2024-03-19 22:26:06|32
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:26:07|2024-03-19 22:26:34|27
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:26:35|2024-03-19 22:26:54|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:26:55|2024-03-19 22:27:12|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:27:14|2024-03-19 22:27:29|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:27:30|2024-03-19 22:27:46|16
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:27:47|2024-03-19 22:28:17|30
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:28:18|2024-03-19 22:28:41|23
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:28:42|2024-03-19 22:29:14|32
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:29:15|2024-03-19 22:29:48|33
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:29:49|2024-03-19 22:30:02|13
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:30:03|2024-03-19 22:30:23|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:30:24|2024-03-19 22:31:27|63
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:31:28|2024-03-19 22:31:52|24
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:31:53|2024-03-19 22:32:16|23
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:32:17|2024-03-19 22:32:27|10
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:32:28|2024-03-19 22:32:42|14
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:32:43|2024-03-19 22:32:54|11
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:32:55|2024-03-19 22:33:17|22
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:33:18|2024-03-19 22:33:30|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:33:31|2024-03-19 22:33:43|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:33:44|2024-03-19 22:33:56|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:33:57|2024-03-19 22:34:14|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:34:15|2024-03-19 22:34:29|14
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:34:30|2024-03-19 22:34:36|6
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:34:37|2024-03-19 22:34:43|6
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:34:44|2024-03-19 22:34:56|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:34:57|2024-03-19 22:35:35|38
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:35:36|2024-03-19 22:36:00|24
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:36:01|2024-03-19 22:36:36|35
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:36:37|2024-03-19 22:37:06|29
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:37:07|2024-03-19 22:37:50|43
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:37:51|2024-03-19 22:38:28|37
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:38:29|2024-03-19 22:39:05|36
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:39:06|2024-03-19 22:39:22|16
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:39:23|2024-03-19 22:39:46|23
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:39:47|2024-03-19 22:39:55|8
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:39:56|2024-03-19 22:40:14|18
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:40:15|2024-03-19 22:41:12|57
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:41:13|2024-03-19 22:41:52|39
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:41:53|2024-03-19 22:42:10|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:42:11|2024-03-19 22:42:53|42
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:42:54|2024-03-19 22:43:11|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:43:12|2024-03-19 22:43:25|13
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:43:26|2024-03-19 22:43:52|26
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:43:53|2024-03-19 22:44:28|35
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:44:29|2024-03-19 22:44:44|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:44:45|2024-03-19 22:45:04|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:45:05|2024-03-19 22:45:22|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:45:23|2024-03-19 22:45:40|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:45:41|2024-03-19 22:46:09|28
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:46:10|2024-03-19 22:46:34|24
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:46:35|2024-03-19 22:46:50|15
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:46:51|2024-03-19 22:47:08|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:47:09|2024-03-19 22:47:29|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:47:30|2024-03-19 22:47:39|9
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:47:40|2024-03-19 22:47:56|16
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:47:57|2024-03-19 22:48:19|22
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:48:20|2024-03-19 22:48:48|28
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:48:49|2024-03-19 22:49:27|38
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:49:28|2024-03-19 22:50:21|53
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:50:22|2024-03-19 22:51:14|52
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:51:15|2024-03-19 22:51:45|30
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:51:46|2024-03-19 22:52:05|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:52:06|2024-03-19 22:52:33|27
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:52:34|2024-03-19 22:52:54|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:52:55|2024-03-19 22:53:02|7
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:53:03|2024-03-19 22:53:16|13
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:53:17|2024-03-19 22:53:25|8
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:53:26|2024-03-19 22:53:46|20
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:53:47|2024-03-19 22:54:09|22
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:54:10|2024-03-19 22:54:21|11
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:54:22|2024-03-19 22:54:34|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:54:35|2024-03-19 22:55:01|26
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:55:02|2024-03-19 22:55:33|31
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:55:34|2024-03-19 22:56:06|32
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:56:07|2024-03-19 22:56:30|23
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:56:31|2024-03-19 22:56:59|28
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:57:00|2024-03-19 22:57:13|13
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:57:14|2024-03-19 22:57:45|31
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:57:46|2024-03-19 22:58:37|51
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:58:38|2024-03-19 22:59:07|29
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:59:08|2024-03-19 22:59:33|25
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 22:59:34|2024-03-19 23:00:08|34
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:00:09|2024-03-19 23:00:47|38
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:00:48|2024-03-19 23:01:15|27
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:01:16|2024-03-19 23:01:43|27
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:01:44|2024-03-19 23:01:55|11
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:01:56|2024-03-19 23:02:08|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:02:09|2024-03-19 23:02:17|8
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:02:18|2024-03-19 23:02:32|14
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:02:33|2024-03-19 23:02:57|24
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:02:58|2024-03-19 23:03:12|14
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:03:13|2024-03-19 23:03:26|13
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:03:27|2024-03-19 23:03:35|8
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:03:36|2024-03-19 23:03:43|7
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:03:44|2024-03-19 23:03:54|10
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:03:55|2024-03-19 23:04:07|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:04:08|2024-03-19 23:04:18|10
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:04:19|2024-03-19 23:04:28|9
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:04:29|2024-03-19 23:04:41|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:04:42|2024-03-19 23:04:51|9
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:04:52|2024-03-19 23:05:11|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:05:12|2024-03-19 23:05:44|32
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:05:45|2024-03-19 23:06:16|31
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:06:17|2024-03-19 23:06:47|30
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:06:48|2024-03-19 23:07:38|50
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:07:39|2024-03-19 23:08:11|32
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:08:12|2024-03-19 23:08:23|11
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:08:24|2024-03-19 23:08:36|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:08:37|2024-03-19 23:08:49|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:08:50|2024-03-19 23:08:58|8
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:08:59|2024-03-19 23:09:11|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:09:12|2024-03-19 23:09:49|37
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:09:50|2024-03-19 23:10:03|13
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:10:04|2024-03-19 23:10:39|35
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:10:40|2024-03-19 23:11:17|37
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:11:18|2024-03-19 23:11:36|18
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:11:37|2024-03-19 23:11:53|16
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:11:54|2024-03-19 23:12:33|39
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:12:34|2024-03-19 23:12:51|17
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:12:52|2024-03-19 23:13:13|21
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:13:14|2024-03-19 23:13:43|29
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:13:44|2024-03-19 23:13:56|12
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:13:57|2024-03-19 23:14:26|29
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:14:27|2024-03-19 23:15:11|44
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:15:12|2024-03-19 23:15:43|31
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:15:44|2024-03-19 23:16:03|19
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:16:04|2024-03-19 23:16:50|46
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:16:51|2024-03-19 23:17:00|9
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:17:01|2024-03-19 23:17:15|14
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:17:16|2024-03-19 23:17:32|16
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:17:33|2024-03-19 23:17:54|21
+drop table if exists public.load_item;
+DROP TABLE
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:17:55|2024-03-19 23:18:03|8
+drop table if exists public.load_item;
+ERROR:  canceling statement due to user request
+create table public.load_item as select * from tpcds.item distributed randomly;
+SELECT 360000
+load.12.public.load_item.sh|2024-03-19 23:18:04|2024-03-19 23:18:11|7

@@ -1,0 +1,591 @@
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:18:04|2024-03-19 21:18:32|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:18:33|2024-03-19 21:19:37|64
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:19:38|2024-03-19 21:20:23|45
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:20:24|2024-03-19 21:21:23|59
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:21:24|2024-03-19 21:22:07|43
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:22:08|2024-03-19 21:23:03|55
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:23:04|2024-03-19 21:23:41|37
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:23:42|2024-03-19 21:24:21|39
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:24:22|2024-03-19 21:24:54|32
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:24:55|2024-03-19 21:25:13|18
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:25:14|2024-03-19 21:25:38|24
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:25:39|2024-03-19 21:26:23|44
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:26:24|2024-03-19 21:27:05|41
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:27:06|2024-03-19 21:27:53|47
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:27:54|2024-03-19 21:28:38|44
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:28:39|2024-03-19 21:29:26|47
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:29:27|2024-03-19 21:29:59|32
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:30:00|2024-03-19 21:30:21|21
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:30:22|2024-03-19 21:30:52|30
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:30:53|2024-03-19 21:31:23|30
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:31:24|2024-03-19 21:32:10|46
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:32:11|2024-03-19 21:32:49|38
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:32:50|2024-03-19 21:33:28|38
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:33:29|2024-03-19 21:34:10|41
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:34:11|2024-03-19 21:34:43|32
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:34:44|2024-03-19 21:35:13|29
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:35:14|2024-03-19 21:35:48|34
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:35:49|2024-03-19 21:36:22|33
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:36:23|2024-03-19 21:36:55|32
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:36:56|2024-03-19 21:37:21|25
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:37:22|2024-03-19 21:37:52|30
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:37:53|2024-03-19 21:38:23|30
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:38:24|2024-03-19 21:39:06|42
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:39:07|2024-03-19 21:39:38|31
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:39:39|2024-03-19 21:40:10|31
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:40:11|2024-03-19 21:40:39|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:40:40|2024-03-19 21:41:15|35
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:41:16|2024-03-19 21:42:10|54
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:42:11|2024-03-19 21:42:41|30
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:42:42|2024-03-19 21:43:10|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:43:11|2024-03-19 21:43:58|47
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:43:59|2024-03-19 21:44:29|30
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:44:30|2024-03-19 21:44:52|22
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:44:54|2024-03-19 21:45:12|18
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:45:13|2024-03-19 21:45:42|29
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:45:43|2024-03-19 21:46:20|37
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:46:21|2024-03-19 21:46:52|31
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:46:53|2024-03-19 21:47:24|31
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:47:25|2024-03-19 21:47:59|34
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:48:00|2024-03-19 21:48:38|38
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:48:39|2024-03-19 21:49:25|46
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:49:26|2024-03-19 21:49:54|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:49:55|2024-03-19 21:50:35|40
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:50:36|2024-03-19 21:51:07|31
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:51:08|2024-03-19 21:51:41|33
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:51:42|2024-03-19 21:52:17|35
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:52:18|2024-03-19 21:52:52|34
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:52:53|2024-03-19 21:53:27|34
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:53:28|2024-03-19 21:53:50|22
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:53:51|2024-03-19 21:54:28|37
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:54:29|2024-03-19 21:55:08|39
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:55:09|2024-03-19 21:55:32|23
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:55:33|2024-03-19 21:56:12|39
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:56:13|2024-03-19 21:57:16|63
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:57:17|2024-03-19 21:58:06|49
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:58:07|2024-03-19 21:59:23|76
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 21:59:24|2024-03-19 22:00:03|39
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:00:04|2024-03-19 22:00:47|43
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:00:48|2024-03-19 22:01:09|21
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:01:10|2024-03-19 22:01:39|29
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:01:40|2024-03-19 22:02:14|34
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:02:15|2024-03-19 22:02:29|14
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:02:30|2024-03-19 22:02:55|25
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:02:56|2024-03-19 22:03:24|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:03:25|2024-03-19 22:04:14|49
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:04:15|2024-03-19 22:05:05|50
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:05:06|2024-03-19 22:06:04|58
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:06:05|2024-03-19 22:06:50|45
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:06:51|2024-03-19 22:07:31|40
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:07:32|2024-03-19 22:08:06|34
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:08:07|2024-03-19 22:08:54|47
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:08:55|2024-03-19 22:09:39|44
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:09:40|2024-03-19 22:10:04|24
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:10:05|2024-03-19 22:10:37|32
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:10:38|2024-03-19 22:11:04|26
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:11:05|2024-03-19 22:11:35|30
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:11:36|2024-03-19 22:12:09|33
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:12:10|2024-03-19 22:12:50|40
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:12:51|2024-03-19 22:13:23|32
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:13:24|2024-03-19 22:14:08|44
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:14:09|2024-03-19 22:14:50|41
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:14:51|2024-03-19 22:15:36|45
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:15:37|2024-03-19 22:16:17|40
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:16:18|2024-03-19 22:16:43|25
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:16:44|2024-03-19 22:17:19|35
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:17:20|2024-03-19 22:17:54|34
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:17:55|2024-03-19 22:18:36|41
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:18:37|2024-03-19 22:19:06|29
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:19:07|2024-03-19 22:19:25|18
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:19:26|2024-03-19 22:19:59|33
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:20:00|2024-03-19 22:20:38|38
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:20:39|2024-03-19 22:21:14|35
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:21:15|2024-03-19 22:21:53|38
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:21:54|2024-03-19 22:22:31|37
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:22:32|2024-03-19 22:23:11|39
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:23:12|2024-03-19 22:23:37|25
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:23:38|2024-03-19 22:24:23|45
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:24:24|2024-03-19 22:25:06|42
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:25:07|2024-03-19 22:26:00|53
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:26:01|2024-03-19 22:26:31|30
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:26:32|2024-03-19 22:26:54|22
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:26:55|2024-03-19 22:27:20|25
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:27:21|2024-03-19 22:27:50|29
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:27:51|2024-03-19 22:28:14|23
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:28:15|2024-03-19 22:28:38|23
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:28:39|2024-03-19 22:28:58|19
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:28:59|2024-03-19 22:29:21|22
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:29:22|2024-03-19 22:29:50|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:29:51|2024-03-19 22:30:45|54
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:30:46|2024-03-19 22:31:41|55
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:31:42|2024-03-19 22:32:22|40
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:32:23|2024-03-19 22:32:56|33
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:32:57|2024-03-19 22:33:34|37
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:33:35|2024-03-19 22:33:58|23
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:33:59|2024-03-19 22:34:35|36
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:34:36|2024-03-19 22:35:15|39
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:35:16|2024-03-19 22:35:41|25
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:35:42|2024-03-19 22:36:26|44
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:36:27|2024-03-19 22:36:59|32
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:37:00|2024-03-19 22:37:25|25
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:37:26|2024-03-19 22:38:00|34
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:38:01|2024-03-19 22:38:37|36
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:38:38|2024-03-19 22:39:07|29
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:39:08|2024-03-19 22:39:52|44
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:39:53|2024-03-19 22:40:25|32
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:40:26|2024-03-19 22:41:10|44
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:41:11|2024-03-19 22:41:55|44
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:41:56|2024-03-19 22:42:28|32
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:42:29|2024-03-19 22:43:07|38
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:43:08|2024-03-19 22:43:50|42
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:43:51|2024-03-19 22:44:36|45
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:44:37|2024-03-19 22:45:12|35
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:45:13|2024-03-19 22:45:52|39
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:45:53|2024-03-19 22:46:28|35
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:46:29|2024-03-19 22:46:47|18
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:46:48|2024-03-19 22:47:07|19
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:47:08|2024-03-19 22:47:29|21
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:47:30|2024-03-19 22:48:40|70
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:48:41|2024-03-19 22:49:47|66
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:49:48|2024-03-19 22:50:56|68
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:50:57|2024-03-19 22:51:32|35
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:51:33|2024-03-19 22:52:18|45
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:52:19|2024-03-19 22:52:50|31
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:52:51|2024-03-19 22:53:26|35
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:53:27|2024-03-19 22:53:57|30
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:53:58|2024-03-19 22:54:26|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:54:27|2024-03-19 22:54:57|30
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:54:58|2024-03-19 22:55:19|21
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:55:20|2024-03-19 22:55:50|30
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:55:51|2024-03-19 22:56:25|34
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:56:26|2024-03-19 22:56:45|19
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:56:46|2024-03-19 22:57:29|43
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:57:30|2024-03-19 22:58:25|55
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:58:26|2024-03-19 22:59:15|49
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 22:59:16|2024-03-19 23:00:01|45
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:00:02|2024-03-19 23:00:39|37
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:00:40|2024-03-19 23:01:13|33
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:01:14|2024-03-19 23:01:38|24
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:01:39|2024-03-19 23:02:07|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:02:08|2024-03-19 23:02:28|20
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:02:29|2024-03-19 23:02:53|24
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:02:54|2024-03-19 23:03:26|32
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:03:27|2024-03-19 23:03:55|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:03:56|2024-03-19 23:04:23|27
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:04:24|2024-03-19 23:05:02|38
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:05:03|2024-03-19 23:05:31|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:05:32|2024-03-19 23:06:05|33
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:06:06|2024-03-19 23:06:51|45
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:06:52|2024-03-19 23:07:31|39
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:07:32|2024-03-19 23:08:10|38
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:08:11|2024-03-19 23:08:33|22
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:08:34|2024-03-19 23:09:14|40
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:09:15|2024-03-19 23:09:43|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:09:44|2024-03-19 23:10:12|28
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:10:13|2024-03-19 23:10:40|27
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:10:41|2024-03-19 23:11:21|40
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:11:22|2024-03-19 23:11:51|29
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:11:52|2024-03-19 23:12:36|44
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:12:37|2024-03-19 23:13:30|53
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:13:31|2024-03-19 23:14:14|43
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:14:15|2024-03-19 23:14:33|18
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:14:34|2024-03-19 23:15:00|26
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:15:01|2024-03-19 23:15:36|35
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:15:37|2024-03-19 23:16:28|51
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:16:29|2024-03-19 23:17:28|59
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+select.01.public.catalog_returns_uncomp.sh|2024-03-19 23:17:29|2024-03-19 23:17:56|27
+select * from public.catalog_returns_uncomp
+where cr_returned_date_sk = 2451346;
+ERROR:  canceling statement due to user request

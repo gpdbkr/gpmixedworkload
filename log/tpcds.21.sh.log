@@ -1,0 +1,3641 @@
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:18:04|2024-03-19 21:18:21|17
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:18:22|2024-03-19 21:19:40|78
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:19:41|2024-03-19 21:21:43|122
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:21:44|2024-03-19 21:23:41|117
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:23:42|2024-03-19 21:24:38|56
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:24:39|2024-03-19 21:25:27|48
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:25:28|2024-03-19 21:26:09|41
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:26:10|2024-03-19 21:27:03|53
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:27:04|2024-03-19 21:28:52|108
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:28:53|2024-03-19 21:30:42|109
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:30:43|2024-03-19 21:31:29|46
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:31:30|2024-03-19 21:32:09|39
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:32:10|2024-03-19 21:32:59|49
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:33:00|2024-03-19 21:33:25|25
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:33:26|2024-03-19 21:34:40|74
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:34:41|2024-03-19 21:35:48|67
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:35:49|2024-03-19 21:36:54|65
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:36:55|2024-03-19 21:39:54|179
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:39:55|2024-03-19 21:41:20|85
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:41:21|2024-03-19 21:42:30|69
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:42:31|2024-03-19 21:43:32|61
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:43:33|2024-03-19 21:45:14|101
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:45:15|2024-03-19 21:46:19|64
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:46:20|2024-03-19 21:47:01|41
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:47:02|2024-03-19 21:47:23|21
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:47:24|2024-03-19 21:47:48|24
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:47:49|2024-03-19 21:48:43|54
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:48:44|2024-03-19 21:49:46|62
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:49:47|2024-03-19 21:50:34|47
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:50:35|2024-03-19 21:51:18|43
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:51:19|2024-03-19 21:51:46|27
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:51:47|2024-03-19 21:52:38|51
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:52:39|2024-03-19 21:53:22|43
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:53:23|2024-03-19 21:54:30|67
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:54:31|2024-03-19 21:55:43|72
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:55:44|2024-03-19 21:56:57|73
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:56:58|2024-03-19 21:58:16|78
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:58:17|2024-03-19 21:59:26|69
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 21:59:27|2024-03-19 22:00:50|83
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:00:51|2024-03-19 22:01:34|43
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:01:35|2024-03-19 22:02:25|50
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:02:26|2024-03-19 22:03:24|58
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:03:25|2024-03-19 22:04:41|76
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:04:42|2024-03-19 22:06:08|86
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:06:09|2024-03-19 22:07:16|67
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:07:17|2024-03-19 22:08:01|44
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:08:02|2024-03-19 22:08:38|36
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:08:39|2024-03-19 22:09:06|27
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:09:07|2024-03-19 22:09:35|28
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:09:36|2024-03-19 22:10:26|50
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:10:27|2024-03-19 22:11:28|61
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:11:29|2024-03-19 22:11:48|19
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:11:49|2024-03-19 22:12:45|56
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:12:46|2024-03-19 22:13:29|43
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:13:30|2024-03-19 22:14:40|70
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:14:41|2024-03-19 22:15:27|46
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:15:28|2024-03-19 22:16:01|33
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:16:02|2024-03-19 22:16:40|38
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:16:41|2024-03-19 22:17:16|35
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:17:17|2024-03-19 22:18:34|77
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:18:35|2024-03-19 22:19:07|32
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:19:08|2024-03-19 22:19:32|24
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:19:33|2024-03-19 22:19:57|24
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:19:58|2024-03-19 22:20:53|55
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:20:54|2024-03-19 22:22:01|67
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:22:02|2024-03-19 22:23:39|97
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:23:40|2024-03-19 22:24:42|62
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:24:43|2024-03-19 22:25:12|29
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:25:13|2024-03-19 22:26:30|77
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:26:31|2024-03-19 22:26:54|23
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:26:55|2024-03-19 22:27:23|28
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:27:24|2024-03-19 22:27:47|23
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:27:48|2024-03-19 22:29:20|92
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:29:21|2024-03-19 22:31:08|107
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:31:09|2024-03-19 22:31:59|50
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:32:00|2024-03-19 22:32:43|43
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:32:44|2024-03-19 22:33:12|28
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:33:13|2024-03-19 22:33:35|22
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:33:36|2024-03-19 22:34:25|49
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:34:26|2024-03-19 22:34:56|30
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:34:57|2024-03-19 22:35:48|51
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:35:49|2024-03-19 22:38:07|138
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:38:08|2024-03-19 22:38:35|27
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:38:36|2024-03-19 22:39:31|55
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:39:32|2024-03-19 22:41:35|123
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:41:36|2024-03-19 22:42:24|48
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:42:25|2024-03-19 22:43:29|64
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:43:30|2024-03-19 22:43:58|28
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:43:59|2024-03-19 22:44:51|52
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:44:52|2024-03-19 22:45:23|31
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:45:24|2024-03-19 22:46:08|44
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:46:09|2024-03-19 22:47:01|52
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:47:02|2024-03-19 22:47:48|46
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:47:49|2024-03-19 22:48:42|53
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:48:43|2024-03-19 22:49:12|29
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:49:13|2024-03-19 22:51:07|114
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:51:08|2024-03-19 22:52:25|77
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:52:26|2024-03-19 22:53:10|44
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:53:11|2024-03-19 22:53:26|15
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:53:27|2024-03-19 22:54:13|46
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:54:14|2024-03-19 22:55:06|52
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:55:07|2024-03-19 22:56:31|84
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:56:32|2024-03-19 22:57:20|48
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:57:21|2024-03-19 22:58:33|72
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:58:34|2024-03-19 22:59:07|33
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 22:59:08|2024-03-19 23:00:05|57
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:00:06|2024-03-19 23:00:43|37
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:00:44|2024-03-19 23:01:43|59
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:01:44|2024-03-19 23:02:08|24
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:02:09|2024-03-19 23:02:39|30
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:02:40|2024-03-19 23:03:10|30
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:03:11|2024-03-19 23:03:41|30
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:03:42|2024-03-19 23:04:04|22
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:04:05|2024-03-19 23:04:46|41
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:04:47|2024-03-19 23:06:26|99
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:06:27|2024-03-19 23:07:29|62
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:07:30|2024-03-19 23:08:27|57
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:08:28|2024-03-19 23:09:01|33
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:09:02|2024-03-19 23:09:56|54
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:09:57|2024-03-19 23:10:46|49
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:10:47|2024-03-19 23:11:16|29
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:11:17|2024-03-19 23:11:51|34
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:11:52|2024-03-19 23:12:43|51
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:12:44|2024-03-19 23:13:13|29
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:13:14|2024-03-19 23:14:21|67
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:14:22|2024-03-19 23:15:06|44
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:15:07|2024-03-19 23:16:10|63
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:16:11|2024-03-19 23:17:17|66
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+tpcds.21.sh|2024-03-19 23:17:18|2024-03-19 23:17:35|17
+select  *
+ from(select w_warehouse_name
+            ,i_item_id
+            ,sum(case when (cast(d_date as date) < cast ('2000-03-11' as date))
+                then inv_quantity_on_hand
+                      else 0 end) as inv_before
+            ,sum(case when (cast(d_date as date) >= cast ('2000-03-11' as date))
+                      then inv_quantity_on_hand
+                      else 0 end) as inv_after
+   from inventory
+       ,warehouse
+       ,item
+       ,date_dim
+   where i_current_price between 0.99 and 1.49
+     and i_item_sk          = inv_item_sk
+     and inv_warehouse_sk   = w_warehouse_sk
+     and inv_date_sk    = d_date_sk
+     and d_date between (cast ('2000-03-11' as date) - '30 days'::interval)
+                    and (cast ('2000-03-11' as date) + '30 days'::interval)
+   group by w_warehouse_name, i_item_id) x
+ where (case when inv_before > 0
+             then inv_after / inv_before
+             else null
+             end) between 2.0/3.0 and 3.0/2.0
+ order by w_warehouse_name
+         ,i_item_id
+ limit 100;
+ERROR:  canceling statement due to user request
+tpcds.21.sh|2024-03-19 23:17:36|2024-03-19 23:18:11|35

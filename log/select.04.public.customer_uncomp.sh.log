@@ -1,0 +1,1697 @@
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:18:04|2024-03-19 21:18:06|2
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:18:07|2024-03-19 21:18:15|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:18:16|2024-03-19 21:18:33|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:18:34|2024-03-19 21:18:49|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:18:50|2024-03-19 21:19:10|20
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:19:11|2024-03-19 21:19:30|19
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:19:31|2024-03-19 21:19:53|22
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:19:54|2024-03-19 21:20:00|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:20:01|2024-03-19 21:20:32|31
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:20:33|2024-03-19 21:20:59|26
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:21:00|2024-03-19 21:21:39|39
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:21:40|2024-03-19 21:21:56|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:21:57|2024-03-19 21:22:31|34
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:22:32|2024-03-19 21:22:37|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:22:38|2024-03-19 21:22:44|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:22:45|2024-03-19 21:22:57|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:22:58|2024-03-19 21:23:07|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:23:08|2024-03-19 21:23:17|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:23:18|2024-03-19 21:23:31|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:23:32|2024-03-19 21:23:44|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:23:45|2024-03-19 21:23:55|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:23:56|2024-03-19 21:24:09|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:24:10|2024-03-19 21:24:38|28
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:24:39|2024-03-19 21:24:46|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:24:47|2024-03-19 21:25:01|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:25:02|2024-03-19 21:25:07|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:25:08|2024-03-19 21:25:15|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:25:16|2024-03-19 21:25:25|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:25:26|2024-03-19 21:25:33|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:25:34|2024-03-19 21:25:41|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:25:42|2024-03-19 21:25:50|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:25:51|2024-03-19 21:25:58|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:25:59|2024-03-19 21:26:18|19
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:26:19|2024-03-19 21:26:26|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:26:27|2024-03-19 21:26:33|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:26:34|2024-03-19 21:26:48|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:26:49|2024-03-19 21:27:01|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:27:02|2024-03-19 21:27:08|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:27:09|2024-03-19 21:27:32|23
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:27:33|2024-03-19 21:27:55|22
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:27:56|2024-03-19 21:28:06|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:28:07|2024-03-19 21:28:19|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:28:20|2024-03-19 21:28:30|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:28:31|2024-03-19 21:28:40|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:28:41|2024-03-19 21:28:53|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:28:54|2024-03-19 21:29:07|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:29:08|2024-03-19 21:29:27|19
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:29:28|2024-03-19 21:29:46|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:29:47|2024-03-19 21:30:02|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:30:03|2024-03-19 21:30:21|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:30:22|2024-03-19 21:30:36|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:30:37|2024-03-19 21:30:53|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:30:54|2024-03-19 21:31:02|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:31:03|2024-03-19 21:31:15|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:31:16|2024-03-19 21:31:32|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:31:33|2024-03-19 21:31:44|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:31:45|2024-03-19 21:31:52|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:31:53|2024-03-19 21:32:15|22
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:32:16|2024-03-19 21:32:23|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:32:24|2024-03-19 21:32:35|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:32:36|2024-03-19 21:32:48|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:32:49|2024-03-19 21:32:52|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:32:53|2024-03-19 21:33:03|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:33:04|2024-03-19 21:33:08|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:33:09|2024-03-19 21:33:15|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:33:16|2024-03-19 21:33:22|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:33:23|2024-03-19 21:33:37|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:33:38|2024-03-19 21:34:03|25
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:34:04|2024-03-19 21:34:16|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:34:17|2024-03-19 21:34:53|36
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:34:54|2024-03-19 21:35:01|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:35:02|2024-03-19 21:35:20|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:35:21|2024-03-19 21:35:39|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:35:40|2024-03-19 21:35:51|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:35:52|2024-03-19 21:36:07|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:36:08|2024-03-19 21:36:21|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:36:22|2024-03-19 21:36:36|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:36:37|2024-03-19 21:36:46|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:36:47|2024-03-19 21:36:57|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:36:58|2024-03-19 21:37:11|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:37:12|2024-03-19 21:37:37|25
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:37:38|2024-03-19 21:37:51|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:37:52|2024-03-19 21:37:58|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:37:59|2024-03-19 21:38:18|19
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:38:19|2024-03-19 21:38:57|38
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:38:58|2024-03-19 21:39:25|27
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:39:26|2024-03-19 21:39:40|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:39:41|2024-03-19 21:40:01|20
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:40:02|2024-03-19 21:40:14|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:40:15|2024-03-19 21:40:45|30
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:40:46|2024-03-19 21:40:49|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:40:50|2024-03-19 21:41:02|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:41:03|2024-03-19 21:41:42|39
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:41:43|2024-03-19 21:41:49|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:41:50|2024-03-19 21:42:00|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:42:01|2024-03-19 21:42:11|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:42:12|2024-03-19 21:42:16|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:42:17|2024-03-19 21:42:27|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:42:28|2024-03-19 21:42:34|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:42:35|2024-03-19 21:42:43|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:42:44|2024-03-19 21:43:08|24
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:43:09|2024-03-19 21:43:36|27
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:43:37|2024-03-19 21:43:48|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:43:49|2024-03-19 21:44:10|21
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:44:11|2024-03-19 21:44:24|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:44:25|2024-03-19 21:44:41|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:44:42|2024-03-19 21:44:58|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:44:59|2024-03-19 21:45:11|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:45:12|2024-03-19 21:45:18|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:45:19|2024-03-19 21:45:35|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:45:36|2024-03-19 21:46:05|29
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:46:06|2024-03-19 21:46:16|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:46:17|2024-03-19 21:46:23|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:46:24|2024-03-19 21:46:29|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:46:30|2024-03-19 21:46:36|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:46:37|2024-03-19 21:46:41|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:46:42|2024-03-19 21:46:47|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:46:48|2024-03-19 21:46:55|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:46:56|2024-03-19 21:47:05|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:47:06|2024-03-19 21:47:14|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:47:15|2024-03-19 21:47:19|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:47:20|2024-03-19 21:47:24|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:47:25|2024-03-19 21:47:28|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:47:29|2024-03-19 21:47:51|22
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:47:52|2024-03-19 21:48:11|19
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:48:12|2024-03-19 21:48:39|27
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:48:40|2024-03-19 21:48:54|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:48:55|2024-03-19 21:49:03|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:49:04|2024-03-19 21:49:14|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:49:15|2024-03-19 21:49:19|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:49:20|2024-03-19 21:49:27|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:49:28|2024-03-19 21:49:34|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:49:35|2024-03-19 21:49:41|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:49:42|2024-03-19 21:49:49|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:49:50|2024-03-19 21:49:56|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:49:57|2024-03-19 21:50:12|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:50:13|2024-03-19 21:50:34|21
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:50:35|2024-03-19 21:50:40|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:50:41|2024-03-19 21:50:53|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:50:54|2024-03-19 21:51:00|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:51:01|2024-03-19 21:51:11|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:51:12|2024-03-19 21:51:19|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:51:20|2024-03-19 21:51:27|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:51:28|2024-03-19 21:51:33|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:51:34|2024-03-19 21:51:40|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:51:41|2024-03-19 21:51:46|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:51:47|2024-03-19 21:51:59|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:52:00|2024-03-19 21:52:19|19
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:52:20|2024-03-19 21:52:37|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:52:38|2024-03-19 21:52:58|20
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:52:59|2024-03-19 21:53:11|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:53:12|2024-03-19 21:53:29|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:53:30|2024-03-19 21:54:09|39
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:54:10|2024-03-19 21:54:19|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:54:20|2024-03-19 21:54:36|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:54:37|2024-03-19 21:54:44|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:54:45|2024-03-19 21:54:52|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:54:53|2024-03-19 21:54:57|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:54:58|2024-03-19 21:55:02|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:55:03|2024-03-19 21:55:06|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:55:07|2024-03-19 21:55:11|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:55:12|2024-03-19 21:55:16|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:55:17|2024-03-19 21:55:22|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:55:23|2024-03-19 21:55:26|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:55:27|2024-03-19 21:55:33|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:55:34|2024-03-19 21:55:39|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:55:40|2024-03-19 21:55:49|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:55:50|2024-03-19 21:55:56|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:55:57|2024-03-19 21:56:02|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:56:03|2024-03-19 21:56:15|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:56:16|2024-03-19 21:56:39|23
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:56:40|2024-03-19 21:56:56|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:56:57|2024-03-19 21:57:10|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:57:11|2024-03-19 21:57:36|25
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:57:37|2024-03-19 21:57:57|20
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:57:58|2024-03-19 21:59:34|96
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:59:35|2024-03-19 21:59:51|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 21:59:52|2024-03-19 22:00:23|31
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:00:24|2024-03-19 22:00:33|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:00:34|2024-03-19 22:00:46|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:00:47|2024-03-19 22:00:55|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:00:56|2024-03-19 22:01:05|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:01:06|2024-03-19 22:01:36|30
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:01:37|2024-03-19 22:01:44|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:01:45|2024-03-19 22:01:51|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:01:52|2024-03-19 22:02:07|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:02:08|2024-03-19 22:02:18|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:02:19|2024-03-19 22:02:24|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:02:25|2024-03-19 22:02:37|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:02:38|2024-03-19 22:02:53|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:02:54|2024-03-19 22:02:58|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:02:59|2024-03-19 22:03:13|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:03:14|2024-03-19 22:03:29|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:03:30|2024-03-19 22:03:48|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:03:49|2024-03-19 22:04:16|27
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:04:17|2024-03-19 22:04:25|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:04:26|2024-03-19 22:04:33|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:04:34|2024-03-19 22:04:44|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:04:45|2024-03-19 22:04:52|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:04:53|2024-03-19 22:04:58|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:04:59|2024-03-19 22:05:20|21
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:05:21|2024-03-19 22:06:01|40
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:06:02|2024-03-19 22:06:16|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:06:17|2024-03-19 22:06:27|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:06:28|2024-03-19 22:06:45|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:06:46|2024-03-19 22:06:56|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:06:57|2024-03-19 22:07:16|19
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:07:17|2024-03-19 22:07:25|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:07:26|2024-03-19 22:07:44|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:07:45|2024-03-19 22:07:49|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:07:50|2024-03-19 22:07:59|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:08:00|2024-03-19 22:08:06|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:08:07|2024-03-19 22:08:12|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:08:13|2024-03-19 22:08:19|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:08:20|2024-03-19 22:08:36|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:08:37|2024-03-19 22:08:41|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:08:42|2024-03-19 22:08:48|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:08:49|2024-03-19 22:09:01|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:09:02|2024-03-19 22:09:13|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:09:14|2024-03-19 22:09:18|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:09:19|2024-03-19 22:09:32|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:09:33|2024-03-19 22:09:44|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:09:45|2024-03-19 22:09:56|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:09:57|2024-03-19 22:10:04|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:10:05|2024-03-19 22:10:19|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:10:20|2024-03-19 22:10:26|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:10:27|2024-03-19 22:10:38|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:10:39|2024-03-19 22:10:48|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:10:49|2024-03-19 22:11:12|23
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:11:13|2024-03-19 22:11:16|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:11:17|2024-03-19 22:11:22|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:11:23|2024-03-19 22:11:29|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:11:30|2024-03-19 22:11:32|2
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:11:33|2024-03-19 22:11:44|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:11:45|2024-03-19 22:11:59|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:12:00|2024-03-19 22:12:07|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:12:08|2024-03-19 22:12:30|22
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:12:31|2024-03-19 22:12:42|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:12:43|2024-03-19 22:12:50|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:12:51|2024-03-19 22:13:01|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:13:02|2024-03-19 22:13:08|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:13:09|2024-03-19 22:13:18|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:13:19|2024-03-19 22:13:29|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:13:30|2024-03-19 22:13:44|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:13:45|2024-03-19 22:14:00|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:14:01|2024-03-19 22:14:12|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:14:13|2024-03-19 22:14:33|20
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:14:34|2024-03-19 22:14:51|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:14:52|2024-03-19 22:15:02|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:15:03|2024-03-19 22:15:10|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:15:11|2024-03-19 22:15:17|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:15:18|2024-03-19 22:15:22|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:15:23|2024-03-19 22:15:29|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:15:30|2024-03-19 22:15:34|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:15:35|2024-03-19 22:15:42|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:15:43|2024-03-19 22:15:49|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:15:50|2024-03-19 22:15:55|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:15:56|2024-03-19 22:16:01|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:16:02|2024-03-19 22:16:10|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:16:11|2024-03-19 22:16:15|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:16:16|2024-03-19 22:16:31|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:16:32|2024-03-19 22:16:42|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:16:43|2024-03-19 22:16:54|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:16:55|2024-03-19 22:17:03|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:17:04|2024-03-19 22:17:15|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:17:16|2024-03-19 22:17:27|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:17:28|2024-03-19 22:17:41|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:17:42|2024-03-19 22:17:46|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:17:47|2024-03-19 22:17:56|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:17:57|2024-03-19 22:18:09|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:18:10|2024-03-19 22:18:25|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:18:26|2024-03-19 22:18:43|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:18:44|2024-03-19 22:18:54|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:18:55|2024-03-19 22:19:03|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:19:04|2024-03-19 22:19:13|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:19:14|2024-03-19 22:19:23|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:19:24|2024-03-19 22:19:29|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:19:30|2024-03-19 22:19:39|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:19:40|2024-03-19 22:19:45|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:19:46|2024-03-19 22:19:53|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:19:54|2024-03-19 22:20:07|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:20:08|2024-03-19 22:20:18|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:20:19|2024-03-19 22:20:34|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:20:35|2024-03-19 22:20:44|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:20:45|2024-03-19 22:20:59|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:21:00|2024-03-19 22:21:29|29
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:21:30|2024-03-19 22:21:53|23
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:21:54|2024-03-19 22:22:04|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:22:05|2024-03-19 22:22:40|35
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:22:41|2024-03-19 22:22:47|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:22:48|2024-03-19 22:23:05|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:23:06|2024-03-19 22:23:22|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:23:23|2024-03-19 22:23:35|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:23:36|2024-03-19 22:23:59|23
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:24:00|2024-03-19 22:24:09|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:24:10|2024-03-19 22:24:21|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:24:22|2024-03-19 22:24:31|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:24:32|2024-03-19 22:24:38|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:24:39|2024-03-19 22:24:47|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:24:48|2024-03-19 22:25:06|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:25:07|2024-03-19 22:25:21|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:25:22|2024-03-19 22:25:31|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:25:32|2024-03-19 22:25:49|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:25:50|2024-03-19 22:26:02|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:26:03|2024-03-19 22:26:24|21
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:26:25|2024-03-19 22:26:31|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:26:32|2024-03-19 22:26:42|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:26:43|2024-03-19 22:26:56|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:26:57|2024-03-19 22:27:04|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:27:05|2024-03-19 22:27:13|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:27:14|2024-03-19 22:27:22|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:27:23|2024-03-19 22:27:26|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:27:27|2024-03-19 22:27:35|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:27:36|2024-03-19 22:27:46|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:27:47|2024-03-19 22:27:57|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:27:58|2024-03-19 22:28:10|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:28:11|2024-03-19 22:28:27|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:28:28|2024-03-19 22:28:36|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:28:37|2024-03-19 22:28:44|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:28:45|2024-03-19 22:29:09|24
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:29:10|2024-03-19 22:29:20|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:29:21|2024-03-19 22:29:32|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:29:33|2024-03-19 22:29:53|20
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:29:54|2024-03-19 22:30:02|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:30:03|2024-03-19 22:30:21|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:30:22|2024-03-19 22:31:07|45
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:31:08|2024-03-19 22:31:20|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:31:21|2024-03-19 22:31:29|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:31:30|2024-03-19 22:31:38|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:31:39|2024-03-19 22:31:52|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:31:53|2024-03-19 22:32:09|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:32:10|2024-03-19 22:32:14|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:32:15|2024-03-19 22:32:22|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:32:23|2024-03-19 22:32:28|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:32:29|2024-03-19 22:32:36|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:32:37|2024-03-19 22:32:44|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:32:45|2024-03-19 22:32:58|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:32:59|2024-03-19 22:33:13|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:33:14|2024-03-19 22:33:17|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:33:18|2024-03-19 22:33:24|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:33:25|2024-03-19 22:33:28|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:33:29|2024-03-19 22:33:33|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:33:34|2024-03-19 22:33:37|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:33:38|2024-03-19 22:33:51|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:33:52|2024-03-19 22:33:56|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:33:57|2024-03-19 22:34:01|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:34:02|2024-03-19 22:34:15|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:34:16|2024-03-19 22:34:24|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:34:25|2024-03-19 22:34:34|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:34:35|2024-03-19 22:34:36|1
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:34:38|2024-03-19 22:34:40|2
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:34:41|2024-03-19 22:34:42|1
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:34:43|2024-03-19 22:34:46|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:34:47|2024-03-19 22:34:52|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:34:53|2024-03-19 22:35:01|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:35:02|2024-03-19 22:35:36|34
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:35:37|2024-03-19 22:36:05|28
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:36:06|2024-03-19 22:36:27|21
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:36:28|2024-03-19 22:36:49|21
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:36:50|2024-03-19 22:37:06|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:37:07|2024-03-19 22:37:22|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:37:23|2024-03-19 22:37:42|19
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:37:43|2024-03-19 22:37:55|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:37:56|2024-03-19 22:38:15|19
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:38:16|2024-03-19 22:38:27|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:38:28|2024-03-19 22:38:45|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:38:46|2024-03-19 22:39:04|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:39:05|2024-03-19 22:39:08|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:39:09|2024-03-19 22:39:18|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:39:19|2024-03-19 22:39:29|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:39:30|2024-03-19 22:39:40|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:39:42|2024-03-19 22:39:48|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:39:49|2024-03-19 22:39:56|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:39:57|2024-03-19 22:40:07|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:40:08|2024-03-19 22:40:42|34
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:40:43|2024-03-19 22:41:08|25
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:41:09|2024-03-19 22:41:35|26
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:41:36|2024-03-19 22:41:51|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:41:52|2024-03-19 22:42:00|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:42:01|2024-03-19 22:42:10|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:42:11|2024-03-19 22:42:46|35
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:42:47|2024-03-19 22:42:52|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:42:53|2024-03-19 22:43:02|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:43:03|2024-03-19 22:43:07|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:43:08|2024-03-19 22:43:22|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:43:23|2024-03-19 22:43:29|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:43:30|2024-03-19 22:43:34|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:43:35|2024-03-19 22:43:43|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:43:44|2024-03-19 22:43:58|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:43:59|2024-03-19 22:44:21|22
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:44:22|2024-03-19 22:44:28|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:44:29|2024-03-19 22:44:34|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:44:35|2024-03-19 22:44:40|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:44:41|2024-03-19 22:44:47|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:44:48|2024-03-19 22:44:56|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:44:57|2024-03-19 22:45:05|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:45:06|2024-03-19 22:45:12|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:45:13|2024-03-19 22:45:21|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:45:22|2024-03-19 22:45:27|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:45:28|2024-03-19 22:45:35|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:45:36|2024-03-19 22:45:54|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:45:55|2024-03-19 22:46:11|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:46:12|2024-03-19 22:46:20|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:46:21|2024-03-19 22:46:34|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:46:35|2024-03-19 22:46:39|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:46:40|2024-03-19 22:46:49|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:46:50|2024-03-19 22:46:58|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:46:59|2024-03-19 22:47:06|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:47:07|2024-03-19 22:47:24|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:47:25|2024-03-19 22:47:31|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:47:32|2024-03-19 22:47:36|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:47:37|2024-03-19 22:47:44|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:47:45|2024-03-19 22:47:56|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:47:57|2024-03-19 22:48:13|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:48:14|2024-03-19 22:48:19|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:48:20|2024-03-19 22:48:26|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:48:27|2024-03-19 22:48:54|27
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:48:55|2024-03-19 22:49:02|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:49:03|2024-03-19 22:49:46|43
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:49:47|2024-03-19 22:50:46|59
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:50:47|2024-03-19 22:51:02|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:51:03|2024-03-19 22:51:18|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:51:19|2024-03-19 22:51:31|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:51:32|2024-03-19 22:51:44|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:51:45|2024-03-19 22:51:57|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:51:58|2024-03-19 22:52:03|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:52:04|2024-03-19 22:52:25|21
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:52:26|2024-03-19 22:52:32|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:52:33|2024-03-19 22:52:45|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:52:46|2024-03-19 22:52:57|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:52:58|2024-03-19 22:53:00|2
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:53:01|2024-03-19 22:53:09|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:53:10|2024-03-19 22:53:18|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:53:19|2024-03-19 22:53:22|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:53:23|2024-03-19 22:53:29|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:53:30|2024-03-19 22:53:55|25
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:53:56|2024-03-19 22:53:57|1
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:53:58|2024-03-19 22:54:03|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:54:04|2024-03-19 22:54:08|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:54:09|2024-03-19 22:54:14|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:54:15|2024-03-19 22:54:20|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:54:21|2024-03-19 22:54:27|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:54:28|2024-03-19 22:54:39|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:54:40|2024-03-19 22:54:50|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:54:51|2024-03-19 22:54:59|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:55:00|2024-03-19 22:55:21|21
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:55:22|2024-03-19 22:55:39|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:55:40|2024-03-19 22:56:03|23
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:56:04|2024-03-19 22:56:16|12
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:56:17|2024-03-19 22:56:23|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:56:24|2024-03-19 22:56:30|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:56:31|2024-03-19 22:56:39|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:56:40|2024-03-19 22:56:49|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:56:50|2024-03-19 22:56:59|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:57:00|2024-03-19 22:57:09|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:57:10|2024-03-19 22:57:18|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:57:19|2024-03-19 22:57:29|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:57:30|2024-03-19 22:57:38|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:57:39|2024-03-19 22:57:45|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:57:46|2024-03-19 22:58:28|42
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:58:29|2024-03-19 22:58:37|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:58:38|2024-03-19 22:58:49|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:58:50|2024-03-19 22:59:20|30
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:59:21|2024-03-19 22:59:32|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:59:33|2024-03-19 22:59:42|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 22:59:43|2024-03-19 23:00:02|19
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:00:03|2024-03-19 23:00:10|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:00:11|2024-03-19 23:00:35|24
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:00:36|2024-03-19 23:00:44|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:00:45|2024-03-19 23:01:18|33
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:01:19|2024-03-19 23:01:28|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:01:29|2024-03-19 23:01:36|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:01:37|2024-03-19 23:01:44|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:01:45|2024-03-19 23:01:50|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:01:51|2024-03-19 23:01:55|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:01:56|2024-03-19 23:02:04|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:02:05|2024-03-19 23:02:08|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:02:09|2024-03-19 23:02:14|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:02:15|2024-03-19 23:02:22|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:02:23|2024-03-19 23:02:29|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:02:30|2024-03-19 23:02:38|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:02:39|2024-03-19 23:02:52|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:02:53|2024-03-19 23:03:00|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:03:01|2024-03-19 23:03:07|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:03:08|2024-03-19 23:03:14|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:03:15|2024-03-19 23:03:21|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:03:22|2024-03-19 23:03:26|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:03:27|2024-03-19 23:03:32|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:03:33|2024-03-19 23:03:38|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:03:39|2024-03-19 23:03:42|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:03:43|2024-03-19 23:03:45|2
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:03:46|2024-03-19 23:03:49|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:03:50|2024-03-19 23:03:54|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:03:55|2024-03-19 23:03:59|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:04:00|2024-03-19 23:04:06|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:04:07|2024-03-19 23:04:10|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:04:11|2024-03-19 23:04:17|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:04:18|2024-03-19 23:04:23|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:04:24|2024-03-19 23:04:30|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:04:31|2024-03-19 23:04:38|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:04:39|2024-03-19 23:04:44|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:04:45|2024-03-19 23:04:52|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:04:53|2024-03-19 23:05:00|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:05:01|2024-03-19 23:05:08|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:05:09|2024-03-19 23:05:26|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:05:27|2024-03-19 23:05:44|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:05:45|2024-03-19 23:05:59|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:06:00|2024-03-19 23:06:13|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:06:14|2024-03-19 23:06:28|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:06:29|2024-03-19 23:07:03|34
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:07:04|2024-03-19 23:07:19|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:07:20|2024-03-19 23:07:34|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:07:35|2024-03-19 23:07:50|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:07:51|2024-03-19 23:08:06|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:08:07|2024-03-19 23:08:12|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:08:13|2024-03-19 23:08:18|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:08:19|2024-03-19 23:08:25|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:08:26|2024-03-19 23:08:31|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:08:32|2024-03-19 23:08:36|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:08:37|2024-03-19 23:08:47|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:08:48|2024-03-19 23:08:51|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:08:52|2024-03-19 23:08:55|3
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:08:56|2024-03-19 23:09:01|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:09:02|2024-03-19 23:09:21|19
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:09:22|2024-03-19 23:09:29|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:09:30|2024-03-19 23:09:39|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:09:40|2024-03-19 23:09:58|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:09:59|2024-03-19 23:10:13|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:10:14|2024-03-19 23:10:27|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:10:28|2024-03-19 23:10:41|13
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:10:42|2024-03-19 23:10:59|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:11:00|2024-03-19 23:11:06|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:11:07|2024-03-19 23:11:22|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:11:23|2024-03-19 23:11:34|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:11:35|2024-03-19 23:11:43|8
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:11:44|2024-03-19 23:11:49|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:11:50|2024-03-19 23:12:00|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:12:01|2024-03-19 23:12:16|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:12:17|2024-03-19 23:12:34|17
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:12:35|2024-03-19 23:12:49|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:12:50|2024-03-19 23:12:54|4
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:12:55|2024-03-19 23:13:18|23
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:13:19|2024-03-19 23:13:34|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:13:35|2024-03-19 23:13:45|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:13:46|2024-03-19 23:13:53|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:13:54|2024-03-19 23:14:12|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:14:13|2024-03-19 23:14:24|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:14:25|2024-03-19 23:14:35|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:14:36|2024-03-19 23:14:46|10
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:14:47|2024-03-19 23:14:54|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:14:55|2024-03-19 23:15:06|11
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:15:07|2024-03-19 23:15:14|7
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:15:15|2024-03-19 23:15:29|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:15:30|2024-03-19 23:15:45|15
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:15:46|2024-03-19 23:15:55|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:15:56|2024-03-19 23:16:12|16
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:16:13|2024-03-19 23:16:27|14
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:16:28|2024-03-19 23:16:55|27
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:16:56|2024-03-19 23:17:02|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:17:03|2024-03-19 23:17:12|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:17:13|2024-03-19 23:17:22|9
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:17:23|2024-03-19 23:17:28|5
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:17:29|2024-03-19 23:17:47|18
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:17:48|2024-03-19 23:17:54|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;
+select.04.public.customer_uncomp.sh|2024-03-19 23:17:55|2024-03-19 23:18:01|6
+select * from  public.customer_uncomp 
+where c_customer_sk = 27189340;

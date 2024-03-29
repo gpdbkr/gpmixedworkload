@@ -1,0 +1,3 @@
+create table public.catalog_sales_uncomp1 as select * from tpcds.catalog_sales distributed randomly;
+SELECT 4320024860
+create.12.public.catalog_sales_uncomp1.sh|2024-03-19 20:52:30|2024-03-19 21:11:13|1123

@@ -1,0 +1,4065 @@
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:18:04|2024-03-19 21:18:49|45
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:18:50|2024-03-19 21:22:29|219
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:22:30|2024-03-19 21:23:21|51
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:23:22|2024-03-19 21:24:09|47
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:24:10|2024-03-19 21:25:00|50
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:25:01|2024-03-19 21:25:36|35
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:25:37|2024-03-19 21:26:09|32
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:26:10|2024-03-19 21:26:59|49
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:27:00|2024-03-19 21:28:23|83
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:28:24|2024-03-19 21:29:15|51
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:29:16|2024-03-19 21:30:41|85
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:30:42|2024-03-19 21:31:18|36
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:31:19|2024-03-19 21:32:28|69
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:32:29|2024-03-19 21:32:54|25
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:32:55|2024-03-19 21:33:30|35
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:33:31|2024-03-19 21:35:05|94
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:35:06|2024-03-19 21:36:04|58
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:36:05|2024-03-19 21:36:54|49
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:36:55|2024-03-19 21:37:47|52
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:37:48|2024-03-19 21:38:32|44
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:38:33|2024-03-19 21:39:59|86
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:40:00|2024-03-19 21:41:10|70
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:41:11|2024-03-19 21:42:17|66
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:42:18|2024-03-19 21:45:15|177
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:45:16|2024-03-19 21:46:43|87
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:46:44|2024-03-19 21:47:47|63
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:47:48|2024-03-19 21:48:40|52
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:48:41|2024-03-19 21:49:21|40
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:49:22|2024-03-19 21:49:58|36
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:49:59|2024-03-19 21:50:51|52
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:50:52|2024-03-19 21:51:49|57
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:51:50|2024-03-19 21:54:40|170
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:54:41|2024-03-19 21:55:16|35
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:55:17|2024-03-19 21:56:02|45
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:56:03|2024-03-19 21:56:38|35
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:56:39|2024-03-19 21:57:35|56
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:57:36|2024-03-19 21:59:13|97
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 21:59:14|2024-03-19 22:00:36|82
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:00:37|2024-03-19 22:01:04|27
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:01:05|2024-03-19 22:02:15|70
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:02:16|2024-03-19 22:02:55|39
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:02:56|2024-03-19 22:04:04|68
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:04:05|2024-03-19 22:06:16|131
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:06:17|2024-03-19 22:07:16|59
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:07:17|2024-03-19 22:07:48|31
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:07:49|2024-03-19 22:08:23|34
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:08:24|2024-03-19 22:08:55|31
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:08:56|2024-03-19 22:09:37|41
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:09:38|2024-03-19 22:10:16|38
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:10:17|2024-03-19 22:10:47|30
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:10:48|2024-03-19 22:11:42|54
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:11:43|2024-03-19 22:12:45|62
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:12:46|2024-03-19 22:13:37|51
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:13:38|2024-03-19 22:14:41|63
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:14:42|2024-03-19 22:15:49|67
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:15:50|2024-03-19 22:16:23|33
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:16:24|2024-03-19 22:17:03|39
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:17:04|2024-03-19 22:17:55|51
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:17:56|2024-03-19 22:18:49|53
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:18:50|2024-03-19 22:19:25|35
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:19:26|2024-03-19 22:20:07|41
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:20:08|2024-03-19 22:21:23|75
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:21:24|2024-03-19 22:22:31|67
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:22:32|2024-03-19 22:23:26|54
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:23:27|2024-03-19 22:24:36|69
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:24:37|2024-03-19 22:25:19|42
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:25:20|2024-03-19 22:26:05|45
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:26:06|2024-03-19 22:26:52|46
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:26:53|2024-03-19 22:27:22|29
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:27:23|2024-03-19 22:27:33|10
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:27:34|2024-03-19 22:28:40|66
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:28:41|2024-03-19 22:30:02|81
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:30:03|2024-03-19 22:31:10|67
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:31:11|2024-03-19 22:32:08|57
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:32:09|2024-03-19 22:32:46|37
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:32:47|2024-03-19 22:33:14|27
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:33:15|2024-03-19 22:33:55|40
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:33:56|2024-03-19 22:34:22|26
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:34:23|2024-03-19 22:34:37|14
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:34:38|2024-03-19 22:35:01|23
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:35:02|2024-03-19 22:35:48|46
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:35:49|2024-03-19 22:38:12|143
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:38:13|2024-03-19 22:38:46|33
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:38:47|2024-03-19 22:40:04|77
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:40:05|2024-03-19 22:41:26|81
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:41:27|2024-03-19 22:42:26|59
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:42:27|2024-03-19 22:44:05|98
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:44:06|2024-03-19 22:44:59|53
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:45:00|2024-03-19 22:45:32|32
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:45:33|2024-03-19 22:46:21|48
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:46:22|2024-03-19 22:46:59|37
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:47:00|2024-03-19 22:47:48|48
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:47:49|2024-03-19 22:48:37|48
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:48:38|2024-03-19 22:49:21|43
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:49:22|2024-03-19 22:51:09|107
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:51:10|2024-03-19 22:52:19|69
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:52:20|2024-03-19 22:53:22|62
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:53:23|2024-03-19 22:53:59|36
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:54:00|2024-03-19 22:55:41|101
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:55:42|2024-03-19 22:56:40|58
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:56:41|2024-03-19 22:57:35|54
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:57:36|2024-03-19 22:58:34|58
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 22:58:35|2024-03-19 23:00:02|87
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:00:03|2024-03-19 23:00:43|40
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:00:44|2024-03-19 23:01:53|69
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:01:54|2024-03-19 23:02:12|18
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:02:13|2024-03-19 23:02:35|22
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:02:36|2024-03-19 23:03:21|45
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:03:22|2024-03-19 23:03:40|18
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:03:41|2024-03-19 23:04:01|20
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:04:02|2024-03-19 23:04:46|44
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:04:47|2024-03-19 23:07:04|137
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:07:05|2024-03-19 23:08:21|76
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:08:22|2024-03-19 23:08:58|36
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:08:59|2024-03-19 23:09:28|29
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:09:29|2024-03-19 23:10:56|87
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:10:57|2024-03-19 23:11:18|21
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:11:19|2024-03-19 23:11:50|31
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:11:51|2024-03-19 23:12:26|35
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:12:27|2024-03-19 23:13:24|57
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:13:25|2024-03-19 23:14:07|42
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:14:08|2024-03-19 23:14:52|44
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:14:53|2024-03-19 23:15:30|37
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:15:31|2024-03-19 23:16:15|44
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:16:16|2024-03-19 23:17:19|63
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+tpcds.12.sh|2024-03-19 23:17:20|2024-03-19 23:17:54|34
+select  i_item_id
+      ,i_item_desc
+      ,i_category
+      ,i_class
+      ,i_current_price
+      ,sum(ws_ext_sales_price) as itemrevenue
+      ,sum(ws_ext_sales_price)*100/sum(sum(ws_ext_sales_price)) over
+          (partition by i_class) as revenueratio
+from
+web_sales
+    	,item
+    	,date_dim
+where
+ws_item_sk = i_item_sk
+  	and i_category in ('Shoes', 'Children', 'Books')
+  	and ws_sold_date_sk = d_date_sk
+and d_date between cast('1999-02-14' as date)
+and (cast('1999-02-14' as date) + '30 days'::interval)
+group by
+i_item_id
+        ,i_item_desc
+        ,i_category
+        ,i_class
+        ,i_current_price
+order by
+i_category
+        ,i_class
+        ,i_item_id
+        ,i_item_desc
+        ,revenueratio
+limit 100;
+ERROR:  canceling statement due to user request
+tpcds.12.sh|2024-03-19 23:17:55|2024-03-19 23:18:10|15

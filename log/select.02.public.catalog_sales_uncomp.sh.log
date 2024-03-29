@@ -1,0 +1,75 @@
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 21:18:04|2024-03-19 21:23:11|307
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 21:23:12|2024-03-19 21:27:52|280
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 21:27:53|2024-03-19 21:32:42|289
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 21:32:43|2024-03-19 21:37:47|304
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 21:37:48|2024-03-19 21:42:24|276
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 21:42:25|2024-03-19 21:47:25|300
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 21:47:26|2024-03-19 21:52:10|284
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 21:52:11|2024-03-19 21:56:41|270
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 21:56:42|2024-03-19 22:01:32|290
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:01:33|2024-03-19 22:04:53|200
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:04:54|2024-03-19 22:10:15|321
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:10:16|2024-03-19 22:14:38|262
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:14:39|2024-03-19 22:20:03|324
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:20:04|2024-03-19 22:24:47|283
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:24:48|2024-03-19 22:29:11|263
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:29:12|2024-03-19 22:34:50|338
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:34:51|2024-03-19 22:39:17|266
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:39:18|2024-03-19 22:44:59|341
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:45:00|2024-03-19 22:49:00|240
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:49:01|2024-03-19 22:54:20|319
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:54:21|2024-03-19 22:58:57|276
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 22:58:58|2024-03-19 23:04:38|340
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 23:04:39|2024-03-19 23:09:52|313
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+select.02.public.catalog_sales_uncomp.sh|2024-03-19 23:09:53|2024-03-19 23:14:04|251
+select * from  public.catalog_sales_uncomp 
+where cs_sold_date_sk = 2451060;
+ERROR:  canceling statement due to user request

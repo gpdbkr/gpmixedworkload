@@ -1,0 +1,581 @@
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 21:18:04|2024-03-19 21:25:14|430
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 21:25:15|2024-03-19 21:30:58|343
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 21:30:59|2024-03-19 21:36:42|343
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 21:36:43|2024-03-19 21:42:48|365
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 21:42:49|2024-03-19 21:48:55|366
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 21:48:56|2024-03-19 21:54:16|320
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 21:54:17|2024-03-19 22:01:03|406
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 22:01:04|2024-03-19 22:07:45|401
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 22:07:46|2024-03-19 22:12:37|291
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 22:12:38|2024-03-19 22:19:10|392
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 22:19:11|2024-03-19 22:25:49|398
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 22:25:50|2024-03-19 22:30:01|251
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 22:30:02|2024-03-19 22:36:40|398
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 22:36:41|2024-03-19 22:44:26|465
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 22:44:27|2024-03-19 22:49:20|293
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 22:49:21|2024-03-19 22:55:38|377
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 22:55:39|2024-03-19 23:02:56|437
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 23:02:57|2024-03-19 23:08:18|321
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+tpcds.36.sh|2024-03-19 23:08:19|2024-03-19 23:11:52|213
+select * from (select
+    sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
+   ,i_category
+   ,i_class
+   ,grouping(i_category)+grouping(i_class) as lochierarchy
+   ,rank() over (
+ 	partition by grouping(i_category)+grouping(i_class),
+ 	case when grouping(i_class) = 0 then i_category end
+ 	order by sum(ss_net_profit)/sum(ss_ext_sales_price) asc) as rank_within_parent
+ from
+    store_sales
+   ,date_dim       d1
+   ,item
+   ,store
+ where
+    d1.d_year = 1998
+ and d1.d_date_sk = ss_sold_date_sk
+ and i_item_sk  = ss_item_sk
+ and s_store_sk  = ss_store_sk
+ and s_state in ('IL','GA','WA','AL',
+                 'PA','GA','MN','MI')
+ group by rollup(i_category,i_class)
+) as sub
+ order by
+   lochierarchy desc
+  ,case when lochierarchy = 0 then i_category end
+  ,rank_within_parent
+  limit 100;
+ERROR:  canceling statement due to user request
+tpcds.36.sh|2024-03-19 23:11:53|2024-03-19 23:18:11|378

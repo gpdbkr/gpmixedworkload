@@ -1,0 +1,1621 @@
+drop table if exists public.load_reason;
+NOTICE:  table "load_reason" does not exist, skipping
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:18:04|2024-03-19 21:18:27|23
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:18:28|2024-03-19 21:18:47|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:18:48|2024-03-19 21:19:26|38
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:19:27|2024-03-19 21:19:56|29
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:19:57|2024-03-19 21:20:41|44
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:20:42|2024-03-19 21:21:30|48
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:21:31|2024-03-19 21:22:07|36
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:22:08|2024-03-19 21:22:40|32
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:22:41|2024-03-19 21:23:01|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:23:02|2024-03-19 21:23:28|26
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:23:29|2024-03-19 21:23:53|24
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:23:54|2024-03-19 21:24:36|42
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:24:37|2024-03-19 21:24:53|16
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:24:54|2024-03-19 21:25:13|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:25:14|2024-03-19 21:25:26|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:25:27|2024-03-19 21:25:41|14
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:25:42|2024-03-19 21:25:51|9
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:25:52|2024-03-19 21:26:23|31
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:26:24|2024-03-19 21:26:36|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:26:37|2024-03-19 21:26:51|14
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:26:52|2024-03-19 21:27:34|42
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:27:35|2024-03-19 21:28:05|30
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:28:06|2024-03-19 21:28:36|30
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:28:37|2024-03-19 21:28:58|21
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:29:00|2024-03-19 21:29:46|46
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:29:47|2024-03-19 21:30:09|22
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:30:10|2024-03-19 21:30:49|39
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:30:50|2024-03-19 21:31:25|35
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:31:26|2024-03-19 21:31:34|8
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:31:35|2024-03-19 21:31:48|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:31:50|2024-03-19 21:32:14|24
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:32:15|2024-03-19 21:32:29|14
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:32:30|2024-03-19 21:32:49|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:32:50|2024-03-19 21:32:58|8
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:32:59|2024-03-19 21:33:13|14
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:33:14|2024-03-19 21:33:45|31
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:33:46|2024-03-19 21:34:15|29
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:34:16|2024-03-19 21:34:59|43
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:35:00|2024-03-19 21:35:23|23
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:35:24|2024-03-19 21:36:08|44
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:36:09|2024-03-19 21:36:24|15
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:36:25|2024-03-19 21:36:57|32
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:36:58|2024-03-19 21:37:25|27
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:37:26|2024-03-19 21:37:41|15
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:37:42|2024-03-19 21:38:04|22
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:38:05|2024-03-19 21:38:48|43
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:38:49|2024-03-19 21:39:24|35
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:39:25|2024-03-19 21:39:58|33
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:39:59|2024-03-19 21:40:35|36
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:40:36|2024-03-19 21:40:52|16
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:40:53|2024-03-19 21:41:28|35
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:41:29|2024-03-19 21:41:54|25
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:41:55|2024-03-19 21:42:06|11
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:42:07|2024-03-19 21:42:14|7
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:42:15|2024-03-19 21:42:26|11
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:42:27|2024-03-19 21:42:35|8
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:42:36|2024-03-19 21:42:46|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:42:47|2024-03-19 21:43:10|23
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:43:11|2024-03-19 21:43:53|42
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:43:54|2024-03-19 21:44:28|34
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:44:29|2024-03-19 21:44:59|30
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:45:00|2024-03-19 21:45:26|26
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:45:27|2024-03-19 21:45:54|27
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:45:55|2024-03-19 21:46:15|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:46:16|2024-03-19 21:46:30|14
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:46:31|2024-03-19 21:46:43|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:46:44|2024-03-19 21:46:51|7
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:46:52|2024-03-19 21:47:04|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:47:05|2024-03-19 21:47:13|8
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:47:14|2024-03-19 21:47:22|8
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:47:23|2024-03-19 21:47:35|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:47:36|2024-03-19 21:48:00|24
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:48:01|2024-03-19 21:48:42|41
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:48:43|2024-03-19 21:48:57|14
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:48:58|2024-03-19 21:49:12|14
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:49:13|2024-03-19 21:49:20|7
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:49:21|2024-03-19 21:49:36|15
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:49:37|2024-03-19 21:49:51|14
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:49:52|2024-03-19 21:50:05|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:50:06|2024-03-19 21:50:33|27
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:50:34|2024-03-19 21:50:51|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:50:52|2024-03-19 21:51:09|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:51:10|2024-03-19 21:51:26|16
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:51:27|2024-03-19 21:51:33|6
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:51:34|2024-03-19 21:51:43|9
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:51:44|2024-03-19 21:51:52|8
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:51:53|2024-03-19 21:52:08|15
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:52:09|2024-03-19 21:52:40|31
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:52:41|2024-03-19 21:53:09|28
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:53:10|2024-03-19 21:53:41|31
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:53:42|2024-03-19 21:54:13|31
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:54:14|2024-03-19 21:54:34|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:54:35|2024-03-19 21:54:48|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:54:49|2024-03-19 21:55:04|15
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:55:05|2024-03-19 21:55:20|15
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:55:21|2024-03-19 21:55:33|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:55:34|2024-03-19 21:55:50|16
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:55:51|2024-03-19 21:56:01|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:56:02|2024-03-19 21:56:25|23
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:56:26|2024-03-19 21:56:51|25
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:56:52|2024-03-19 21:57:32|40
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:57:33|2024-03-19 21:58:23|50
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:58:24|2024-03-19 21:58:58|34
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:58:59|2024-03-19 21:59:45|46
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 21:59:46|2024-03-19 22:00:28|42
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:00:29|2024-03-19 22:00:46|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:00:47|2024-03-19 22:01:14|27
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:01:15|2024-03-19 22:01:51|36
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:01:52|2024-03-19 22:02:15|23
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:02:16|2024-03-19 22:02:33|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:02:34|2024-03-19 22:02:59|25
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:03:00|2024-03-19 22:03:23|23
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:03:24|2024-03-19 22:03:45|21
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:03:46|2024-03-19 22:04:21|35
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:04:22|2024-03-19 22:04:41|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:04:42|2024-03-19 22:04:54|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:04:55|2024-03-19 22:05:19|24
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:05:20|2024-03-19 22:06:13|53
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:06:14|2024-03-19 22:06:37|23
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:06:38|2024-03-19 22:07:10|32
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:07:11|2024-03-19 22:07:23|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:07:24|2024-03-19 22:07:42|18
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:07:43|2024-03-19 22:07:56|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:07:57|2024-03-19 22:08:16|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:08:17|2024-03-19 22:08:36|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:08:37|2024-03-19 22:08:51|14
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:08:52|2024-03-19 22:09:05|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:09:06|2024-03-19 22:09:14|8
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:09:15|2024-03-19 22:09:32|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:09:33|2024-03-19 22:09:46|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:09:47|2024-03-19 22:09:54|7
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:09:55|2024-03-19 22:10:02|7
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:10:03|2024-03-19 22:10:20|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:10:21|2024-03-19 22:10:39|18
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:10:40|2024-03-19 22:11:12|32
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:11:13|2024-03-19 22:11:24|11
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:11:25|2024-03-19 22:11:35|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:11:36|2024-03-19 22:12:03|27
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:12:04|2024-03-19 22:12:34|30
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:12:35|2024-03-19 22:13:00|25
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:13:01|2024-03-19 22:13:26|25
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:13:27|2024-03-19 22:14:01|34
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:14:02|2024-03-19 22:14:33|31
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:14:34|2024-03-19 22:14:52|18
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:14:53|2024-03-19 22:15:17|24
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:15:18|2024-03-19 22:15:28|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:15:29|2024-03-19 22:15:39|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:15:40|2024-03-19 22:15:53|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:15:54|2024-03-19 22:16:15|21
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:16:16|2024-03-19 22:16:38|22
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:16:39|2024-03-19 22:16:55|16
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:16:56|2024-03-19 22:17:19|23
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:17:20|2024-03-19 22:17:40|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:17:41|2024-03-19 22:18:03|22
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:18:04|2024-03-19 22:18:21|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:18:22|2024-03-19 22:18:42|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:18:43|2024-03-19 22:18:56|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:18:57|2024-03-19 22:19:13|16
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:19:14|2024-03-19 22:19:28|14
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:19:29|2024-03-19 22:19:48|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:19:49|2024-03-19 22:20:06|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:20:07|2024-03-19 22:20:28|21
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:20:29|2024-03-19 22:20:48|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:20:50|2024-03-19 22:21:26|36
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:21:27|2024-03-19 22:22:03|36
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:22:04|2024-03-19 22:22:25|21
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:22:26|2024-03-19 22:22:45|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:22:46|2024-03-19 22:23:05|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:23:06|2024-03-19 22:23:31|25
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:23:32|2024-03-19 22:24:06|34
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:24:07|2024-03-19 22:24:29|22
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:24:30|2024-03-19 22:24:43|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:24:44|2024-03-19 22:24:55|11
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:24:56|2024-03-19 22:25:32|36
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:25:33|2024-03-19 22:26:05|32
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:26:06|2024-03-19 22:26:32|26
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:26:33|2024-03-19 22:26:51|18
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:26:52|2024-03-19 22:27:05|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:27:06|2024-03-19 22:27:24|18
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:27:25|2024-03-19 22:27:41|16
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:27:42|2024-03-19 22:27:59|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:28:00|2024-03-19 22:28:33|33
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:28:34|2024-03-19 22:28:52|18
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:28:53|2024-03-19 22:29:12|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:29:13|2024-03-19 22:29:41|28
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:29:42|2024-03-19 22:30:02|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:30:03|2024-03-19 22:30:19|16
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:30:20|2024-03-19 22:31:27|67
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:31:28|2024-03-19 22:31:40|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:31:41|2024-03-19 22:32:06|25
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:32:07|2024-03-19 22:32:17|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:32:18|2024-03-19 22:32:31|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:32:32|2024-03-19 22:32:44|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:32:45|2024-03-19 22:32:55|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:32:56|2024-03-19 22:33:17|21
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:33:18|2024-03-19 22:33:27|9
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:33:28|2024-03-19 22:33:34|6
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:33:35|2024-03-19 22:33:50|15
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:33:51|2024-03-19 22:33:58|7
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:33:59|2024-03-19 22:34:19|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:34:20|2024-03-19 22:34:33|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:34:34|2024-03-19 22:34:40|6
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:34:41|2024-03-19 22:34:49|8
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:34:50|2024-03-19 22:35:10|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:35:11|2024-03-19 22:35:41|30
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:35:42|2024-03-19 22:36:16|34
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:36:17|2024-03-19 22:36:37|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:36:38|2024-03-19 22:37:05|27
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:37:06|2024-03-19 22:37:35|29
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:37:36|2024-03-19 22:38:05|29
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:38:06|2024-03-19 22:38:25|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:38:26|2024-03-19 22:38:46|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:38:47|2024-03-19 22:39:16|29
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:39:17|2024-03-19 22:39:30|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:39:31|2024-03-19 22:39:48|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:39:49|2024-03-19 22:40:01|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:40:02|2024-03-19 22:40:18|16
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:40:19|2024-03-19 22:41:15|56
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:41:16|2024-03-19 22:41:52|36
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:41:53|2024-03-19 22:42:09|16
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:42:10|2024-03-19 22:42:53|43
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:42:54|2024-03-19 22:43:18|24
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:43:19|2024-03-19 22:43:33|14
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:43:34|2024-03-19 22:44:01|27
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:44:02|2024-03-19 22:44:28|26
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:44:29|2024-03-19 22:44:42|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:44:44|2024-03-19 22:44:57|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:44:58|2024-03-19 22:45:11|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:45:12|2024-03-19 22:45:28|16
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:45:29|2024-03-19 22:46:00|31
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:46:02|2024-03-19 22:46:15|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:46:16|2024-03-19 22:46:36|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:46:37|2024-03-19 22:46:49|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:46:50|2024-03-19 22:47:02|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:47:03|2024-03-19 22:47:20|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:47:21|2024-03-19 22:47:34|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:47:35|2024-03-19 22:47:46|11
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:47:47|2024-03-19 22:48:05|18
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:48:06|2024-03-19 22:48:19|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:48:20|2024-03-19 22:48:46|26
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:48:47|2024-03-19 22:49:26|39
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:49:27|2024-03-19 22:50:19|52
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:50:20|2024-03-19 22:50:55|35
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:50:56|2024-03-19 22:51:28|32
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:51:29|2024-03-19 22:51:53|24
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:51:54|2024-03-19 22:52:13|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:52:14|2024-03-19 22:52:33|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:52:34|2024-03-19 22:52:54|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:52:55|2024-03-19 22:53:00|5
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:53:01|2024-03-19 22:53:07|6
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:53:08|2024-03-19 22:53:16|8
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:53:17|2024-03-19 22:53:25|8
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:53:26|2024-03-19 22:53:44|18
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:53:45|2024-03-19 22:54:08|23
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:54:09|2024-03-19 22:54:19|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:54:20|2024-03-19 22:54:31|11
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:54:32|2024-03-19 22:55:01|29
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:55:02|2024-03-19 22:55:33|31
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:55:34|2024-03-19 22:55:55|21
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:55:56|2024-03-19 22:56:24|28
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:56:25|2024-03-19 22:56:44|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:56:45|2024-03-19 22:57:06|21
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:57:07|2024-03-19 22:57:33|26
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:57:34|2024-03-19 22:58:03|29
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:58:04|2024-03-19 22:58:39|35
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:58:40|2024-03-19 22:59:15|35
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:59:16|2024-03-19 22:59:36|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 22:59:37|2024-03-19 23:00:08|31
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:00:09|2024-03-19 23:00:45|36
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:00:46|2024-03-19 23:01:28|42
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:01:29|2024-03-19 23:01:44|15
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:01:45|2024-03-19 23:01:54|9
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:01:55|2024-03-19 23:02:01|6
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:02:02|2024-03-19 23:02:14|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:02:15|2024-03-19 23:02:27|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:02:28|2024-03-19 23:02:43|15
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:02:44|2024-03-19 23:03:03|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:03:04|2024-03-19 23:03:14|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:03:15|2024-03-19 23:03:24|9
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:03:25|2024-03-19 23:03:32|7
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:03:33|2024-03-19 23:03:38|5
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:03:39|2024-03-19 23:03:45|6
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:03:46|2024-03-19 23:03:55|9
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:03:56|2024-03-19 23:04:06|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:04:07|2024-03-19 23:04:19|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:04:20|2024-03-19 23:04:30|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:04:31|2024-03-19 23:04:40|9
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:04:41|2024-03-19 23:04:51|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:04:52|2024-03-19 23:05:12|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:05:13|2024-03-19 23:05:42|29
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:05:43|2024-03-19 23:06:07|24
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:06:08|2024-03-19 23:06:47|39
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:06:48|2024-03-19 23:07:21|33
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:07:22|2024-03-19 23:07:56|34
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:07:57|2024-03-19 23:08:19|22
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:08:20|2024-03-19 23:08:31|11
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:08:32|2024-03-19 23:08:43|11
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:08:44|2024-03-19 23:08:52|8
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:08:53|2024-03-19 23:08:58|5
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:08:59|2024-03-19 23:09:10|11
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:09:11|2024-03-19 23:09:35|24
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:09:36|2024-03-19 23:09:55|19
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:09:56|2024-03-19 23:10:25|29
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:10:26|2024-03-19 23:11:04|38
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:11:05|2024-03-19 23:11:29|24
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:11:30|2024-03-19 23:11:37|7
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:11:38|2024-03-19 23:11:53|15
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:11:54|2024-03-19 23:12:18|24
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:12:19|2024-03-19 23:12:41|22
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:12:42|2024-03-19 23:12:55|13
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:12:56|2024-03-19 23:13:24|28
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:13:25|2024-03-19 23:13:42|17
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:13:43|2024-03-19 23:13:55|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:13:56|2024-03-19 23:14:24|28
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:14:25|2024-03-19 23:14:53|28
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:14:54|2024-03-19 23:15:32|38
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:15:33|2024-03-19 23:15:53|20
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:15:54|2024-03-19 23:16:27|33
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:16:28|2024-03-19 23:16:58|30
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:16:59|2024-03-19 23:17:11|12
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:17:12|2024-03-19 23:17:22|10
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:17:23|2024-03-19 23:17:50|27
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+SELECT 67
+load.14.public.load_reason.sh|2024-03-19 23:17:51|2024-03-19 23:17:58|7
+drop table if exists public.load_reason;
+DROP TABLE
+create table public.load_reason as select * from tpcds.reason distributed randomly;
+ERROR:  canceling statement due to user request
+load.14.public.load_reason.sh|2024-03-19 23:17:59|2024-03-19 23:18:10|11

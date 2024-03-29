@@ -1,0 +1,1441 @@
+drop table if exists public.load_customer_demographics;
+NOTICE:  table "load_customer_demographics" does not exist, skipping
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:18:04|2024-03-19 21:18:27|23
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:18:28|2024-03-19 21:19:01|33
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:19:02|2024-03-19 21:19:39|37
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:19:40|2024-03-19 21:20:04|24
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:20:05|2024-03-19 21:21:13|68
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:21:14|2024-03-19 21:21:51|37
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:21:52|2024-03-19 21:22:45|53
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:22:46|2024-03-19 21:23:17|31
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:23:18|2024-03-19 21:23:40|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:23:41|2024-03-19 21:24:08|27
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:24:09|2024-03-19 21:24:38|29
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:24:39|2024-03-19 21:25:04|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:25:05|2024-03-19 21:25:16|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:25:17|2024-03-19 21:25:35|18
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:25:36|2024-03-19 21:25:49|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:25:50|2024-03-19 21:26:07|17
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:26:08|2024-03-19 21:26:36|28
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:26:37|2024-03-19 21:26:52|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:26:53|2024-03-19 21:27:41|48
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:27:42|2024-03-19 21:28:11|29
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:28:12|2024-03-19 21:28:37|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:28:38|2024-03-19 21:29:03|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:29:04|2024-03-19 21:29:46|42
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:29:47|2024-03-19 21:30:09|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:30:10|2024-03-19 21:30:49|39
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:30:50|2024-03-19 21:31:25|35
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:31:26|2024-03-19 21:31:36|10
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:31:37|2024-03-19 21:31:49|12
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:31:50|2024-03-19 21:32:25|35
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:32:26|2024-03-19 21:32:37|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:32:38|2024-03-19 21:32:57|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:32:58|2024-03-19 21:33:16|18
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:33:17|2024-03-19 21:33:59|42
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:34:00|2024-03-19 21:34:44|44
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:34:45|2024-03-19 21:35:03|18
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:35:04|2024-03-19 21:35:52|48
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:35:53|2024-03-19 21:36:16|23
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:36:17|2024-03-19 21:36:51|34
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:36:52|2024-03-19 21:37:12|20
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:37:13|2024-03-19 21:37:41|28
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:37:42|2024-03-19 21:38:05|23
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:38:06|2024-03-19 21:38:51|45
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:38:52|2024-03-19 21:39:27|35
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:39:28|2024-03-19 21:39:59|31
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:40:00|2024-03-19 21:40:37|37
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:40:38|2024-03-19 21:40:57|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:40:58|2024-03-19 21:41:31|33
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:41:32|2024-03-19 21:41:59|27
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:42:00|2024-03-19 21:42:13|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:42:14|2024-03-19 21:42:26|12
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:42:27|2024-03-19 21:42:37|10
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:42:38|2024-03-19 21:43:08|30
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:43:09|2024-03-19 21:43:44|35
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:43:45|2024-03-19 21:44:26|41
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:44:27|2024-03-19 21:45:01|34
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:45:02|2024-03-19 21:45:31|29
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:45:32|2024-03-19 21:46:08|36
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:46:09|2024-03-19 21:46:25|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:46:26|2024-03-19 21:46:39|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:46:40|2024-03-19 21:46:51|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:46:52|2024-03-19 21:47:05|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:47:06|2024-03-19 21:47:15|9
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:47:16|2024-03-19 21:47:25|9
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:47:26|2024-03-19 21:47:48|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:47:49|2024-03-19 21:48:23|34
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:48:24|2024-03-19 21:48:54|30
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:48:55|2024-03-19 21:49:09|14
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:49:10|2024-03-19 21:49:17|7
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:49:18|2024-03-19 21:49:33|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:49:34|2024-03-19 21:49:47|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:49:48|2024-03-19 21:49:59|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:50:00|2024-03-19 21:50:30|30
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:50:31|2024-03-19 21:50:47|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:50:48|2024-03-19 21:51:01|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:51:02|2024-03-19 21:51:18|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:51:19|2024-03-19 21:51:32|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:51:34|2024-03-19 21:51:46|12
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:51:47|2024-03-19 21:52:03|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:52:04|2024-03-19 21:52:32|28
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:52:33|2024-03-19 21:53:12|39
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:53:13|2024-03-19 21:53:42|29
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:53:43|2024-03-19 21:54:15|32
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:54:16|2024-03-19 21:54:42|26
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:54:43|2024-03-19 21:54:58|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:54:59|2024-03-19 21:55:20|21
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:55:21|2024-03-19 21:55:35|14
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:55:36|2024-03-19 21:55:52|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:55:53|2024-03-19 21:56:18|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:56:19|2024-03-19 21:56:55|36
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:56:56|2024-03-19 21:57:32|36
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:57:33|2024-03-19 21:58:20|47
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:58:21|2024-03-19 21:59:00|39
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:59:01|2024-03-19 21:59:42|41
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 21:59:43|2024-03-19 22:00:28|45
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:00:29|2024-03-19 22:00:53|24
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:00:54|2024-03-19 22:01:16|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:01:17|2024-03-19 22:02:03|46
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:02:04|2024-03-19 22:02:23|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:02:24|2024-03-19 22:02:43|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:02:44|2024-03-19 22:03:09|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:03:10|2024-03-19 22:03:28|18
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:03:29|2024-03-19 22:03:45|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:03:46|2024-03-19 22:04:20|34
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:04:21|2024-03-19 22:04:39|18
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:04:40|2024-03-19 22:04:56|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:04:57|2024-03-19 22:05:27|30
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:05:28|2024-03-19 22:06:12|44
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:06:13|2024-03-19 22:06:38|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:06:39|2024-03-19 22:07:10|31
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:07:11|2024-03-19 22:07:26|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:07:27|2024-03-19 22:07:45|18
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:07:46|2024-03-19 22:07:57|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:07:58|2024-03-19 22:08:17|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:08:18|2024-03-19 22:08:41|23
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:08:42|2024-03-19 22:08:58|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:08:59|2024-03-19 22:09:12|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:09:13|2024-03-19 22:09:21|8
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:09:22|2024-03-19 22:09:44|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:09:45|2024-03-19 22:09:55|10
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:09:57|2024-03-19 22:10:07|10
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:10:08|2024-03-19 22:10:31|23
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:10:32|2024-03-19 22:11:02|30
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:11:03|2024-03-19 22:11:19|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:11:20|2024-03-19 22:11:32|12
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:11:33|2024-03-19 22:12:04|31
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:12:05|2024-03-19 22:12:36|31
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:12:37|2024-03-19 22:13:13|36
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:13:14|2024-03-19 22:14:01|47
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:14:02|2024-03-19 22:14:34|32
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:14:35|2024-03-19 22:14:57|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:14:58|2024-03-19 22:15:20|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:15:21|2024-03-19 22:15:40|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:15:41|2024-03-19 22:15:57|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:15:58|2024-03-19 22:16:19|21
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:16:20|2024-03-19 22:16:40|20
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:16:41|2024-03-19 22:16:56|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:16:57|2024-03-19 22:17:19|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:17:20|2024-03-19 22:17:51|31
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:17:52|2024-03-19 22:18:11|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:18:12|2024-03-19 22:18:31|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:18:32|2024-03-19 22:18:52|20
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:18:53|2024-03-19 22:19:10|17
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:19:11|2024-03-19 22:19:26|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:19:27|2024-03-19 22:19:46|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:19:47|2024-03-19 22:20:07|20
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:20:08|2024-03-19 22:20:42|34
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:20:43|2024-03-19 22:21:26|43
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:21:27|2024-03-19 22:22:03|36
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:22:04|2024-03-19 22:22:32|28
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:22:33|2024-03-19 22:22:50|17
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:22:51|2024-03-19 22:23:24|33
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:23:25|2024-03-19 22:23:46|21
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:23:47|2024-03-19 22:24:23|36
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:24:24|2024-03-19 22:24:37|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:24:39|2024-03-19 22:24:55|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:24:56|2024-03-19 22:25:33|37
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:25:34|2024-03-19 22:26:06|32
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:26:07|2024-03-19 22:26:37|30
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:26:38|2024-03-19 22:26:55|17
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:26:56|2024-03-19 22:27:15|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:27:16|2024-03-19 22:27:31|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:27:32|2024-03-19 22:27:49|17
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:27:50|2024-03-19 22:28:17|27
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:28:18|2024-03-19 22:28:40|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:28:41|2024-03-19 22:29:13|32
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:29:14|2024-03-19 22:29:41|27
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:29:42|2024-03-19 22:30:03|21
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:30:04|2024-03-19 22:31:04|60
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:31:05|2024-03-19 22:31:32|27
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:31:33|2024-03-19 22:31:55|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:31:56|2024-03-19 22:32:17|21
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:32:18|2024-03-19 22:32:34|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:32:35|2024-03-19 22:32:47|12
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:32:48|2024-03-19 22:33:10|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:33:11|2024-03-19 22:33:24|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:33:25|2024-03-19 22:33:34|9
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:33:35|2024-03-19 22:33:52|17
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:33:53|2024-03-19 22:34:04|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:34:05|2024-03-19 22:34:22|17
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:34:23|2024-03-19 22:34:34|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:34:35|2024-03-19 22:34:40|5
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:34:41|2024-03-19 22:34:51|10
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:34:52|2024-03-19 22:35:19|27
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:35:20|2024-03-19 22:35:45|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:35:46|2024-03-19 22:36:24|38
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:36:25|2024-03-19 22:36:50|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:36:51|2024-03-19 22:37:24|33
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:37:25|2024-03-19 22:37:50|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:37:51|2024-03-19 22:38:25|34
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:38:26|2024-03-19 22:38:46|20
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:38:47|2024-03-19 22:39:16|29
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:39:17|2024-03-19 22:39:36|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:39:37|2024-03-19 22:39:54|17
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:39:55|2024-03-19 22:40:12|17
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:40:13|2024-03-19 22:40:48|35
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:40:49|2024-03-19 22:41:37|48
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:41:38|2024-03-19 22:42:03|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:42:04|2024-03-19 22:42:40|36
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:42:41|2024-03-19 22:43:04|23
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:43:05|2024-03-19 22:43:23|18
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:43:24|2024-03-19 22:43:38|14
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:43:39|2024-03-19 22:44:11|32
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:44:12|2024-03-19 22:44:38|26
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:44:39|2024-03-19 22:44:53|14
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:44:54|2024-03-19 22:45:10|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:45:11|2024-03-19 22:45:30|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:45:31|2024-03-19 22:46:00|29
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:46:01|2024-03-19 22:46:17|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:46:18|2024-03-19 22:46:37|19
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:46:38|2024-03-19 22:46:52|14
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:46:53|2024-03-19 22:47:20|27
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:47:21|2024-03-19 22:47:39|18
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:47:40|2024-03-19 22:48:05|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:48:06|2024-03-19 22:48:20|14
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:48:21|2024-03-19 22:48:53|32
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:48:54|2024-03-19 22:49:27|33
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:49:28|2024-03-19 22:50:20|52
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:50:21|2024-03-19 22:51:22|61
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:51:23|2024-03-19 22:51:55|32
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:51:56|2024-03-19 22:52:23|27
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:52:24|2024-03-19 22:52:47|23
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:52:48|2024-03-19 22:53:00|12
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:53:01|2024-03-19 22:53:14|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:53:15|2024-03-19 22:53:32|17
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:53:33|2024-03-19 22:54:02|29
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:54:03|2024-03-19 22:54:13|10
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:54:14|2024-03-19 22:54:25|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:54:26|2024-03-19 22:54:49|23
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:54:50|2024-03-19 22:55:11|21
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:55:13|2024-03-19 22:55:39|26
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:55:40|2024-03-19 22:56:15|35
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:56:16|2024-03-19 22:56:33|17
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:56:34|2024-03-19 22:56:59|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:57:00|2024-03-19 22:57:15|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:57:16|2024-03-19 22:57:51|35
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:57:52|2024-03-19 22:58:39|47
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:58:40|2024-03-19 22:59:17|37
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:59:18|2024-03-19 22:59:40|22
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 22:59:41|2024-03-19 23:00:17|36
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:00:18|2024-03-19 23:00:47|29
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:00:48|2024-03-19 23:01:15|27
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:01:16|2024-03-19 23:01:43|27
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:01:44|2024-03-19 23:01:54|10
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:01:55|2024-03-19 23:02:05|10
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:02:06|2024-03-19 23:02:16|10
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:02:17|2024-03-19 23:02:32|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:02:33|2024-03-19 23:02:58|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:02:59|2024-03-19 23:03:13|14
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:03:14|2024-03-19 23:03:27|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:03:28|2024-03-19 23:03:36|8
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:03:37|2024-03-19 23:03:45|8
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:03:46|2024-03-19 23:03:59|13
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:04:00|2024-03-19 23:04:12|12
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:04:13|2024-03-19 23:04:24|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:04:25|2024-03-19 23:04:36|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:04:37|2024-03-19 23:04:47|10
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:04:48|2024-03-19 23:05:08|20
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:05:09|2024-03-19 23:05:35|26
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:05:36|2024-03-19 23:05:59|23
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:06:00|2024-03-19 23:06:33|33
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:06:34|2024-03-19 23:07:11|37
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:07:12|2024-03-19 23:08:10|58
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:08:11|2024-03-19 23:08:22|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:08:23|2024-03-19 23:08:32|9
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:08:33|2024-03-19 23:08:45|12
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:08:46|2024-03-19 23:08:55|9
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:08:56|2024-03-19 23:09:08|12
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:09:09|2024-03-19 23:09:35|26
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:09:36|2024-03-19 23:10:08|32
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:10:09|2024-03-19 23:10:43|34
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:10:44|2024-03-19 23:11:17|33
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:11:18|2024-03-19 23:11:33|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:11:34|2024-03-19 23:11:49|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:11:50|2024-03-19 23:12:11|21
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:12:12|2024-03-19 23:12:38|26
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:12:39|2024-03-19 23:12:59|20
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:13:00|2024-03-19 23:13:28|28
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:13:29|2024-03-19 23:13:49|20
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:13:50|2024-03-19 23:14:15|25
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:14:16|2024-03-19 23:14:53|37
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:14:54|2024-03-19 23:15:33|39
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:15:34|2024-03-19 23:15:57|23
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:15:58|2024-03-19 23:16:42|44
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:16:43|2024-03-19 23:16:59|16
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:17:00|2024-03-19 23:17:15|15
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:17:16|2024-03-19 23:17:27|11
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:17:28|2024-03-19 23:17:54|26
+drop table if exists public.load_customer_demographics;
+DROP TABLE
+create table public.load_customer_demographics as select * from tpcds.customer_demographics distributed randomly;
+SELECT 1920800
+load.07.public.load_customer_demographics.sh|2024-03-19 23:17:55|2024-03-19 23:18:05|10

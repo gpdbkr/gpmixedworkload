@@ -1,0 +1,3136 @@
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:18:04|2024-03-19 21:19:16|72
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:19:17|2024-03-19 21:20:44|87
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:20:45|2024-03-19 21:22:26|101
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:22:27|2024-03-19 21:23:28|61
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:23:29|2024-03-19 21:24:38|69
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:24:39|2024-03-19 21:25:23|44
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:25:24|2024-03-19 21:26:26|62
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:26:27|2024-03-19 21:27:07|40
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:27:08|2024-03-19 21:28:50|102
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:28:51|2024-03-19 21:30:02|71
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:30:03|2024-03-19 21:31:16|73
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:31:17|2024-03-19 21:32:26|69
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:32:27|2024-03-19 21:33:17|50
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:33:18|2024-03-19 21:35:31|133
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:35:32|2024-03-19 21:36:33|61
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:36:34|2024-03-19 21:38:08|94
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:38:09|2024-03-19 21:39:33|84
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:39:34|2024-03-19 21:40:52|78
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:40:53|2024-03-19 21:42:30|97
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:42:31|2024-03-19 21:43:17|46
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:43:18|2024-03-19 21:44:45|87
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:44:46|2024-03-19 21:46:04|78
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:46:05|2024-03-19 21:47:02|57
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:47:03|2024-03-19 21:47:55|52
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:47:56|2024-03-19 21:48:55|59
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:48:56|2024-03-19 21:50:08|72
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:50:09|2024-03-19 21:51:21|72
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:51:22|2024-03-19 21:52:03|41
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:52:04|2024-03-19 21:53:06|62
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:53:07|2024-03-19 21:53:59|52
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:54:00|2024-03-19 21:55:15|75
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:55:16|2024-03-19 21:56:47|91
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:56:48|2024-03-19 21:58:07|79
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:58:08|2024-03-19 21:59:56|108
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 21:59:57|2024-03-19 22:01:11|74
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:01:12|2024-03-19 22:02:40|88
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:02:41|2024-03-19 22:03:44|63
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:03:45|2024-03-19 22:06:08|143
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:06:09|2024-03-19 22:07:07|58
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:07:08|2024-03-19 22:08:00|52
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:08:01|2024-03-19 22:08:33|32
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:08:34|2024-03-19 22:09:12|38
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:09:13|2024-03-19 22:09:50|37
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:09:51|2024-03-19 22:10:03|12
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:10:04|2024-03-19 22:11:13|69
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:11:14|2024-03-19 22:12:37|83
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:12:38|2024-03-19 22:13:08|30
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:13:09|2024-03-19 22:14:30|81
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:14:31|2024-03-19 22:15:59|88
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:16:00|2024-03-19 22:16:41|41
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:16:42|2024-03-19 22:17:24|42
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:17:25|2024-03-19 22:18:07|42
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:18:08|2024-03-19 22:18:46|38
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:18:47|2024-03-19 22:19:43|56
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:19:44|2024-03-19 22:20:20|36
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:20:21|2024-03-19 22:22:24|123
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:22:25|2024-03-19 22:23:27|62
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:23:28|2024-03-19 22:25:22|114
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:25:23|2024-03-19 22:26:30|67
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:26:31|2024-03-19 22:26:56|25
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:26:57|2024-03-19 22:27:30|33
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:27:31|2024-03-19 22:28:24|53
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:28:25|2024-03-19 22:28:53|28
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:28:54|2024-03-19 22:30:02|68
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:30:03|2024-03-19 22:31:47|104
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:31:48|2024-03-19 22:32:54|66
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:32:55|2024-03-19 22:33:36|41
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:33:37|2024-03-19 22:34:20|43
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:34:21|2024-03-19 22:34:49|28
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:34:50|2024-03-19 22:35:30|40
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:35:31|2024-03-19 22:36:19|48
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:36:20|2024-03-19 22:37:01|41
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:37:02|2024-03-19 22:38:13|71
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:38:14|2024-03-19 22:38:50|36
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:38:51|2024-03-19 22:40:08|77
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:40:09|2024-03-19 22:41:58|109
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:41:59|2024-03-19 22:43:57|118
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:43:58|2024-03-19 22:45:13|75
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:45:14|2024-03-19 22:46:00|46
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:46:01|2024-03-19 22:46:36|35
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:46:37|2024-03-19 22:47:32|55
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:47:33|2024-03-19 22:48:22|49
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:48:23|2024-03-19 22:49:31|68
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:49:32|2024-03-19 22:51:22|110
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:51:23|2024-03-19 22:52:26|63
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:52:27|2024-03-19 22:53:23|56
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:53:24|2024-03-19 22:54:17|53
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:54:18|2024-03-19 22:54:41|23
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:54:42|2024-03-19 22:55:19|37
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:55:20|2024-03-19 22:56:34|74
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:56:35|2024-03-19 22:58:31|116
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 22:58:32|2024-03-19 23:00:02|90
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:00:03|2024-03-19 23:01:39|96
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:01:40|2024-03-19 23:02:03|23
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:02:04|2024-03-19 23:02:38|34
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:02:39|2024-03-19 23:03:26|47
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:03:27|2024-03-19 23:03:44|17
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:03:45|2024-03-19 23:04:25|40
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:04:26|2024-03-19 23:05:31|65
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:05:32|2024-03-19 23:06:59|87
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:07:00|2024-03-19 23:07:59|59
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:08:00|2024-03-19 23:08:43|43
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:08:44|2024-03-19 23:09:13|29
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:09:14|2024-03-19 23:10:15|61
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:10:16|2024-03-19 23:11:22|66
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:11:23|2024-03-19 23:12:04|41
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:12:05|2024-03-19 23:13:21|76
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:13:22|2024-03-19 23:14:10|48
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:14:11|2024-03-19 23:14:59|48
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:15:00|2024-03-19 23:16:17|77
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:16:18|2024-03-19 23:17:35|77
+select  i_item_id
+       ,i_item_desc
+       ,i_category
+       ,i_class
+       ,i_current_price
+       ,sum(cs_ext_sales_price) as itemrevenue
+       ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
+           (partition by i_class) as revenueratio
+ from	catalog_sales
+     ,item
+     ,date_dim
+ where cs_item_sk = i_item_sk
+   and i_category in ('Music', 'Men', 'Electronics')
+   and cs_sold_date_sk = d_date_sk
+ and d_date between cast('1998-04-10' as date)
+ 				and (cast('1998-04-10' as date) + '30 days'::interval)
+ group by i_item_id
+         ,i_item_desc
+         ,i_category
+         ,i_class
+         ,i_current_price
+ order by i_category
+         ,i_class
+         ,i_item_id
+         ,i_item_desc
+         ,revenueratio
+limit 100;
+tpcds.20.sh|2024-03-19 23:17:36|2024-03-19 23:18:07|31
