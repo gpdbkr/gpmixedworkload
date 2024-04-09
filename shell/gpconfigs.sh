@@ -7,3 +7,5 @@ gpconfig -c gp_fts_probe_timeout -v 60s
 gpconfig -c log_duration -v on --masteronly
 gpconfig -c log_min_duration_statement -v 0 --masteronly
 gpconfig -c gp_resource_group_cpu_limit -v 1
+
+#gpconfig -c gp_resource_manager -v "queue"

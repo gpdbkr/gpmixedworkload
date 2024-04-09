@@ -26,7 +26,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 21:18:04|2024-03-19 21:25:14|430
+tpcds.36.sh|2024-04-09 05:53:58|2024-04-09 06:00:48|410
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -55,7 +55,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 21:25:15|2024-03-19 21:30:58|343
+tpcds.36.sh|2024-04-09 06:00:49|2024-04-09 06:06:19|330
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -84,7 +84,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 21:30:59|2024-03-19 21:36:42|343
+tpcds.36.sh|2024-04-09 06:06:20|2024-04-09 06:12:56|396
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -113,7 +113,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 21:36:43|2024-03-19 21:42:48|365
+tpcds.36.sh|2024-04-09 06:12:57|2024-04-09 06:19:01|364
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -142,7 +142,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 21:42:49|2024-03-19 21:48:55|366
+tpcds.36.sh|2024-04-09 06:19:02|2024-04-09 06:25:03|361
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -171,7 +171,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 21:48:56|2024-03-19 21:54:16|320
+tpcds.36.sh|2024-04-09 06:25:04|2024-04-09 06:31:39|395
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -200,7 +200,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 21:54:17|2024-03-19 22:01:03|406
+tpcds.36.sh|2024-04-09 06:31:40|2024-04-09 06:36:47|307
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -229,7 +229,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 22:01:04|2024-03-19 22:07:45|401
+tpcds.36.sh|2024-04-09 06:36:48|2024-04-09 06:43:01|373
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -258,7 +258,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 22:07:46|2024-03-19 22:12:37|291
+tpcds.36.sh|2024-04-09 06:43:02|2024-04-09 06:48:12|310
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -287,7 +287,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 22:12:38|2024-03-19 22:19:10|392
+tpcds.36.sh|2024-04-09 06:48:13|2024-04-09 06:53:39|326
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -316,7 +316,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 22:19:11|2024-03-19 22:25:49|398
+tpcds.36.sh|2024-04-09 06:53:40|2024-04-09 07:00:58|438
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -345,7 +345,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 22:25:50|2024-03-19 22:30:01|251
+tpcds.36.sh|2024-04-09 07:00:59|2024-04-09 07:07:46|407
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -374,7 +374,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 22:30:02|2024-03-19 22:36:40|398
+tpcds.36.sh|2024-04-09 07:07:47|2024-04-09 07:13:32|345
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -403,7 +403,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 22:36:41|2024-03-19 22:44:26|465
+tpcds.36.sh|2024-04-09 07:13:33|2024-04-09 07:21:06|453
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -432,7 +432,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 22:44:27|2024-03-19 22:49:20|293
+tpcds.36.sh|2024-04-09 07:21:07|2024-04-09 07:26:45|338
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -461,7 +461,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 22:49:21|2024-03-19 22:55:38|377
+tpcds.36.sh|2024-04-09 07:26:46|2024-04-09 07:33:34|408
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -490,7 +490,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 22:55:39|2024-03-19 23:02:56|437
+tpcds.36.sh|2024-04-09 07:33:35|2024-04-09 07:38:54|319
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -519,7 +519,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 23:02:57|2024-03-19 23:08:18|321
+tpcds.36.sh|2024-04-09 07:38:55|2024-04-09 07:46:30|455
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -548,7 +548,7 @@ select * from (select
   ,case when lochierarchy = 0 then i_category end
   ,rank_within_parent
   limit 100;
-tpcds.36.sh|2024-03-19 23:08:19|2024-03-19 23:11:52|213
+tpcds.36.sh|2024-04-09 07:46:31|2024-04-09 07:52:35|364
 select * from (select
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -578,4 +578,4 @@ select * from (select
   ,rank_within_parent
   limit 100;
 ERROR:  canceling statement due to user request
-tpcds.36.sh|2024-03-19 23:11:53|2024-03-19 23:18:11|378
+tpcds.36.sh|2024-04-09 07:52:36|2024-04-09 07:54:10|94

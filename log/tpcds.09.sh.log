@@ -46,7 +46,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 21:18:04|2024-03-19 21:25:24|440
+tpcds.09.sh|2024-04-09 05:53:58|2024-04-09 05:59:02|304
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -95,7 +95,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 21:25:25|2024-03-19 21:32:14|409
+tpcds.09.sh|2024-04-09 05:59:03|2024-04-09 06:04:37|334
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -144,7 +144,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 21:32:15|2024-03-19 21:39:28|433
+tpcds.09.sh|2024-04-09 06:04:38|2024-04-09 06:09:41|303
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -193,7 +193,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 21:39:29|2024-03-19 21:47:35|486
+tpcds.09.sh|2024-04-09 06:09:42|2024-04-09 06:14:21|279
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -242,7 +242,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 21:47:36|2024-03-19 21:55:17|461
+tpcds.09.sh|2024-04-09 06:14:22|2024-04-09 06:19:03|281
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -291,7 +291,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 21:55:18|2024-03-19 22:01:51|393
+tpcds.09.sh|2024-04-09 06:19:04|2024-04-09 06:24:11|307
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -340,7 +340,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 22:01:52|2024-03-19 22:11:49|597
+tpcds.09.sh|2024-04-09 06:24:12|2024-04-09 06:29:26|314
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -389,7 +389,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 22:11:50|2024-03-19 22:19:46|476
+tpcds.09.sh|2024-04-09 06:29:27|2024-04-09 06:34:36|309
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -438,7 +438,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 22:19:47|2024-03-19 22:27:33|466
+tpcds.09.sh|2024-04-09 06:34:37|2024-04-09 06:39:12|275
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -487,7 +487,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 22:27:34|2024-03-19 22:38:12|638
+tpcds.09.sh|2024-04-09 06:39:13|2024-04-09 06:43:40|267
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -536,7 +536,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 22:38:13|2024-03-19 22:46:52|519
+tpcds.09.sh|2024-04-09 06:43:41|2024-04-09 06:48:50|309
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -585,7 +585,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 22:46:53|2024-03-19 22:54:56|483
+tpcds.09.sh|2024-04-09 06:48:51|2024-04-09 06:53:47|296
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -634,7 +634,7 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 22:54:57|2024-03-19 23:03:55|538
+tpcds.09.sh|2024-04-09 06:53:48|2024-04-09 06:59:00|312
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -683,7 +683,448 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
-tpcds.09.sh|2024-03-19 23:03:56|2024-03-19 23:11:29|453
+tpcds.09.sh|2024-04-09 06:59:01|2024-04-09 07:04:07|306
+select case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 1 and 20) > 79544075
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 1 and 20)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 1 and 20) end bucket1 ,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 21 and 40) > 139899749
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 21 and 40)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 21 and 40) end bucket2,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 41 and 60) > 120388910
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 41 and 60)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 41 and 60) end bucket3,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 61 and 80) > 76328285
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 61 and 80)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 61 and 80) end bucket4,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 81 and 100) > 56401052
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 81 and 100)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 81 and 100) end bucket5
+from reason
+where r_reason_sk = 1
+;
+tpcds.09.sh|2024-04-09 07:04:08|2024-04-09 07:08:42|274
+select case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 1 and 20) > 79544075
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 1 and 20)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 1 and 20) end bucket1 ,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 21 and 40) > 139899749
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 21 and 40)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 21 and 40) end bucket2,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 41 and 60) > 120388910
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 41 and 60)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 41 and 60) end bucket3,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 61 and 80) > 76328285
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 61 and 80)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 61 and 80) end bucket4,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 81 and 100) > 56401052
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 81 and 100)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 81 and 100) end bucket5
+from reason
+where r_reason_sk = 1
+;
+tpcds.09.sh|2024-04-09 07:08:43|2024-04-09 07:13:19|276
+select case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 1 and 20) > 79544075
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 1 and 20)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 1 and 20) end bucket1 ,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 21 and 40) > 139899749
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 21 and 40)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 21 and 40) end bucket2,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 41 and 60) > 120388910
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 41 and 60)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 41 and 60) end bucket3,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 61 and 80) > 76328285
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 61 and 80)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 61 and 80) end bucket4,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 81 and 100) > 56401052
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 81 and 100)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 81 and 100) end bucket5
+from reason
+where r_reason_sk = 1
+;
+tpcds.09.sh|2024-04-09 07:13:20|2024-04-09 07:18:26|306
+select case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 1 and 20) > 79544075
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 1 and 20)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 1 and 20) end bucket1 ,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 21 and 40) > 139899749
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 21 and 40)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 21 and 40) end bucket2,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 41 and 60) > 120388910
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 41 and 60)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 41 and 60) end bucket3,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 61 and 80) > 76328285
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 61 and 80)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 61 and 80) end bucket4,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 81 and 100) > 56401052
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 81 and 100)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 81 and 100) end bucket5
+from reason
+where r_reason_sk = 1
+;
+tpcds.09.sh|2024-04-09 07:18:27|2024-04-09 07:23:36|309
+select case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 1 and 20) > 79544075
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 1 and 20)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 1 and 20) end bucket1 ,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 21 and 40) > 139899749
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 21 and 40)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 21 and 40) end bucket2,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 41 and 60) > 120388910
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 41 and 60)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 41 and 60) end bucket3,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 61 and 80) > 76328285
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 61 and 80)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 61 and 80) end bucket4,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 81 and 100) > 56401052
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 81 and 100)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 81 and 100) end bucket5
+from reason
+where r_reason_sk = 1
+;
+tpcds.09.sh|2024-04-09 07:23:37|2024-04-09 07:28:53|316
+select case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 1 and 20) > 79544075
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 1 and 20)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 1 and 20) end bucket1 ,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 21 and 40) > 139899749
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 21 and 40)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 21 and 40) end bucket2,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 41 and 60) > 120388910
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 41 and 60)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 41 and 60) end bucket3,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 61 and 80) > 76328285
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 61 and 80)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 61 and 80) end bucket4,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 81 and 100) > 56401052
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 81 and 100)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 81 and 100) end bucket5
+from reason
+where r_reason_sk = 1
+;
+tpcds.09.sh|2024-04-09 07:28:54|2024-04-09 07:34:12|318
+select case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 1 and 20) > 79544075
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 1 and 20)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 1 and 20) end bucket1 ,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 21 and 40) > 139899749
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 21 and 40)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 21 and 40) end bucket2,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 41 and 60) > 120388910
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 41 and 60)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 41 and 60) end bucket3,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 61 and 80) > 76328285
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 61 and 80)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 61 and 80) end bucket4,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 81 and 100) > 56401052
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 81 and 100)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 81 and 100) end bucket5
+from reason
+where r_reason_sk = 1
+;
+tpcds.09.sh|2024-04-09 07:34:13|2024-04-09 07:39:04|291
+select case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 1 and 20) > 79544075
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 1 and 20)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 1 and 20) end bucket1 ,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 21 and 40) > 139899749
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 21 and 40)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 21 and 40) end bucket2,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 41 and 60) > 120388910
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 41 and 60)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 41 and 60) end bucket3,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 61 and 80) > 76328285
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 61 and 80)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 61 and 80) end bucket4,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 81 and 100) > 56401052
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 81 and 100)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 81 and 100) end bucket5
+from reason
+where r_reason_sk = 1
+;
+tpcds.09.sh|2024-04-09 07:39:05|2024-04-09 07:44:05|300
+select case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 1 and 20) > 79544075
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 1 and 20)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 1 and 20) end bucket1 ,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 21 and 40) > 139899749
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 21 and 40)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 21 and 40) end bucket2,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 41 and 60) > 120388910
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 41 and 60)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 41 and 60) end bucket3,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 61 and 80) > 76328285
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 61 and 80)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 61 and 80) end bucket4,
+       case when (select count(*)
+                  from store_sales
+                  where ss_quantity between 81 and 100) > 56401052
+            then (select avg(ss_ext_discount_amt)
+                  from store_sales
+                  where ss_quantity between 81 and 100)
+            else (select avg(ss_net_profit)
+                  from store_sales
+                  where ss_quantity between 81 and 100) end bucket5
+from reason
+where r_reason_sk = 1
+;
+tpcds.09.sh|2024-04-09 07:44:06|2024-04-09 07:49:24|318
 select case when (select count(*)
                   from store_sales
                   where ss_quantity between 1 and 20) > 79544075
@@ -733,4 +1174,4 @@ from reason
 where r_reason_sk = 1
 ;
 ERROR:  canceling statement due to user request
-tpcds.09.sh|2024-03-19 23:11:30|2024-03-19 23:18:09|399
+tpcds.09.sh|2024-04-09 07:49:25|2024-04-09 07:54:07|282

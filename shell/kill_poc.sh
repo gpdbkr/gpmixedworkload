@@ -7,7 +7,7 @@ if [ -n "$TM" ]; then
     echo "Killing the run_all.sh"
     ps -ef |grep gpadmin| grep '\-bash' |grep -v grep| grep $TM| awk '{print $2}' | xargs kill
 fi
-ps -ef | grep gpadmin | grep -v grep | grep poc | grep -v kill | awk '{print $2}' | xargs kill
+ps -ef | grep gpadmin | grep -v grep | grep poc | grep -v kill | grep -v poc_run_all.sh  | awk '{print $2}' | xargs kill
 ps -ef | grep gpadmin | grep -v grep | grep poc_multi.sh | awk '{print $2}' | xargs kill
 ps -ef | grep gpadmin | grep -v grep | grep poc_normal.sh | awk '{print $2}' | xargs kill
 ps -ef | grep gpadmin | grep -v grep | grep poc_init.sh | awk '{print $2}' | xargs kill

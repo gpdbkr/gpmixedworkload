@@ -53,7 +53,7 @@ select
           cd_dep_employed_count,
           cd_dep_college_count
  limit 100;
-tpcds.35.sh|2024-03-19 21:18:04|2024-03-19 21:31:16|792
+tpcds.35.sh|2024-04-09 05:53:58|2024-04-09 06:02:44|526
 select
   ca_state,
   cd_gender,
@@ -109,7 +109,7 @@ select
           cd_dep_employed_count,
           cd_dep_college_count
  limit 100;
-tpcds.35.sh|2024-03-19 21:31:17|2024-03-19 21:41:52|635
+tpcds.35.sh|2024-04-09 06:02:45|2024-04-09 06:11:15|510
 select
   ca_state,
   cd_gender,
@@ -165,7 +165,7 @@ select
           cd_dep_employed_count,
           cd_dep_college_count
  limit 100;
-tpcds.35.sh|2024-03-19 21:41:53|2024-03-19 21:53:15|682
+tpcds.35.sh|2024-04-09 06:11:16|2024-04-09 06:19:33|497
 select
   ca_state,
   cd_gender,
@@ -221,7 +221,7 @@ select
           cd_dep_employed_count,
           cd_dep_college_count
  limit 100;
-tpcds.35.sh|2024-03-19 21:53:16|2024-03-19 22:06:50|814
+tpcds.35.sh|2024-04-09 06:19:34|2024-04-09 06:28:31|537
 select
   ca_state,
   cd_gender,
@@ -277,7 +277,7 @@ select
           cd_dep_employed_count,
           cd_dep_college_count
  limit 100;
-tpcds.35.sh|2024-03-19 22:06:51|2024-03-19 22:18:16|685
+tpcds.35.sh|2024-04-09 06:28:32|2024-04-09 06:36:52|500
 select
   ca_state,
   cd_gender,
@@ -333,7 +333,7 @@ select
           cd_dep_employed_count,
           cd_dep_college_count
  limit 100;
-tpcds.35.sh|2024-03-19 22:18:17|2024-03-19 22:28:34|617
+tpcds.35.sh|2024-04-09 06:36:53|2024-04-09 06:45:20|507
 select
   ca_state,
   cd_gender,
@@ -389,7 +389,7 @@ select
           cd_dep_employed_count,
           cd_dep_college_count
  limit 100;
-tpcds.35.sh|2024-03-19 22:28:35|2024-03-19 22:40:07|692
+tpcds.35.sh|2024-04-09 06:45:21|2024-04-09 06:53:11|470
 select
   ca_state,
   cd_gender,
@@ -445,7 +445,7 @@ select
           cd_dep_employed_count,
           cd_dep_college_count
  limit 100;
-tpcds.35.sh|2024-03-19 22:40:08|2024-03-19 22:52:27|739
+tpcds.35.sh|2024-04-09 06:53:12|2024-04-09 07:01:56|524
 select
   ca_state,
   cd_gender,
@@ -501,7 +501,7 @@ select
           cd_dep_employed_count,
           cd_dep_college_count
  limit 100;
-tpcds.35.sh|2024-03-19 22:52:28|2024-03-19 23:02:21|593
+tpcds.35.sh|2024-04-09 07:01:57|2024-04-09 07:10:28|511
 select
   ca_state,
   cd_gender,
@@ -557,7 +557,231 @@ select
           cd_dep_employed_count,
           cd_dep_college_count
  limit 100;
-tpcds.35.sh|2024-03-19 23:02:22|2024-03-19 23:13:35|673
+tpcds.35.sh|2024-04-09 07:10:29|2024-04-09 07:18:29|480
+select
+  ca_state,
+  cd_gender,
+  cd_marital_status,
+  cd_dep_count,
+  count(*) cnt1,
+  max(cd_dep_count),
+  avg(cd_dep_count),
+  sum(cd_dep_count),
+  cd_dep_employed_count,
+  count(*) cnt2,
+  max(cd_dep_employed_count),
+  avg(cd_dep_employed_count),
+  sum(cd_dep_employed_count),
+  cd_dep_college_count,
+  count(*) cnt3,
+  max(cd_dep_college_count),
+  avg(cd_dep_college_count),
+  sum(cd_dep_college_count)
+ from
+  customer c,customer_address ca,customer_demographics
+ where
+  c.c_current_addr_sk = ca.ca_address_sk and
+  cd_demo_sk = c.c_current_cdemo_sk and
+  exists (select *
+          from store_sales,date_dim
+          where c.c_customer_sk = ss_customer_sk and
+                ss_sold_date_sk = d_date_sk and
+                d_year = 2000 and
+                d_qoy < 4) and
+   (exists (select *
+            from web_sales,date_dim
+            where c.c_customer_sk = ws_bill_customer_sk and
+                  ws_sold_date_sk = d_date_sk and
+                  d_year = 2000 and
+                  d_qoy < 4) or
+    exists (select *
+            from catalog_sales,date_dim
+            where c.c_customer_sk = cs_ship_customer_sk and
+                  cs_sold_date_sk = d_date_sk and
+                  d_year = 2000 and
+                  d_qoy < 4))
+ group by ca_state,
+          cd_gender,
+          cd_marital_status,
+          cd_dep_count,
+          cd_dep_employed_count,
+          cd_dep_college_count
+ order by ca_state,
+          cd_gender,
+          cd_marital_status,
+          cd_dep_count,
+          cd_dep_employed_count,
+          cd_dep_college_count
+ limit 100;
+tpcds.35.sh|2024-04-09 07:18:30|2024-04-09 07:26:38|488
+select
+  ca_state,
+  cd_gender,
+  cd_marital_status,
+  cd_dep_count,
+  count(*) cnt1,
+  max(cd_dep_count),
+  avg(cd_dep_count),
+  sum(cd_dep_count),
+  cd_dep_employed_count,
+  count(*) cnt2,
+  max(cd_dep_employed_count),
+  avg(cd_dep_employed_count),
+  sum(cd_dep_employed_count),
+  cd_dep_college_count,
+  count(*) cnt3,
+  max(cd_dep_college_count),
+  avg(cd_dep_college_count),
+  sum(cd_dep_college_count)
+ from
+  customer c,customer_address ca,customer_demographics
+ where
+  c.c_current_addr_sk = ca.ca_address_sk and
+  cd_demo_sk = c.c_current_cdemo_sk and
+  exists (select *
+          from store_sales,date_dim
+          where c.c_customer_sk = ss_customer_sk and
+                ss_sold_date_sk = d_date_sk and
+                d_year = 2000 and
+                d_qoy < 4) and
+   (exists (select *
+            from web_sales,date_dim
+            where c.c_customer_sk = ws_bill_customer_sk and
+                  ws_sold_date_sk = d_date_sk and
+                  d_year = 2000 and
+                  d_qoy < 4) or
+    exists (select *
+            from catalog_sales,date_dim
+            where c.c_customer_sk = cs_ship_customer_sk and
+                  cs_sold_date_sk = d_date_sk and
+                  d_year = 2000 and
+                  d_qoy < 4))
+ group by ca_state,
+          cd_gender,
+          cd_marital_status,
+          cd_dep_count,
+          cd_dep_employed_count,
+          cd_dep_college_count
+ order by ca_state,
+          cd_gender,
+          cd_marital_status,
+          cd_dep_count,
+          cd_dep_employed_count,
+          cd_dep_college_count
+ limit 100;
+tpcds.35.sh|2024-04-09 07:26:39|2024-04-09 07:35:12|513
+select
+  ca_state,
+  cd_gender,
+  cd_marital_status,
+  cd_dep_count,
+  count(*) cnt1,
+  max(cd_dep_count),
+  avg(cd_dep_count),
+  sum(cd_dep_count),
+  cd_dep_employed_count,
+  count(*) cnt2,
+  max(cd_dep_employed_count),
+  avg(cd_dep_employed_count),
+  sum(cd_dep_employed_count),
+  cd_dep_college_count,
+  count(*) cnt3,
+  max(cd_dep_college_count),
+  avg(cd_dep_college_count),
+  sum(cd_dep_college_count)
+ from
+  customer c,customer_address ca,customer_demographics
+ where
+  c.c_current_addr_sk = ca.ca_address_sk and
+  cd_demo_sk = c.c_current_cdemo_sk and
+  exists (select *
+          from store_sales,date_dim
+          where c.c_customer_sk = ss_customer_sk and
+                ss_sold_date_sk = d_date_sk and
+                d_year = 2000 and
+                d_qoy < 4) and
+   (exists (select *
+            from web_sales,date_dim
+            where c.c_customer_sk = ws_bill_customer_sk and
+                  ws_sold_date_sk = d_date_sk and
+                  d_year = 2000 and
+                  d_qoy < 4) or
+    exists (select *
+            from catalog_sales,date_dim
+            where c.c_customer_sk = cs_ship_customer_sk and
+                  cs_sold_date_sk = d_date_sk and
+                  d_year = 2000 and
+                  d_qoy < 4))
+ group by ca_state,
+          cd_gender,
+          cd_marital_status,
+          cd_dep_count,
+          cd_dep_employed_count,
+          cd_dep_college_count
+ order by ca_state,
+          cd_gender,
+          cd_marital_status,
+          cd_dep_count,
+          cd_dep_employed_count,
+          cd_dep_college_count
+ limit 100;
+tpcds.35.sh|2024-04-09 07:35:13|2024-04-09 07:43:35|502
+select
+  ca_state,
+  cd_gender,
+  cd_marital_status,
+  cd_dep_count,
+  count(*) cnt1,
+  max(cd_dep_count),
+  avg(cd_dep_count),
+  sum(cd_dep_count),
+  cd_dep_employed_count,
+  count(*) cnt2,
+  max(cd_dep_employed_count),
+  avg(cd_dep_employed_count),
+  sum(cd_dep_employed_count),
+  cd_dep_college_count,
+  count(*) cnt3,
+  max(cd_dep_college_count),
+  avg(cd_dep_college_count),
+  sum(cd_dep_college_count)
+ from
+  customer c,customer_address ca,customer_demographics
+ where
+  c.c_current_addr_sk = ca.ca_address_sk and
+  cd_demo_sk = c.c_current_cdemo_sk and
+  exists (select *
+          from store_sales,date_dim
+          where c.c_customer_sk = ss_customer_sk and
+                ss_sold_date_sk = d_date_sk and
+                d_year = 2000 and
+                d_qoy < 4) and
+   (exists (select *
+            from web_sales,date_dim
+            where c.c_customer_sk = ws_bill_customer_sk and
+                  ws_sold_date_sk = d_date_sk and
+                  d_year = 2000 and
+                  d_qoy < 4) or
+    exists (select *
+            from catalog_sales,date_dim
+            where c.c_customer_sk = cs_ship_customer_sk and
+                  cs_sold_date_sk = d_date_sk and
+                  d_year = 2000 and
+                  d_qoy < 4))
+ group by ca_state,
+          cd_gender,
+          cd_marital_status,
+          cd_dep_count,
+          cd_dep_employed_count,
+          cd_dep_college_count
+ order by ca_state,
+          cd_gender,
+          cd_marital_status,
+          cd_dep_count,
+          cd_dep_employed_count,
+          cd_dep_college_count
+ limit 100;
+tpcds.35.sh|2024-04-09 07:43:36|2024-04-09 07:52:17|521
 select
   ca_state,
   cd_gender,
@@ -614,4 +838,4 @@ select
           cd_dep_college_count
  limit 100;
 ERROR:  canceling statement due to user request
-tpcds.35.sh|2024-03-19 23:13:36|2024-03-19 23:18:15|279
+tpcds.35.sh|2024-04-09 07:52:18|2024-04-09 07:54:10|112

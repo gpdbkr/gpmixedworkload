@@ -2,8 +2,8 @@
 BMT_NO=`basename $0`
 LOGFILE=$BMT_NO".log"
 
-MAX_DIR_NUM=2
-MAX_FILE_NUM=2
+MAX_DIR_NUM=8
+MAX_FILE_NUM=24
 
 START_TM1=`date "+%Y-%m-%d %H:%M:%S"`
 ###### query start
@@ -12,7 +12,7 @@ do
     for FILE_NUM in `seq -f "%02g"  1 $MAX_FILE_NUM`
     do
         echo $DIR_NUM ":" $FILE_NUM
-        dd if=/dev/zero of=/data${DIR_NUM}/dd.test${FILE_NUM} bs=1G count=1 oflag=dsync &
+        dd if=/dev/zero of=/data${DIR_NUM}/dd.test${FILE_NUM} bs=1G count=10 oflag=dsync &
     done
 done
 ###### query end

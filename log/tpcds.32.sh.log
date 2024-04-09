@@ -23,7 +23,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:18:04|2024-03-19 21:20:10|126
+tpcds.32.sh|2024-04-09 05:53:58|2024-04-09 05:54:59|61
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -49,7 +49,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:20:11|2024-03-19 21:23:06|175
+tpcds.32.sh|2024-04-09 05:55:00|2024-04-09 05:56:19|79
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -75,7 +75,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:23:07|2024-03-19 21:24:32|85
+tpcds.32.sh|2024-04-09 05:56:20|2024-04-09 05:57:27|67
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -101,7 +101,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:24:33|2024-03-19 21:26:16|103
+tpcds.32.sh|2024-04-09 05:57:28|2024-04-09 05:58:08|40
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -127,7 +127,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:26:17|2024-03-19 21:27:49|92
+tpcds.32.sh|2024-04-09 05:58:09|2024-04-09 05:58:58|49
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -153,7 +153,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:27:50|2024-03-19 21:29:35|105
+tpcds.32.sh|2024-04-09 05:59:00|2024-04-09 05:59:54|54
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -179,7 +179,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:29:36|2024-03-19 21:30:58|82
+tpcds.32.sh|2024-04-09 05:59:55|2024-04-09 06:01:01|66
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -205,7 +205,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:30:59|2024-03-19 21:33:47|168
+tpcds.32.sh|2024-04-09 06:01:02|2024-04-09 06:02:01|59
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -231,7 +231,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:33:48|2024-03-19 21:35:44|116
+tpcds.32.sh|2024-04-09 06:02:02|2024-04-09 06:02:48|46
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -257,7 +257,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:35:45|2024-03-19 21:37:37|112
+tpcds.32.sh|2024-04-09 06:02:49|2024-04-09 06:03:33|44
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -283,7 +283,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:37:38|2024-03-19 21:39:08|90
+tpcds.32.sh|2024-04-09 06:03:34|2024-04-09 06:04:27|53
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -309,7 +309,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:39:09|2024-03-19 21:40:48|99
+tpcds.32.sh|2024-04-09 06:04:28|2024-04-09 06:05:39|71
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -335,7 +335,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:40:49|2024-03-19 21:43:15|146
+tpcds.32.sh|2024-04-09 06:05:40|2024-04-09 06:06:42|62
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -361,7 +361,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:43:16|2024-03-19 21:45:46|150
+tpcds.32.sh|2024-04-09 06:06:43|2024-04-09 06:07:36|53
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -387,7 +387,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:45:47|2024-03-19 21:48:00|133
+tpcds.32.sh|2024-04-09 06:07:37|2024-04-09 06:08:30|53
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -413,7 +413,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:48:01|2024-03-19 21:50:43|162
+tpcds.32.sh|2024-04-09 06:08:31|2024-04-09 06:09:21|50
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -439,7 +439,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:50:44|2024-03-19 21:52:39|115
+tpcds.32.sh|2024-04-09 06:09:22|2024-04-09 06:10:11|49
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -465,7 +465,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:52:40|2024-03-19 21:54:11|91
+tpcds.32.sh|2024-04-09 06:10:12|2024-04-09 06:11:05|53
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -491,7 +491,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:54:12|2024-03-19 21:57:05|173
+tpcds.32.sh|2024-04-09 06:11:06|2024-04-09 06:12:09|63
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -517,7 +517,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:57:06|2024-03-19 21:59:33|147
+tpcds.32.sh|2024-04-09 06:12:10|2024-04-09 06:12:57|47
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -543,7 +543,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 21:59:34|2024-03-19 22:01:33|119
+tpcds.32.sh|2024-04-09 06:12:58|2024-04-09 06:13:42|44
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -569,7 +569,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:01:34|2024-03-19 22:03:13|99
+tpcds.32.sh|2024-04-09 06:13:43|2024-04-09 06:14:26|43
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -595,7 +595,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:03:14|2024-03-19 22:05:33|139
+tpcds.32.sh|2024-04-09 06:14:27|2024-04-09 06:15:18|51
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -621,7 +621,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:05:34|2024-03-19 22:07:55|141
+tpcds.32.sh|2024-04-09 06:15:19|2024-04-09 06:16:12|53
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -647,7 +647,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:07:56|2024-03-19 22:09:29|93
+tpcds.32.sh|2024-04-09 06:16:13|2024-04-09 06:17:10|57
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -673,7 +673,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:09:30|2024-03-19 22:10:47|77
+tpcds.32.sh|2024-04-09 06:17:11|2024-04-09 06:18:01|50
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -699,7 +699,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:10:48|2024-03-19 22:12:06|78
+tpcds.32.sh|2024-04-09 06:18:02|2024-04-09 06:18:51|49
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -725,7 +725,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:12:07|2024-03-19 22:14:28|141
+tpcds.32.sh|2024-04-09 06:18:52|2024-04-09 06:19:43|51
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -751,7 +751,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:14:29|2024-03-19 22:16:31|122
+tpcds.32.sh|2024-04-09 06:19:44|2024-04-09 06:21:00|76
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -777,7 +777,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:16:32|2024-03-19 22:18:16|104
+tpcds.32.sh|2024-04-09 06:21:01|2024-04-09 06:21:53|52
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -803,7 +803,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:18:17|2024-03-19 22:19:30|73
+tpcds.32.sh|2024-04-09 06:21:54|2024-04-09 06:22:51|57
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -829,7 +829,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:19:31|2024-03-19 22:21:08|97
+tpcds.32.sh|2024-04-09 06:22:52|2024-04-09 06:23:46|54
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -855,7 +855,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:21:09|2024-03-19 22:23:02|113
+tpcds.32.sh|2024-04-09 06:23:47|2024-04-09 06:24:53|66
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -881,7 +881,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:23:03|2024-03-19 22:25:03|120
+tpcds.32.sh|2024-04-09 06:24:54|2024-04-09 06:26:10|76
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -907,7 +907,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:25:04|2024-03-19 22:26:54|110
+tpcds.32.sh|2024-04-09 06:26:11|2024-04-09 06:27:04|53
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -933,7 +933,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:26:55|2024-03-19 22:27:57|62
+tpcds.32.sh|2024-04-09 06:27:05|2024-04-09 06:27:52|47
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -959,7 +959,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:27:58|2024-03-19 22:29:17|79
+tpcds.32.sh|2024-04-09 06:27:53|2024-04-09 06:28:39|46
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -985,7 +985,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:29:18|2024-03-19 22:31:50|152
+tpcds.32.sh|2024-04-09 06:28:40|2024-04-09 06:29:15|35
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1011,7 +1011,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:31:51|2024-03-19 22:33:43|112
+tpcds.32.sh|2024-04-09 06:29:16|2024-04-09 06:29:58|42
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1037,7 +1037,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:33:44|2024-03-19 22:35:22|98
+tpcds.32.sh|2024-04-09 06:29:59|2024-04-09 06:31:03|64
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1063,7 +1063,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:35:23|2024-03-19 22:36:50|87
+tpcds.32.sh|2024-04-09 06:31:04|2024-04-09 06:32:00|56
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1089,7 +1089,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:36:51|2024-03-19 22:38:18|87
+tpcds.32.sh|2024-04-09 06:32:01|2024-04-09 06:32:55|54
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1115,7 +1115,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:38:19|2024-03-19 22:39:35|76
+tpcds.32.sh|2024-04-09 06:32:56|2024-04-09 06:33:45|49
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1141,7 +1141,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:39:36|2024-03-19 22:41:10|94
+tpcds.32.sh|2024-04-09 06:33:46|2024-04-09 06:34:38|52
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1167,7 +1167,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:41:11|2024-03-19 22:43:10|119
+tpcds.32.sh|2024-04-09 06:34:39|2024-04-09 06:35:28|49
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1193,7 +1193,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:43:11|2024-03-19 22:44:53|102
+tpcds.32.sh|2024-04-09 06:35:29|2024-04-09 06:36:39|70
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1219,7 +1219,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:44:55|2024-03-19 22:45:58|63
+tpcds.32.sh|2024-04-09 06:36:40|2024-04-09 06:37:47|67
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1245,7 +1245,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:45:59|2024-03-19 22:47:30|91
+tpcds.32.sh|2024-04-09 06:37:48|2024-04-09 06:38:45|57
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1271,7 +1271,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:47:31|2024-03-19 22:49:18|107
+tpcds.32.sh|2024-04-09 06:38:46|2024-04-09 06:39:39|53
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1297,7 +1297,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:49:19|2024-03-19 22:51:38|139
+tpcds.32.sh|2024-04-09 06:39:40|2024-04-09 06:40:39|59
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1323,7 +1323,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:51:39|2024-03-19 22:53:16|97
+tpcds.32.sh|2024-04-09 06:40:40|2024-04-09 06:41:36|56
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1349,7 +1349,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:53:17|2024-03-19 22:53:59|42
+tpcds.32.sh|2024-04-09 06:41:37|2024-04-09 06:42:32|55
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1375,7 +1375,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:54:00|2024-03-19 22:55:01|61
+tpcds.32.sh|2024-04-09 06:42:33|2024-04-09 06:43:31|58
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1401,7 +1401,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:55:02|2024-03-19 22:56:16|74
+tpcds.32.sh|2024-04-09 06:43:32|2024-04-09 06:44:27|55
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1427,7 +1427,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:56:17|2024-03-19 22:58:23|126
+tpcds.32.sh|2024-04-09 06:44:28|2024-04-09 06:45:24|56
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1453,7 +1453,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 22:58:24|2024-03-19 23:00:21|117
+tpcds.32.sh|2024-04-09 06:45:25|2024-04-09 06:46:17|52
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1479,7 +1479,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 23:00:22|2024-03-19 23:02:16|114
+tpcds.32.sh|2024-04-09 06:46:18|2024-04-09 06:47:01|43
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1505,7 +1505,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 23:02:17|2024-03-19 23:03:43|86
+tpcds.32.sh|2024-04-09 06:47:02|2024-04-09 06:47:55|53
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1531,7 +1531,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 23:03:44|2024-03-19 23:05:27|103
+tpcds.32.sh|2024-04-09 06:47:56|2024-04-09 06:48:46|50
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1557,7 +1557,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 23:05:28|2024-03-19 23:08:02|154
+tpcds.32.sh|2024-04-09 06:48:47|2024-04-09 06:50:01|74
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1583,7 +1583,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 23:08:03|2024-03-19 23:09:36|93
+tpcds.32.sh|2024-04-09 06:50:02|2024-04-09 06:51:01|59
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1609,7 +1609,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 23:09:37|2024-03-19 23:10:54|77
+tpcds.32.sh|2024-04-09 06:51:02|2024-04-09 06:51:52|50
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1635,7 +1635,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 23:10:55|2024-03-19 23:12:52|117
+tpcds.32.sh|2024-04-09 06:51:53|2024-04-09 06:52:36|43
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1661,7 +1661,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 23:12:53|2024-03-19 23:14:26|93
+tpcds.32.sh|2024-04-09 06:52:37|2024-04-09 06:53:14|37
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1687,7 +1687,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 23:14:27|2024-03-19 23:15:47|80
+tpcds.32.sh|2024-04-09 06:53:15|2024-04-09 06:53:59|44
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1713,7 +1713,7 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-tpcds.32.sh|2024-03-19 23:15:48|2024-03-19 23:17:29|101
+tpcds.32.sh|2024-04-09 06:54:00|2024-04-09 06:55:10|70
 select  sum(cs_ext_discount_amt)  as "excess discount amount"
 from
    catalog_sales
@@ -1739,5 +1739,1642 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk
       )
 limit 100;
-ERROR:  canceling statement due to user request
-tpcds.32.sh|2024-03-19 23:17:30|2024-03-19 23:18:11|41
+tpcds.32.sh|2024-04-09 06:55:11|2024-04-09 06:56:11|60
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 06:56:12|2024-04-09 06:57:12|60
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 06:57:13|2024-04-09 06:57:56|43
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 06:57:57|2024-04-09 06:58:42|45
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 06:58:43|2024-04-09 06:59:57|74
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 06:59:58|2024-04-09 07:01:04|66
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:01:05|2024-04-09 07:02:26|81
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:02:27|2024-04-09 07:03:22|55
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:03:23|2024-04-09 07:04:15|52
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:04:16|2024-04-09 07:05:10|54
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:05:11|2024-04-09 07:06:06|55
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:06:07|2024-04-09 07:07:03|56
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:07:04|2024-04-09 07:07:49|45
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:07:50|2024-04-09 07:08:37|47
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:08:38|2024-04-09 07:09:40|62
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:09:41|2024-04-09 07:10:47|66
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:10:48|2024-04-09 07:11:37|49
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:11:38|2024-04-09 07:12:28|50
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:12:29|2024-04-09 07:13:26|57
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:13:27|2024-04-09 07:14:37|70
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:14:38|2024-04-09 07:15:39|61
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:15:40|2024-04-09 07:16:35|55
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:16:36|2024-04-09 07:17:18|42
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:17:19|2024-04-09 07:18:03|44
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:18:04|2024-04-09 07:19:03|59
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:19:04|2024-04-09 07:20:13|69
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:20:14|2024-04-09 07:21:09|55
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:21:10|2024-04-09 07:22:04|54
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:22:05|2024-04-09 07:22:49|44
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:22:50|2024-04-09 07:23:27|37
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:23:28|2024-04-09 07:24:10|42
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:24:11|2024-04-09 07:25:05|54
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:25:06|2024-04-09 07:26:16|70
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:26:17|2024-04-09 07:27:05|48
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:27:06|2024-04-09 07:27:59|53
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:28:00|2024-04-09 07:28:45|45
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:28:46|2024-04-09 07:29:45|59
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:29:46|2024-04-09 07:30:57|71
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:30:58|2024-04-09 07:31:46|48
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:31:47|2024-04-09 07:32:33|46
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:32:34|2024-04-09 07:33:25|51
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:33:26|2024-04-09 07:34:13|47
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:34:14|2024-04-09 07:35:09|55
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:35:10|2024-04-09 07:36:13|63
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:36:14|2024-04-09 07:37:05|51
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:37:06|2024-04-09 07:37:54|48
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:37:55|2024-04-09 07:39:01|66
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:39:02|2024-04-09 07:40:12|70
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:40:13|2024-04-09 07:41:11|58
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:41:12|2024-04-09 07:41:54|42
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:41:55|2024-04-09 07:42:30|35
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:42:31|2024-04-09 07:43:11|40
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:43:12|2024-04-09 07:44:10|58
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:44:11|2024-04-09 07:45:09|58
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:45:10|2024-04-09 07:46:05|55
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:46:06|2024-04-09 07:47:08|62
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:47:09|2024-04-09 07:48:02|53
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:48:03|2024-04-09 07:48:54|51
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:48:55|2024-04-09 07:49:39|44
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:49:40|2024-04-09 07:50:30|50
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:50:31|2024-04-09 07:51:31|60
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:51:32|2024-04-09 07:52:38|66
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:52:39|2024-04-09 07:53:20|41
+select  sum(cs_ext_discount_amt)  as "excess discount amount"
+from
+   catalog_sales
+   ,item
+   ,date_dim
+where
+i_manufact_id = 328
+and i_item_sk = cs_item_sk
+and d_date between '2000-02-04' and
+        (cast('2000-02-04' as date) + '90 days'::interval)
+and d_date_sk = cs_sold_date_sk
+and cs_ext_discount_amt
+     > (
+         select
+            1.3 * avg(cs_ext_discount_amt)
+         from
+            catalog_sales
+           ,date_dim
+         where
+              cs_item_sk = i_item_sk
+          and d_date between '2000-02-04' and
+                             (cast('2000-02-04' as date) + '90 days'::interval)
+          and d_date_sk = cs_sold_date_sk
+      )
+limit 100;
+tpcds.32.sh|2024-04-09 07:53:21|2024-04-09 07:54:05|44

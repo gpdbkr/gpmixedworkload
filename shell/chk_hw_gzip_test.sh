@@ -2,8 +2,8 @@
 BMT_NO=`basename $0`
 LOGFILE=$BMT_NO".log"
 
-MAX_DIR_NUM=2
-MAX_FILE_NUM=2
+MAX_DIR_NUM=8
+MAX_FILE_NUM=24
 
 START_TM1=`date "+%Y-%m-%d %H:%M:%S"`
 ###### query start

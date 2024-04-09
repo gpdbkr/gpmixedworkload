@@ -47,7 +47,7 @@ group by
         cs_item_sk, cs_ship_customer_sk
 distributed by (cs_item_sk,cs_ship_customer_sk);
 SELECT 321919055
-mart.03.public.mart_catalog_sales.sh|2024-03-19 21:18:04|2024-03-19 21:46:36|1712
+mart.03.public.mart_catalog_sales.sh|2024-04-09 05:53:58|2024-04-09 06:26:00|1922
 drop table if exists public.mart_catalog_sales;
 DROP TABLE
 create table public.mart_catalog_sales
@@ -96,7 +96,7 @@ group by
         cs_item_sk, cs_ship_customer_sk
 distributed by (cs_item_sk,cs_ship_customer_sk);
 SELECT 321919055
-mart.03.public.mart_catalog_sales.sh|2024-03-19 21:46:37|2024-03-19 22:09:42|1385
+mart.03.public.mart_catalog_sales.sh|2024-04-09 06:26:01|2024-04-09 06:55:44|1783
 drop table if exists public.mart_catalog_sales;
 DROP TABLE
 create table public.mart_catalog_sales
@@ -145,7 +145,7 @@ group by
         cs_item_sk, cs_ship_customer_sk
 distributed by (cs_item_sk,cs_ship_customer_sk);
 SELECT 321919055
-mart.03.public.mart_catalog_sales.sh|2024-03-19 22:09:43|2024-03-19 22:47:06|2243
+mart.03.public.mart_catalog_sales.sh|2024-04-09 06:55:45|2024-04-09 07:27:37|1912
 drop table if exists public.mart_catalog_sales;
 DROP TABLE
 create table public.mart_catalog_sales
@@ -194,4 +194,4 @@ group by
         cs_item_sk, cs_ship_customer_sk
 distributed by (cs_item_sk,cs_ship_customer_sk);
 ERROR:  canceling statement due to user request
-mart.03.public.mart_catalog_sales.sh|2024-03-19 22:47:07|2024-03-19 23:18:11|1864
+mart.03.public.mart_catalog_sales.sh|2024-04-09 07:27:38|2024-04-09 07:54:07|1589

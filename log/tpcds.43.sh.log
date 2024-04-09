@@ -14,7 +14,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 21:18:04|2024-03-19 21:23:15|311
+tpcds.43.sh|2024-04-09 05:53:58|2024-04-09 05:58:38|280
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -31,7 +31,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 21:23:16|2024-03-19 21:27:08|232
+tpcds.43.sh|2024-04-09 05:58:39|2024-04-09 06:03:36|297
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -48,7 +48,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 21:27:09|2024-03-19 21:32:18|309
+tpcds.43.sh|2024-04-09 06:03:37|2024-04-09 06:08:40|303
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -65,7 +65,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 21:32:19|2024-03-19 21:40:18|479
+tpcds.43.sh|2024-04-09 06:08:41|2024-04-09 06:13:36|295
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -82,7 +82,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 21:40:19|2024-03-19 21:45:44|325
+tpcds.43.sh|2024-04-09 06:13:37|2024-04-09 06:18:20|283
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -99,7 +99,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 21:45:45|2024-03-19 21:51:04|319
+tpcds.43.sh|2024-04-09 06:18:21|2024-04-09 06:23:24|303
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -116,7 +116,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 21:51:05|2024-03-19 21:55:24|259
+tpcds.43.sh|2024-04-09 06:23:25|2024-04-09 06:27:59|274
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -133,7 +133,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 21:55:25|2024-03-19 22:00:54|329
+tpcds.43.sh|2024-04-09 06:28:00|2024-04-09 06:31:56|236
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -150,7 +150,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:00:55|2024-03-19 22:03:29|154
+tpcds.43.sh|2024-04-09 06:31:57|2024-04-09 06:36:40|283
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -167,7 +167,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:03:30|2024-03-19 22:11:12|462
+tpcds.43.sh|2024-04-09 06:36:41|2024-04-09 06:40:47|246
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -184,7 +184,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:11:13|2024-03-19 22:15:08|235
+tpcds.43.sh|2024-04-09 06:40:48|2024-04-09 06:45:27|279
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -201,7 +201,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:15:09|2024-03-19 22:19:48|279
+tpcds.43.sh|2024-04-09 06:45:28|2024-04-09 06:49:47|259
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -218,7 +218,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:19:49|2024-03-19 22:25:18|329
+tpcds.43.sh|2024-04-09 06:49:48|2024-04-09 06:53:41|233
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -235,7 +235,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:25:19|2024-03-19 22:29:24|245
+tpcds.43.sh|2024-04-09 06:53:42|2024-04-09 06:58:09|267
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -252,7 +252,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:29:25|2024-03-19 22:36:24|419
+tpcds.43.sh|2024-04-09 06:58:10|2024-04-09 07:02:27|257
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -269,7 +269,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:36:25|2024-03-19 22:41:38|313
+tpcds.43.sh|2024-04-09 07:02:28|2024-04-09 07:06:47|259
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -286,7 +286,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:41:39|2024-03-19 22:46:46|307
+tpcds.43.sh|2024-04-09 07:06:48|2024-04-09 07:11:35|287
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -303,7 +303,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:46:47|2024-03-19 22:51:23|276
+tpcds.43.sh|2024-04-09 07:11:36|2024-04-09 07:14:49|193
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -320,7 +320,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:51:24|2024-03-19 22:56:18|294
+tpcds.43.sh|2024-04-09 07:14:50|2024-04-09 07:19:25|275
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -337,7 +337,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 22:56:19|2024-03-19 23:03:10|411
+tpcds.43.sh|2024-04-09 07:19:26|2024-04-09 07:24:06|280
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -354,7 +354,7 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 23:03:11|2024-03-19 23:09:59|408
+tpcds.43.sh|2024-04-09 07:24:07|2024-04-09 07:28:32|265
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -371,7 +371,75 @@ select  s_store_name, s_store_id,
  group by s_store_name, s_store_id
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
-tpcds.43.sh|2024-03-19 23:10:00|2024-03-19 23:17:26|446
+tpcds.43.sh|2024-04-09 07:28:33|2024-04-09 07:33:12|279
+select  s_store_name, s_store_id,
+        sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
+        sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
+        sum(case when (d_day_name='Tuesday') then ss_sales_price else  null end) tue_sales,
+        sum(case when (d_day_name='Wednesday') then ss_sales_price else null end) wed_sales,
+        sum(case when (d_day_name='Thursday') then ss_sales_price else null end) thu_sales,
+        sum(case when (d_day_name='Friday') then ss_sales_price else null end) fri_sales,
+        sum(case when (d_day_name='Saturday') then ss_sales_price else null end) sat_sales
+ from date_dim, store_sales, store
+ where d_date_sk = ss_sold_date_sk and
+       s_store_sk = ss_store_sk and
+       s_gmt_offset = -6 and
+       d_year = 2001
+ group by s_store_name, s_store_id
+ order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
+ limit 100;
+tpcds.43.sh|2024-04-09 07:33:13|2024-04-09 07:37:33|260
+select  s_store_name, s_store_id,
+        sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
+        sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
+        sum(case when (d_day_name='Tuesday') then ss_sales_price else  null end) tue_sales,
+        sum(case when (d_day_name='Wednesday') then ss_sales_price else null end) wed_sales,
+        sum(case when (d_day_name='Thursday') then ss_sales_price else null end) thu_sales,
+        sum(case when (d_day_name='Friday') then ss_sales_price else null end) fri_sales,
+        sum(case when (d_day_name='Saturday') then ss_sales_price else null end) sat_sales
+ from date_dim, store_sales, store
+ where d_date_sk = ss_sold_date_sk and
+       s_store_sk = ss_store_sk and
+       s_gmt_offset = -6 and
+       d_year = 2001
+ group by s_store_name, s_store_id
+ order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
+ limit 100;
+tpcds.43.sh|2024-04-09 07:37:34|2024-04-09 07:42:29|295
+select  s_store_name, s_store_id,
+        sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
+        sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
+        sum(case when (d_day_name='Tuesday') then ss_sales_price else  null end) tue_sales,
+        sum(case when (d_day_name='Wednesday') then ss_sales_price else null end) wed_sales,
+        sum(case when (d_day_name='Thursday') then ss_sales_price else null end) thu_sales,
+        sum(case when (d_day_name='Friday') then ss_sales_price else null end) fri_sales,
+        sum(case when (d_day_name='Saturday') then ss_sales_price else null end) sat_sales
+ from date_dim, store_sales, store
+ where d_date_sk = ss_sold_date_sk and
+       s_store_sk = ss_store_sk and
+       s_gmt_offset = -6 and
+       d_year = 2001
+ group by s_store_name, s_store_id
+ order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
+ limit 100;
+tpcds.43.sh|2024-04-09 07:42:30|2024-04-09 07:46:07|217
+select  s_store_name, s_store_id,
+        sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
+        sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
+        sum(case when (d_day_name='Tuesday') then ss_sales_price else  null end) tue_sales,
+        sum(case when (d_day_name='Wednesday') then ss_sales_price else null end) wed_sales,
+        sum(case when (d_day_name='Thursday') then ss_sales_price else null end) thu_sales,
+        sum(case when (d_day_name='Friday') then ss_sales_price else null end) fri_sales,
+        sum(case when (d_day_name='Saturday') then ss_sales_price else null end) sat_sales
+ from date_dim, store_sales, store
+ where d_date_sk = ss_sold_date_sk and
+       s_store_sk = ss_store_sk and
+       s_gmt_offset = -6 and
+       d_year = 2001
+ group by s_store_name, s_store_id
+ order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
+ limit 100;
+tpcds.43.sh|2024-04-09 07:46:08|2024-04-09 07:50:30|262
 select  s_store_name, s_store_id,
         sum(case when (d_day_name='Sunday') then ss_sales_price else null end) sun_sales,
         sum(case when (d_day_name='Monday') then ss_sales_price else null end) mon_sales,
@@ -389,4 +457,4 @@ select  s_store_name, s_store_id,
  order by s_store_name, s_store_id,sun_sales,mon_sales,tue_sales,wed_sales,thu_sales,fri_sales,sat_sales
  limit 100;
 ERROR:  canceling statement due to user request
-tpcds.43.sh|2024-03-19 23:17:27|2024-03-19 23:18:12|45
+tpcds.43.sh|2024-04-09 07:50:31|2024-04-09 07:54:10|219

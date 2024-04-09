@@ -1,0 +1,29 @@
+[gpadmin@testm shell]$ while true; do  psql -c "select to_char(now(), 'yyyy-mm-dd hh24:mi:ss') dttm, count(*) from tpcds.call_center;" ; sleep 2; done^C
+You have mail in /var/spool/mail/gpadmin
+[gpadmin@testm shell]$ cat ha_chk.sh
+while true; do  psql -c "select to_char(now(), 'yyyy-mm-dd hh24:mi:ss') dttm, count(*) from tpcds.call_center;" ; sleep 2; done
+[gpadmin@testm shell]$ sh ha_chk.sh
+        dttm         | count
+---------------------+-------
+ 2021-05-25 14:24:00 |    42
+(1 row)
+
+        dttm         | count
+---------------------+-------
+ 2021-05-25 14:24:02 |    42
+(1 row)
+
+^C
+[gpadmin@testm shell]$ sh ha_chk.sh
+        dttm         | count
+---------------------+-------
+ 2021-05-25 14:24:04 |    42
+(1 row)
+
+        dttm         | count
+---------------------+-------
+ 2021-05-25 14:24:06 |    42
+(1 row)
+
+^C
+[gpadmin@testm shell]$

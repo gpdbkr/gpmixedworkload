@@ -46,8 +46,8 @@ select    TO_CHAR(ctime, 'yyyymmdd') as dt, TO_CHAR(ctime, 'hh24')||':'||lpad((F
      ,    round(avg(net_rb_rate/1024/1024    ),0) + round(avg(net_wb_rate/1024/1024    ),0) as net_tot_rate_mb
   from    gpmetrics.gpcc_system_history
   where  hostname like '%sdw%'
-  and    ctime >= '$2'::timestamp
-  and    ctime <  '$3'::timestamp
+  and    ctime >= '$2'::timestamp - '10 minutes'::interval
+  and    ctime <  '$3'::timestamp + '10 minutes'::interval
 group by 1,2
 order by 1, 2;
 

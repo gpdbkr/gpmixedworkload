@@ -8,7 +8,7 @@ DROP ROLE IF EXISTS udba;
 CREATE RESOURCE GROUP rgdba WITH (concurrency=100, CPU_MAX_PERCENT=100, CPU_WEIGHT=100);
 
 /* Resource Group for GP 6*/
-CREATE RESOURCE GROUP rgdba WITH (concurrency=100, cpu_rate_limit=100, memory_limit=0);
+CREATE RESOURCE GROUP rgdba WITH (concurrency=100, CPU_MAX_PERCENT=100, CPU_WEIGHT=100);
 
 CREATE ROLE udba    LOGIN ENCRYPTED PASSWORD 'changeme' ;
 alter role udba   resource group rgdba;

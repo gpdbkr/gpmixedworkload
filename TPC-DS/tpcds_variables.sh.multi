@@ -12,7 +12,7 @@ export PGPORT="5432"
 
 # benchmark options
 export GEN_DATA_SCALE="3000"
-export MULTI_USER_COUNT="5"
+export MULTI_USER_COUNT="10"
 export RNGSEED="1"
 export HEAP_ONLY="false"
 

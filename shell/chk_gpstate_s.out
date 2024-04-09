@@ -1,0 +1,351 @@
+20210525:21:23:01:004802 gpstate:testm:gpadmin-[INFO]:-Starting gpstate with args: -s
+20210525:21:23:01:004802 gpstate:testm:gpadmin-[INFO]:-local Greenplum Version: 'postgres (Greenplum Database) 6.15.0 build commit:4e6288c9e9fca634b007a978fba3ce25aae26aed'
+20210525:21:23:01:004802 gpstate:testm:gpadmin-[INFO]:-master Greenplum Version: 'PostgreSQL 9.4.24 (Greenplum Database 6.15.0 build commit:4e6288c9e9fca634b007a978fba3ce25aae26aed) on x86_64-unknown-linux-gnu, compiled by gcc (GCC) 6.4.0, 64-bit compiled on Mar 10 2021 22:30:36'
+20210525:21:23:01:004802 gpstate:testm:gpadmin-[INFO]:-Obtaining Segment details from master...
+20210525:21:23:01:004802 gpstate:testm:gpadmin-[INFO]:-Gathering data from segments...
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:--Master Configuration & Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-*****************************************************
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-DATABASE IS PROBABLY UNAVAILABLE
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-Review Instance Status in log file or screen output for more information
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-*****************************************************
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Master host                    = testm
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Master postgres process ID     = 8594
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Master data directory          = /data/master/gpseg-1
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Master port                    = 5432
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Master current role            = utility
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Greenplum initsystem version   = 6.15.0 build commit:4e6288c9e9fca634b007a978fba3ce25aae26aed
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Greenplum current version      = PostgreSQL 9.4.24 (Greenplum Database 6.15.0 build commit:4e6288c9e9fca634b007a978fba3ce25aae26aed) on x86_64-unknown-linux-gnu, compiled by gcc (GCC) 6.4.0, 64-bit compiled on Mar 10 2021 22:30:36
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Postgres version               = 9.4.24
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Master standby                 = No master standby configured
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-Segment Instance Status Report
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests1
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests1
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data1p/primary/gpseg0
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40000
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 5211
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests1
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests1
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data2p/primary/gpseg1
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40001
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 5210
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests1
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests1
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data3p/primary/gpseg2
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40002
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 5209
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests1
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests1
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data4p/primary/gpseg3
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40003
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 5212
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests2
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests2
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data1p/primary/gpseg4
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40000
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 4663
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests2
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests2
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data2p/primary/gpseg5
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40001
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 4664
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests2
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests2
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data3p/primary/gpseg6
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40002
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 4665
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests2
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests2
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data4p/primary/gpseg7
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40003
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 4666
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests3
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests3
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data1p/primary/gpseg8
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40000
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   PID                               = Not found                                       <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   Database status                   = Process error -- database process may be down   <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests3
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests3
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data2p/primary/gpseg9
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40001
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   PID                               = Not found                                       <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   Database status                   = Process error -- database process may be down   <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests3
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests3
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data3p/primary/gpseg10
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40002
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   PID                               = Not found                                       <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   Database status                   = Process error -- database process may be down   <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests3
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests3
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data4p/primary/gpseg11
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40003
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   PID                               = Not found                                       <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   Database status                   = Process error -- database process may be down   <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests4
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests4
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data1p/primary/gpseg12
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40000
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 11955
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests4
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests4
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data2p/primary/gpseg13
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40001
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 11954
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests4
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests4
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data3p/primary/gpseg14
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40002
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 11953
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests4
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests4
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data4p/primary/gpseg15
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40003
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 11956
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests5
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests5
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data1p/primary/gpseg16
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40000
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 32329
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests5
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests5
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data2p/primary/gpseg17
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40001
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 32331
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests5
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests5
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data3p/primary/gpseg18
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40002
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 32330
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests5
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests5
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data4p/primary/gpseg19
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40003
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 32332
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests6
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests6
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data1p/primary/gpseg20
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40000
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 2774
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests6
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests6
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data2p/primary/gpseg21
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40001
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 2772
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests6
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests6
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data3p/primary/gpseg22
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40002
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 2771
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests6
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests6
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data4p/primary/gpseg23
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40003
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 2773
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests7
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests7
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data1p/primary/gpseg24
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40000
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   PID                               = Not found                                       <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   Database status                   = Process error -- database process may be down   <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests7
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests7
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data2p/primary/gpseg25
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40001
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   PID                               = Not found                                       <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   Database status                   = Process error -- database process may be down   <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests7
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests7
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data3p/primary/gpseg26
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40002
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   PID                               = Not found                                       <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   Database status                   = Process error -- database process may be down   <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests7
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests7
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data4p/primary/gpseg27
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40003
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   PID                               = Not found                                       <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-   Database status                   = Process error -- database process may be down   <<<<<<<<
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests8
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests8
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data1p/primary/gpseg28
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40000
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 8074
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests8
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests8
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data2p/primary/gpseg29
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40001
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 8072
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests8
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests8
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data3p/primary/gpseg30
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40002
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 8071
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-----------------------------------------------------
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Segment Info
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Hostname                          = tests8
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Address                           = tests8
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Datadir                           = /data4p/primary/gpseg31
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Port                              = 40003
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-   Status
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      PID                               = 8073
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Configuration reports status as   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[INFO]:-      Database status                   = Up
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-*****************************************************
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-DATABASE IS PROBABLY UNAVAILABLE
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-Review Instance Status in log file or screen output for more information
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-*****************************************************
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-*****************************************************
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-Warnings have been generated during status processing
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-Check log file or review screen output
+20210525:21:23:02:004802 gpstate:testm:gpadmin-[WARNING]:-*****************************************************

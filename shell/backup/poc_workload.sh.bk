@@ -14,8 +14,8 @@ echo "" >> $LOGFILE
 
 ###### query start
 cd ../shell/
-./run_test.sh
-sleep 1800
+./run_all.sh
+sleep 7200
 
 ###### query end
 

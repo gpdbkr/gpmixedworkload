@@ -1,6 +1,6 @@
 ./tpcds_sum_normal.sh
 ./gather_tpcds_normal.sh > ../log/tpcds.log.normal.result
-#./2.1.system_rsc.sh normal '20240225_19:55:00' '20240226_10:25:00'     #2.1.system_rsc.sh.log.nomal
+./2.1.system_rsc.sh normal '20240318_22:50:00' '20240319_04:00:00'     #2.1.system_rsc.sh.log.nomal
 
 ##############
 ./workload_result.sh       # workload_result.csv

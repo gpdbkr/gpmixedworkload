@@ -1,0 +1,1 @@
+dell nvme 48c 4disk 384GB

@@ -113,7 +113,7 @@ NOTICE:  table "catalog_sales_1_prt_24" does not exist, skipping
 DROP TABLE
 create table public.catalog_sales_1_prt_24 with (appendonly=true, compresslevel=7, compresstype=zstd) as select * from tpcds.catalog_sales_1_prt_24 distributed randomly;
 SELECT 86700443
-load.04.public.load_catalog_sales.sh|2024-03-19 21:18:04|2024-03-19 22:21:43|3819
+load.04.public.load_catalog_sales.sh|2024-04-09 05:53:58|2024-04-09 06:53:36|3578
 drop table if exists public.catalog_sales_1_prt_2;
 DROP TABLE
 create table public.catalog_sales_1_prt_2 with (appendonly=true, compresslevel=7, compresstype=zstd) as select * from tpcds.catalog_sales_1_prt_2 distributed randomly;
@@ -206,4 +206,4 @@ drop table if exists public.catalog_sales_1_prt_24;
 DROP TABLE
 create table public.catalog_sales_1_prt_24 with (appendonly=true, compresslevel=7, compresstype=zstd) as select * from tpcds.catalog_sales_1_prt_24 distributed randomly;
 ERROR:  canceling statement due to user request
-load.04.public.load_catalog_sales.sh|2024-03-19 22:21:44|2024-03-19 23:18:09|3385
+load.04.public.load_catalog_sales.sh|2024-04-09 06:53:37|2024-04-09 07:54:03|3626

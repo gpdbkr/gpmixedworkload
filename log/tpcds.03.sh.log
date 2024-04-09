@@ -55,7 +55,7 @@ with wscs as
         d_year = 1998+1) z
  where d_week_seq1=d_week_seq2-53
  order by d_week_seq1;
-tpcds.03.sh|2024-03-19 21:18:04|2024-03-19 21:40:18|1334
+tpcds.03.sh|2024-04-09 05:53:58|2024-04-09 06:14:53|1255
 with wscs as
  (select sold_date_sk
         ,sales_price
@@ -113,7 +113,7 @@ with wscs as
         d_year = 1998+1) z
  where d_week_seq1=d_week_seq2-53
  order by d_week_seq1;
-tpcds.03.sh|2024-03-19 21:40:19|2024-03-19 22:01:03|1244
+tpcds.03.sh|2024-04-09 06:14:54|2024-04-09 06:36:27|1293
 with wscs as
  (select sold_date_sk
         ,sales_price
@@ -171,7 +171,7 @@ with wscs as
         d_year = 1998+1) z
  where d_week_seq1=d_week_seq2-53
  order by d_week_seq1;
-tpcds.03.sh|2024-03-19 22:01:04|2024-03-19 22:19:11|1087
+tpcds.03.sh|2024-04-09 06:36:28|2024-04-09 06:55:17|1129
 with wscs as
  (select sold_date_sk
         ,sales_price
@@ -229,7 +229,7 @@ with wscs as
         d_year = 1998+1) z
  where d_week_seq1=d_week_seq2-53
  order by d_week_seq1;
-tpcds.03.sh|2024-03-19 22:19:12|2024-03-19 22:38:25|1153
+tpcds.03.sh|2024-04-09 06:55:18|2024-04-09 07:16:24|1266
 with wscs as
  (select sold_date_sk
         ,sales_price
@@ -287,7 +287,7 @@ with wscs as
         d_year = 1998+1) z
  where d_week_seq1=d_week_seq2-53
  order by d_week_seq1;
-tpcds.03.sh|2024-03-19 22:38:26|2024-03-19 22:58:34|1208
+tpcds.03.sh|2024-04-09 07:16:25|2024-04-09 07:36:13|1188
 with wscs as
  (select sold_date_sk
         ,sales_price
@@ -346,4 +346,4 @@ with wscs as
  where d_week_seq1=d_week_seq2-53
  order by d_week_seq1;
 ERROR:  canceling statement due to user request
-tpcds.03.sh|2024-03-19 22:58:35|2024-03-19 23:18:14|1179
+tpcds.03.sh|2024-04-09 07:36:14|2024-04-09 07:54:08|1074

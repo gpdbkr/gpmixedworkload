@@ -1,7 +1,6 @@
-
 ## init or normal
-#./poc_init.sh
-./poc_normal.sh
+./poc_init.sh
+#./poc_normal.sh
 
 sleep 600
 
@@ -10,4 +9,3 @@ sleep 600
 sleep 600
 
 ./poc_workload.sh
-

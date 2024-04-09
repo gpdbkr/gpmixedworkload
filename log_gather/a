@@ -1,0 +1,21 @@
+LOGDIR=../log
+#for seq in `seq -f "%02g" 24`
+cd $LOGDIR
+
+reportfile=workload_result_avg.csv
+cat /dev/null > $reportfile
+
+for seq in `ls tpcds*.log | cut -c1-8`
+do
+
+selectfile=$seq.*.log
+workload=`cat $selectfile | grep ^tpcds | head -1 | awk -F"|" '{print $1}'`
+sdate=`   cat $selectfile | grep ^tpcds | head -1 | awk -F"|" '{print $2}'`
+edate=`   cat $selectfile | grep ^tpcds | tail -1 | awk -F"|" '{print $3}'`
+runtime=` cat $selectfile | grep ^tpcds | awk -F"|" 'BEGIN {i=0;s=0} {i=i+1;s=s+$NF} END {printf ",%05.2f,%s\n",s/i,i}'` 
+
+#echo $workload","$sdate","$edate$runtime | tee -a b
+echo $workload","$sdate","$edate$runtime > b 
+ 
+
+done

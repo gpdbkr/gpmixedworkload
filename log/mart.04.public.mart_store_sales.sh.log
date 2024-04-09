@@ -36,7 +36,7 @@ group by
         ss_sold_time_sk, ss_item_sk
 distributed by (ss_sold_time_sk, ss_item_sk);
 SELECT 553803035
-mart.04.public.mart_store_sales.sh|2024-03-19 21:18:04|2024-03-19 21:53:25|2121
+mart.04.public.mart_store_sales.sh|2024-04-09 05:53:58|2024-04-09 06:35:52|2514
 drop table if exists public.mart_store_sales;
 DROP TABLE
 create table public.mart_store_sales
@@ -74,7 +74,7 @@ group by
         ss_sold_time_sk, ss_item_sk
 distributed by (ss_sold_time_sk, ss_item_sk);
 SELECT 553803035
-mart.04.public.mart_store_sales.sh|2024-03-19 21:53:26|2024-03-19 22:35:32|2526
+mart.04.public.mart_store_sales.sh|2024-04-09 06:35:53|2024-04-09 07:18:15|2542
 drop table if exists public.mart_store_sales;
 DROP TABLE
 create table public.mart_store_sales
@@ -112,4 +112,4 @@ group by
         ss_sold_time_sk, ss_item_sk
 distributed by (ss_sold_time_sk, ss_item_sk);
 ERROR:  canceling statement due to user request
-mart.04.public.mart_store_sales.sh|2024-03-19 22:35:33|2024-03-19 23:18:10|2557
+mart.04.public.mart_store_sales.sh|2024-04-09 07:18:16|2024-04-09 07:54:09|2153

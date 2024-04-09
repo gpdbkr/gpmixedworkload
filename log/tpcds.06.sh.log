@@ -21,7 +21,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:18:04|2024-03-19 21:21:40|216
+tpcds.06.sh|2024-04-09 05:53:58|2024-04-09 05:54:34|36
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -45,7 +45,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:21:41|2024-03-19 21:24:41|180
+tpcds.06.sh|2024-04-09 05:54:35|2024-04-09 05:55:34|59
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -69,7 +69,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:24:42|2024-03-19 21:26:15|93
+tpcds.06.sh|2024-04-09 05:55:35|2024-04-09 05:56:33|58
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -93,7 +93,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:26:16|2024-03-19 21:27:35|79
+tpcds.06.sh|2024-04-09 05:56:34|2024-04-09 05:57:19|45
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -117,7 +117,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:27:36|2024-03-19 21:29:26|110
+tpcds.06.sh|2024-04-09 05:57:20|2024-04-09 05:57:42|22
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -141,7 +141,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:29:27|2024-03-19 21:31:16|109
+tpcds.06.sh|2024-04-09 05:57:43|2024-04-09 05:58:33|50
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -165,7 +165,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:31:17|2024-03-19 21:33:12|115
+tpcds.06.sh|2024-04-09 05:58:34|2024-04-09 05:59:02|28
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -189,7 +189,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:33:13|2024-03-19 21:35:29|136
+tpcds.06.sh|2024-04-09 05:59:04|2024-04-09 05:59:44|40
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -213,7 +213,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:35:30|2024-03-19 21:37:51|141
+tpcds.06.sh|2024-04-09 05:59:45|2024-04-09 06:00:15|30
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -237,7 +237,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:37:52|2024-03-19 21:40:03|131
+tpcds.06.sh|2024-04-09 06:00:16|2024-04-09 06:00:51|35
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -261,7 +261,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:40:04|2024-03-19 21:42:09|125
+tpcds.06.sh|2024-04-09 06:00:53|2024-04-09 06:01:28|35
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -285,7 +285,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:42:10|2024-03-19 21:43:30|80
+tpcds.06.sh|2024-04-09 06:01:29|2024-04-09 06:02:13|44
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -309,7 +309,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:43:31|2024-03-19 21:46:10|159
+tpcds.06.sh|2024-04-09 06:02:14|2024-04-09 06:02:35|21
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -333,7 +333,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:46:11|2024-03-19 21:47:39|88
+tpcds.06.sh|2024-04-09 06:02:36|2024-04-09 06:03:09|33
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -357,7 +357,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:47:40|2024-03-19 21:49:42|122
+tpcds.06.sh|2024-04-09 06:03:10|2024-04-09 06:03:53|43
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -381,7 +381,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:49:43|2024-03-19 21:50:28|45
+tpcds.06.sh|2024-04-09 06:03:54|2024-04-09 06:04:18|24
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -405,7 +405,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:50:29|2024-03-19 21:51:50|81
+tpcds.06.sh|2024-04-09 06:04:19|2024-04-09 06:04:55|36
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -429,7 +429,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:51:51|2024-03-19 21:54:19|148
+tpcds.06.sh|2024-04-09 06:04:56|2024-04-09 06:05:33|37
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -453,7 +453,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:54:20|2024-03-19 21:55:57|97
+tpcds.06.sh|2024-04-09 06:05:34|2024-04-09 06:06:03|29
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -477,7 +477,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:55:58|2024-03-19 21:57:02|64
+tpcds.06.sh|2024-04-09 06:06:04|2024-04-09 06:06:33|29
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -501,7 +501,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 21:57:03|2024-03-19 22:00:01|178
+tpcds.06.sh|2024-04-09 06:06:34|2024-04-09 06:07:23|49
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -525,7 +525,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:00:02|2024-03-19 22:01:36|94
+tpcds.06.sh|2024-04-09 06:07:24|2024-04-09 06:08:00|36
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -549,7 +549,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:01:37|2024-03-19 22:03:13|96
+tpcds.06.sh|2024-04-09 06:08:01|2024-04-09 06:08:25|24
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -573,7 +573,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:03:14|2024-03-19 22:06:07|173
+tpcds.06.sh|2024-04-09 06:08:26|2024-04-09 06:09:12|46
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -597,7 +597,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:06:08|2024-03-19 22:07:42|94
+tpcds.06.sh|2024-04-09 06:09:13|2024-04-09 06:09:35|22
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -621,7 +621,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:07:43|2024-03-19 22:08:52|69
+tpcds.06.sh|2024-04-09 06:09:36|2024-04-09 06:10:16|40
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -645,7 +645,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:08:53|2024-03-19 22:10:17|84
+tpcds.06.sh|2024-04-09 06:10:17|2024-04-09 06:10:53|36
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -669,7 +669,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:10:18|2024-03-19 22:11:10|52
+tpcds.06.sh|2024-04-09 06:10:54|2024-04-09 06:11:27|33
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -693,7 +693,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:11:11|2024-03-19 22:11:58|47
+tpcds.06.sh|2024-04-09 06:11:28|2024-04-09 06:12:03|35
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -717,7 +717,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:11:59|2024-03-19 22:14:30|151
+tpcds.06.sh|2024-04-09 06:12:04|2024-04-09 06:12:37|33
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -741,7 +741,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:14:31|2024-03-19 22:16:10|99
+tpcds.06.sh|2024-04-09 06:12:38|2024-04-09 06:12:58|20
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -765,7 +765,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:16:11|2024-03-19 22:17:24|73
+tpcds.06.sh|2024-04-09 06:12:59|2024-04-09 06:13:28|29
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -789,7 +789,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:17:25|2024-03-19 22:18:35|70
+tpcds.06.sh|2024-04-09 06:13:29|2024-04-09 06:14:08|39
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -813,7 +813,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:18:36|2024-03-19 22:19:58|82
+tpcds.06.sh|2024-04-09 06:14:09|2024-04-09 06:14:51|42
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -837,7 +837,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:19:59|2024-03-19 22:22:40|161
+tpcds.06.sh|2024-04-09 06:14:52|2024-04-09 06:15:32|40
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -861,7 +861,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:22:41|2024-03-19 22:24:53|132
+tpcds.06.sh|2024-04-09 06:15:33|2024-04-09 06:16:02|29
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -885,7 +885,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:24:54|2024-03-19 22:26:26|92
+tpcds.06.sh|2024-04-09 06:16:03|2024-04-09 06:16:44|41
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -909,7 +909,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:26:27|2024-03-19 22:27:07|40
+tpcds.06.sh|2024-04-09 06:16:45|2024-04-09 06:17:36|51
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -933,7 +933,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:27:08|2024-03-19 22:27:52|44
+tpcds.06.sh|2024-04-09 06:17:37|2024-04-09 06:17:58|21
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -957,7 +957,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:27:53|2024-03-19 22:29:50|117
+tpcds.06.sh|2024-04-09 06:17:59|2024-04-09 06:18:45|46
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -981,7 +981,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:29:51|2024-03-19 22:31:50|119
+tpcds.06.sh|2024-04-09 06:18:46|2024-04-09 06:19:29|43
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1005,7 +1005,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:31:51|2024-03-19 22:33:09|78
+tpcds.06.sh|2024-04-09 06:19:30|2024-04-09 06:20:18|48
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1029,7 +1029,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:33:10|2024-03-19 22:33:55|45
+tpcds.06.sh|2024-04-09 06:20:19|2024-04-09 06:20:59|40
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1053,7 +1053,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:33:56|2024-03-19 22:34:50|54
+tpcds.06.sh|2024-04-09 06:21:00|2024-04-09 06:21:32|32
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1077,7 +1077,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:34:51|2024-03-19 22:37:22|151
+tpcds.06.sh|2024-04-09 06:21:33|2024-04-09 06:22:04|31
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1101,7 +1101,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:37:23|2024-03-19 22:39:05|102
+tpcds.06.sh|2024-04-09 06:22:05|2024-04-09 06:22:32|27
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1125,7 +1125,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:39:06|2024-03-19 22:41:38|152
+tpcds.06.sh|2024-04-09 06:22:33|2024-04-09 06:23:09|36
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1149,7 +1149,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:41:39|2024-03-19 22:43:37|118
+tpcds.06.sh|2024-04-09 06:23:10|2024-04-09 06:23:41|31
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1173,7 +1173,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:43:38|2024-03-19 22:45:30|112
+tpcds.06.sh|2024-04-09 06:23:42|2024-04-09 06:24:27|45
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1197,7 +1197,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:45:31|2024-03-19 22:47:30|119
+tpcds.06.sh|2024-04-09 06:24:28|2024-04-09 06:25:09|41
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1221,7 +1221,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:47:31|2024-03-19 22:48:54|83
+tpcds.06.sh|2024-04-09 06:25:10|2024-04-09 06:25:40|30
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1245,7 +1245,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:48:55|2024-03-19 22:51:38|163
+tpcds.06.sh|2024-04-09 06:25:41|2024-04-09 06:26:08|27
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1269,7 +1269,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:51:39|2024-03-19 22:52:55|76
+tpcds.06.sh|2024-04-09 06:26:09|2024-04-09 06:26:41|32
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1293,7 +1293,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:52:56|2024-03-19 22:53:48|52
+tpcds.06.sh|2024-04-09 06:26:42|2024-04-09 06:27:15|33
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1317,7 +1317,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:53:49|2024-03-19 22:54:40|51
+tpcds.06.sh|2024-04-09 06:27:16|2024-04-09 06:27:50|34
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1341,7 +1341,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:54:41|2024-03-19 22:55:59|78
+tpcds.06.sh|2024-04-09 06:27:51|2024-04-09 06:28:21|30
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1365,7 +1365,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:56:00|2024-03-19 22:58:33|153
+tpcds.06.sh|2024-04-09 06:28:22|2024-04-09 06:28:59|37
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1389,7 +1389,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 22:58:34|2024-03-19 23:00:36|122
+tpcds.06.sh|2024-04-09 06:29:00|2024-04-09 06:29:25|25
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1413,7 +1413,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:00:37|2024-03-19 23:02:19|102
+tpcds.06.sh|2024-04-09 06:29:26|2024-04-09 06:29:50|24
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1437,7 +1437,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:02:20|2024-03-19 23:03:35|75
+tpcds.06.sh|2024-04-09 06:29:51|2024-04-09 06:30:54|63
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1461,7 +1461,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:03:36|2024-03-19 23:04:19|43
+tpcds.06.sh|2024-04-09 06:30:55|2024-04-09 06:31:51|56
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1485,7 +1485,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:04:20|2024-03-19 23:06:39|139
+tpcds.06.sh|2024-04-09 06:31:52|2024-04-09 06:32:22|30
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1509,7 +1509,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:06:40|2024-03-19 23:09:02|142
+tpcds.06.sh|2024-04-09 06:32:23|2024-04-09 06:32:47|24
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1533,7 +1533,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:09:03|2024-03-19 23:10:03|60
+tpcds.06.sh|2024-04-09 06:32:48|2024-04-09 06:33:11|23
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1557,7 +1557,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:10:04|2024-03-19 23:11:42|98
+tpcds.06.sh|2024-04-09 06:33:12|2024-04-09 06:33:41|29
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1581,7 +1581,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:11:43|2024-03-19 23:12:46|63
+tpcds.06.sh|2024-04-09 06:33:42|2024-04-09 06:34:17|35
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1605,7 +1605,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:12:47|2024-03-19 23:13:34|47
+tpcds.06.sh|2024-04-09 06:34:18|2024-04-09 06:34:55|37
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1629,7 +1629,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:13:35|2024-03-19 23:14:26|51
+tpcds.06.sh|2024-04-09 06:34:56|2024-04-09 06:35:32|36
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1653,7 +1653,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:14:27|2024-03-19 23:16:38|131
+tpcds.06.sh|2024-04-09 06:35:33|2024-04-09 06:36:14|41
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1677,7 +1677,7 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-tpcds.06.sh|2024-03-19 23:16:39|2024-03-19 23:17:51|72
+tpcds.06.sh|2024-04-09 06:36:15|2024-04-09 06:36:40|25
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -1701,5 +1701,3124 @@ select  a.ca_state state, count(*) cnt
  having count(*) >= 10
  order by cnt
  limit 100;
-ERROR:  canceling statement due to user request
-tpcds.06.sh|2024-03-19 23:17:52|2024-03-19 23:18:15|23
+tpcds.06.sh|2024-04-09 06:36:41|2024-04-09 06:37:10|29
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:37:11|2024-04-09 06:37:38|27
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:37:39|2024-04-09 06:38:43|64
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:38:44|2024-04-09 06:39:19|35
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:39:20|2024-04-09 06:39:55|35
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:39:56|2024-04-09 06:40:19|23
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:40:20|2024-04-09 06:40:52|32
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:40:53|2024-04-09 06:41:37|44
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:41:38|2024-04-09 06:42:23|45
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:42:24|2024-04-09 06:43:07|43
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:43:08|2024-04-09 06:43:51|43
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:43:52|2024-04-09 06:44:28|36
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:44:29|2024-04-09 06:45:01|32
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:45:02|2024-04-09 06:45:30|28
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:45:31|2024-04-09 06:46:10|39
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:46:11|2024-04-09 06:46:35|24
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:46:36|2024-04-09 06:47:22|46
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:47:23|2024-04-09 06:47:48|25
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:47:49|2024-04-09 06:48:34|45
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:48:35|2024-04-09 06:49:16|41
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:49:17|2024-04-09 06:49:53|36
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:49:54|2024-04-09 06:50:23|29
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:50:24|2024-04-09 06:51:01|37
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:51:02|2024-04-09 06:51:40|38
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:51:41|2024-04-09 06:52:10|29
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:52:11|2024-04-09 06:52:31|20
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:52:32|2024-04-09 06:52:57|25
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:52:58|2024-04-09 06:53:13|15
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:53:14|2024-04-09 06:54:01|47
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:54:02|2024-04-09 06:54:43|41
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:54:44|2024-04-09 06:55:09|25
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:55:10|2024-04-09 06:55:44|34
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:55:45|2024-04-09 06:56:14|29
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:56:15|2024-04-09 06:56:49|34
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:56:50|2024-04-09 06:57:45|55
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:57:46|2024-04-09 06:58:12|26
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:58:13|2024-04-09 06:58:38|25
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:58:39|2024-04-09 06:59:30|51
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 06:59:31|2024-04-09 07:00:03|32
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:00:04|2024-04-09 07:00:38|34
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:00:39|2024-04-09 07:01:13|34
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:01:14|2024-04-09 07:02:04|50
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:02:05|2024-04-09 07:02:43|38
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:02:44|2024-04-09 07:03:10|26
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:03:11|2024-04-09 07:03:33|22
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:03:34|2024-04-09 07:04:06|32
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:04:07|2024-04-09 07:04:29|22
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:04:30|2024-04-09 07:04:57|27
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:04:58|2024-04-09 07:05:31|33
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:05:32|2024-04-09 07:06:07|35
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:06:08|2024-04-09 07:07:04|56
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:07:05|2024-04-09 07:07:32|27
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:07:33|2024-04-09 07:08:14|41
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:08:15|2024-04-09 07:08:33|18
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:08:34|2024-04-09 07:09:00|26
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:09:01|2024-04-09 07:09:52|51
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:09:53|2024-04-09 07:10:43|50
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:10:44|2024-04-09 07:11:06|22
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:11:07|2024-04-09 07:11:26|19
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:11:27|2024-04-09 07:11:53|26
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:11:54|2024-04-09 07:12:40|46
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:12:41|2024-04-09 07:13:29|48
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:13:30|2024-04-09 07:14:08|38
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:14:09|2024-04-09 07:14:53|44
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:14:54|2024-04-09 07:15:33|39
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:15:34|2024-04-09 07:16:13|39
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:16:14|2024-04-09 07:16:36|22
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:16:37|2024-04-09 07:17:07|30
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:17:08|2024-04-09 07:17:49|41
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:17:50|2024-04-09 07:18:18|28
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:18:19|2024-04-09 07:18:49|30
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:18:50|2024-04-09 07:19:27|37
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:19:28|2024-04-09 07:20:03|35
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:20:04|2024-04-09 07:20:33|29
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:20:34|2024-04-09 07:21:13|39
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:21:14|2024-04-09 07:21:43|29
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:21:44|2024-04-09 07:22:21|37
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:22:22|2024-04-09 07:22:44|22
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:22:45|2024-04-09 07:23:23|38
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:23:24|2024-04-09 07:23:42|18
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:23:43|2024-04-09 07:24:09|26
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:24:10|2024-04-09 07:24:37|27
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:24:38|2024-04-09 07:25:35|57
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:25:36|2024-04-09 07:26:13|37
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:26:14|2024-04-09 07:26:44|30
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:26:45|2024-04-09 07:27:15|30
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:27:16|2024-04-09 07:27:55|39
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:27:56|2024-04-09 07:28:29|33
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:28:30|2024-04-09 07:29:08|38
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:29:09|2024-04-09 07:30:00|51
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:30:01|2024-04-09 07:30:29|28
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:30:30|2024-04-09 07:31:14|44
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:31:15|2024-04-09 07:31:35|20
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:31:36|2024-04-09 07:32:01|25
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:32:02|2024-04-09 07:32:36|34
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:32:37|2024-04-09 07:33:24|47
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:33:25|2024-04-09 07:34:01|36
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:34:02|2024-04-09 07:34:36|34
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:34:37|2024-04-09 07:35:06|29
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:35:07|2024-04-09 07:35:49|42
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:35:50|2024-04-09 07:36:21|31
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:36:22|2024-04-09 07:36:58|36
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:36:59|2024-04-09 07:37:34|35
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:37:35|2024-04-09 07:38:09|34
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:38:10|2024-04-09 07:38:45|35
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:38:46|2024-04-09 07:39:13|27
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:39:14|2024-04-09 07:39:51|37
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:39:52|2024-04-09 07:40:24|32
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:40:25|2024-04-09 07:41:04|39
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:41:05|2024-04-09 07:41:47|42
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:41:48|2024-04-09 07:42:13|25
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:42:14|2024-04-09 07:42:34|20
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:42:35|2024-04-09 07:42:55|20
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:42:56|2024-04-09 07:43:44|48
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:43:45|2024-04-09 07:44:19|34
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:44:20|2024-04-09 07:44:52|32
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:44:53|2024-04-09 07:45:21|28
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:45:22|2024-04-09 07:46:12|50
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:46:13|2024-04-09 07:46:46|33
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:46:47|2024-04-09 07:47:33|46
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:47:34|2024-04-09 07:48:07|33
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:48:08|2024-04-09 07:48:44|36
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:48:45|2024-04-09 07:49:05|20
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:49:06|2024-04-09 07:49:29|23
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:49:30|2024-04-09 07:50:01|31
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:50:02|2024-04-09 07:50:50|48
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:50:51|2024-04-09 07:51:36|45
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:51:37|2024-04-09 07:52:19|42
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:52:20|2024-04-09 07:52:55|35
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:52:56|2024-04-09 07:53:25|29
+select  a.ca_state state, count(*) cnt
+ from customer_address a
+     ,customer c
+     ,store_sales s
+     ,date_dim d
+     ,item i
+ where       a.ca_address_sk = c.c_current_addr_sk
+ 	and c.c_customer_sk = s.ss_customer_sk
+ 	and s.ss_sold_date_sk = d.d_date_sk
+ 	and s.ss_item_sk = i.i_item_sk
+ 	and d.d_month_seq =
+ 	     (select distinct (d_month_seq)
+ 	      from date_dim
+               where d_year = 2002
+ 	        and d_moy = 4 )
+ 	and i.i_current_price > 1.2 *
+             (select avg(j.i_current_price)
+ 	     from item j
+ 	     where j.i_category = i.i_category)
+ group by a.ca_state
+ having count(*) >= 10
+ order by cnt
+ limit 100;
+tpcds.06.sh|2024-04-09 07:53:26|2024-04-09 07:54:01|35

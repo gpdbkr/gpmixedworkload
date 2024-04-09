@@ -47,7 +47,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 21:18:04|2024-03-19 21:22:36|272
+tpcds.13.sh|2024-04-09 05:53:58|2024-04-09 05:57:50|232
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -97,7 +97,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 21:22:37|2024-03-19 21:25:31|174
+tpcds.13.sh|2024-04-09 05:57:51|2024-04-09 06:01:29|218
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -147,7 +147,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 21:25:32|2024-03-19 21:31:28|356
+tpcds.13.sh|2024-04-09 06:01:30|2024-04-09 06:04:58|208
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -197,7 +197,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 21:31:29|2024-03-19 21:35:44|255
+tpcds.13.sh|2024-04-09 06:04:59|2024-04-09 06:09:00|241
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -247,7 +247,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 21:35:45|2024-03-19 21:40:46|301
+tpcds.13.sh|2024-04-09 06:09:01|2024-04-09 06:12:19|198
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -297,7 +297,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 21:40:47|2024-03-19 21:45:53|306
+tpcds.13.sh|2024-04-09 06:12:20|2024-04-09 06:14:51|151
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -347,7 +347,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 21:45:54|2024-03-19 21:50:45|291
+tpcds.13.sh|2024-04-09 06:14:52|2024-04-09 06:18:46|234
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -397,7 +397,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 21:50:46|2024-03-19 21:54:41|235
+tpcds.13.sh|2024-04-09 06:18:47|2024-04-09 06:22:49|242
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -447,7 +447,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 21:54:42|2024-03-19 21:59:19|277
+tpcds.13.sh|2024-04-09 06:22:50|2024-04-09 06:26:05|195
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -497,7 +497,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 21:59:20|2024-03-19 22:02:40|200
+tpcds.13.sh|2024-04-09 06:26:06|2024-04-09 06:29:39|213
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -547,7 +547,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:02:41|2024-03-19 22:08:13|332
+tpcds.13.sh|2024-04-09 06:29:40|2024-04-09 06:33:29|229
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -597,7 +597,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:08:14|2024-03-19 22:11:06|172
+tpcds.13.sh|2024-04-09 06:33:30|2024-04-09 06:36:29|179
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -647,7 +647,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:11:07|2024-03-19 22:14:31|204
+tpcds.13.sh|2024-04-09 06:36:30|2024-04-09 06:40:10|220
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -697,7 +697,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:14:32|2024-03-19 22:19:16|284
+tpcds.13.sh|2024-04-09 06:40:11|2024-04-09 06:42:46|155
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -747,7 +747,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:19:17|2024-03-19 22:23:56|279
+tpcds.13.sh|2024-04-09 06:42:47|2024-04-09 06:46:24|217
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -797,7 +797,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:23:57|2024-03-19 22:29:30|333
+tpcds.13.sh|2024-04-09 06:46:25|2024-04-09 06:48:59|154
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -847,7 +847,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:29:31|2024-03-19 22:35:17|346
+tpcds.13.sh|2024-04-09 06:49:00|2024-04-09 06:52:45|225
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -897,7 +897,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:35:18|2024-03-19 22:38:20|182
+tpcds.13.sh|2024-04-09 06:52:46|2024-04-09 06:55:08|142
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -947,7 +947,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:38:21|2024-03-19 22:42:55|274
+tpcds.13.sh|2024-04-09 06:55:09|2024-04-09 06:59:35|266
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -997,7 +997,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:42:56|2024-03-19 22:46:25|209
+tpcds.13.sh|2024-04-09 06:59:36|2024-04-09 07:03:24|228
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -1047,7 +1047,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:46:26|2024-03-19 22:49:17|171
+tpcds.13.sh|2024-04-09 07:03:25|2024-04-09 07:06:45|200
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -1097,7 +1097,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:49:18|2024-03-19 22:55:41|383
+tpcds.13.sh|2024-04-09 07:06:46|2024-04-09 07:09:52|186
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -1147,7 +1147,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 22:55:42|2024-03-19 23:00:48|306
+tpcds.13.sh|2024-04-09 07:09:53|2024-04-09 07:13:32|219
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -1197,7 +1197,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 23:00:49|2024-03-19 23:05:55|306
+tpcds.13.sh|2024-04-09 07:13:33|2024-04-09 07:16:58|205
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -1247,7 +1247,7 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 23:05:56|2024-03-19 23:10:34|278
+tpcds.13.sh|2024-04-09 07:16:59|2024-04-09 07:20:29|210
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -1297,7 +1297,407 @@ select avg(ss_quantity)
   and ss_net_profit between 50 and 250
      ))
 ;
-tpcds.13.sh|2024-03-19 23:10:35|2024-03-19 23:14:55|260
+tpcds.13.sh|2024-04-09 07:20:30|2024-04-09 07:24:05|215
+select avg(ss_quantity)
+       ,avg(ss_ext_sales_price)
+       ,avg(ss_ext_wholesale_cost)
+       ,sum(ss_ext_wholesale_cost)
+ from store_sales
+     ,store
+     ,customer_demographics
+     ,household_demographics
+     ,customer_address
+     ,date_dim
+ where s_store_sk = ss_store_sk
+ and  ss_sold_date_sk = d_date_sk and d_year = 2001
+ and((ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'D'
+  and cd_education_status = 'College'
+  and ss_sales_price between 100.00 and 150.00
+  and hd_dep_count = 3
+     )or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'S'
+  and cd_education_status = 'Unknown'
+  and ss_sales_price between 50.00 and 100.00
+  and hd_dep_count = 1
+     ) or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'M'
+  and cd_education_status = 'Secondary'
+  and ss_sales_price between 150.00 and 200.00
+  and hd_dep_count = 1
+     ))
+ and((ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('IL', 'AR', 'NE')
+  and ss_net_profit between 100 and 200
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('TX', 'WV', 'LA')
+  and ss_net_profit between 150 and 300
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('PA', 'IN', 'TN')
+  and ss_net_profit between 50 and 250
+     ))
+;
+tpcds.13.sh|2024-04-09 07:24:06|2024-04-09 07:28:35|269
+select avg(ss_quantity)
+       ,avg(ss_ext_sales_price)
+       ,avg(ss_ext_wholesale_cost)
+       ,sum(ss_ext_wholesale_cost)
+ from store_sales
+     ,store
+     ,customer_demographics
+     ,household_demographics
+     ,customer_address
+     ,date_dim
+ where s_store_sk = ss_store_sk
+ and  ss_sold_date_sk = d_date_sk and d_year = 2001
+ and((ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'D'
+  and cd_education_status = 'College'
+  and ss_sales_price between 100.00 and 150.00
+  and hd_dep_count = 3
+     )or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'S'
+  and cd_education_status = 'Unknown'
+  and ss_sales_price between 50.00 and 100.00
+  and hd_dep_count = 1
+     ) or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'M'
+  and cd_education_status = 'Secondary'
+  and ss_sales_price between 150.00 and 200.00
+  and hd_dep_count = 1
+     ))
+ and((ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('IL', 'AR', 'NE')
+  and ss_net_profit between 100 and 200
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('TX', 'WV', 'LA')
+  and ss_net_profit between 150 and 300
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('PA', 'IN', 'TN')
+  and ss_net_profit between 50 and 250
+     ))
+;
+tpcds.13.sh|2024-04-09 07:28:36|2024-04-09 07:32:16|220
+select avg(ss_quantity)
+       ,avg(ss_ext_sales_price)
+       ,avg(ss_ext_wholesale_cost)
+       ,sum(ss_ext_wholesale_cost)
+ from store_sales
+     ,store
+     ,customer_demographics
+     ,household_demographics
+     ,customer_address
+     ,date_dim
+ where s_store_sk = ss_store_sk
+ and  ss_sold_date_sk = d_date_sk and d_year = 2001
+ and((ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'D'
+  and cd_education_status = 'College'
+  and ss_sales_price between 100.00 and 150.00
+  and hd_dep_count = 3
+     )or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'S'
+  and cd_education_status = 'Unknown'
+  and ss_sales_price between 50.00 and 100.00
+  and hd_dep_count = 1
+     ) or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'M'
+  and cd_education_status = 'Secondary'
+  and ss_sales_price between 150.00 and 200.00
+  and hd_dep_count = 1
+     ))
+ and((ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('IL', 'AR', 'NE')
+  and ss_net_profit between 100 and 200
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('TX', 'WV', 'LA')
+  and ss_net_profit between 150 and 300
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('PA', 'IN', 'TN')
+  and ss_net_profit between 50 and 250
+     ))
+;
+tpcds.13.sh|2024-04-09 07:32:17|2024-04-09 07:35:42|205
+select avg(ss_quantity)
+       ,avg(ss_ext_sales_price)
+       ,avg(ss_ext_wholesale_cost)
+       ,sum(ss_ext_wholesale_cost)
+ from store_sales
+     ,store
+     ,customer_demographics
+     ,household_demographics
+     ,customer_address
+     ,date_dim
+ where s_store_sk = ss_store_sk
+ and  ss_sold_date_sk = d_date_sk and d_year = 2001
+ and((ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'D'
+  and cd_education_status = 'College'
+  and ss_sales_price between 100.00 and 150.00
+  and hd_dep_count = 3
+     )or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'S'
+  and cd_education_status = 'Unknown'
+  and ss_sales_price between 50.00 and 100.00
+  and hd_dep_count = 1
+     ) or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'M'
+  and cd_education_status = 'Secondary'
+  and ss_sales_price between 150.00 and 200.00
+  and hd_dep_count = 1
+     ))
+ and((ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('IL', 'AR', 'NE')
+  and ss_net_profit between 100 and 200
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('TX', 'WV', 'LA')
+  and ss_net_profit between 150 and 300
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('PA', 'IN', 'TN')
+  and ss_net_profit between 50 and 250
+     ))
+;
+tpcds.13.sh|2024-04-09 07:35:43|2024-04-09 07:38:48|185
+select avg(ss_quantity)
+       ,avg(ss_ext_sales_price)
+       ,avg(ss_ext_wholesale_cost)
+       ,sum(ss_ext_wholesale_cost)
+ from store_sales
+     ,store
+     ,customer_demographics
+     ,household_demographics
+     ,customer_address
+     ,date_dim
+ where s_store_sk = ss_store_sk
+ and  ss_sold_date_sk = d_date_sk and d_year = 2001
+ and((ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'D'
+  and cd_education_status = 'College'
+  and ss_sales_price between 100.00 and 150.00
+  and hd_dep_count = 3
+     )or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'S'
+  and cd_education_status = 'Unknown'
+  and ss_sales_price between 50.00 and 100.00
+  and hd_dep_count = 1
+     ) or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'M'
+  and cd_education_status = 'Secondary'
+  and ss_sales_price between 150.00 and 200.00
+  and hd_dep_count = 1
+     ))
+ and((ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('IL', 'AR', 'NE')
+  and ss_net_profit between 100 and 200
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('TX', 'WV', 'LA')
+  and ss_net_profit between 150 and 300
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('PA', 'IN', 'TN')
+  and ss_net_profit between 50 and 250
+     ))
+;
+tpcds.13.sh|2024-04-09 07:38:49|2024-04-09 07:42:35|226
+select avg(ss_quantity)
+       ,avg(ss_ext_sales_price)
+       ,avg(ss_ext_wholesale_cost)
+       ,sum(ss_ext_wholesale_cost)
+ from store_sales
+     ,store
+     ,customer_demographics
+     ,household_demographics
+     ,customer_address
+     ,date_dim
+ where s_store_sk = ss_store_sk
+ and  ss_sold_date_sk = d_date_sk and d_year = 2001
+ and((ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'D'
+  and cd_education_status = 'College'
+  and ss_sales_price between 100.00 and 150.00
+  and hd_dep_count = 3
+     )or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'S'
+  and cd_education_status = 'Unknown'
+  and ss_sales_price between 50.00 and 100.00
+  and hd_dep_count = 1
+     ) or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'M'
+  and cd_education_status = 'Secondary'
+  and ss_sales_price between 150.00 and 200.00
+  and hd_dep_count = 1
+     ))
+ and((ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('IL', 'AR', 'NE')
+  and ss_net_profit between 100 and 200
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('TX', 'WV', 'LA')
+  and ss_net_profit between 150 and 300
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('PA', 'IN', 'TN')
+  and ss_net_profit between 50 and 250
+     ))
+;
+tpcds.13.sh|2024-04-09 07:42:36|2024-04-09 07:45:27|171
+select avg(ss_quantity)
+       ,avg(ss_ext_sales_price)
+       ,avg(ss_ext_wholesale_cost)
+       ,sum(ss_ext_wholesale_cost)
+ from store_sales
+     ,store
+     ,customer_demographics
+     ,household_demographics
+     ,customer_address
+     ,date_dim
+ where s_store_sk = ss_store_sk
+ and  ss_sold_date_sk = d_date_sk and d_year = 2001
+ and((ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'D'
+  and cd_education_status = 'College'
+  and ss_sales_price between 100.00 and 150.00
+  and hd_dep_count = 3
+     )or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'S'
+  and cd_education_status = 'Unknown'
+  and ss_sales_price between 50.00 and 100.00
+  and hd_dep_count = 1
+     ) or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'M'
+  and cd_education_status = 'Secondary'
+  and ss_sales_price between 150.00 and 200.00
+  and hd_dep_count = 1
+     ))
+ and((ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('IL', 'AR', 'NE')
+  and ss_net_profit between 100 and 200
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('TX', 'WV', 'LA')
+  and ss_net_profit between 150 and 300
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('PA', 'IN', 'TN')
+  and ss_net_profit between 50 and 250
+     ))
+;
+tpcds.13.sh|2024-04-09 07:45:28|2024-04-09 07:49:14|226
+select avg(ss_quantity)
+       ,avg(ss_ext_sales_price)
+       ,avg(ss_ext_wholesale_cost)
+       ,sum(ss_ext_wholesale_cost)
+ from store_sales
+     ,store
+     ,customer_demographics
+     ,household_demographics
+     ,customer_address
+     ,date_dim
+ where s_store_sk = ss_store_sk
+ and  ss_sold_date_sk = d_date_sk and d_year = 2001
+ and((ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'D'
+  and cd_education_status = 'College'
+  and ss_sales_price between 100.00 and 150.00
+  and hd_dep_count = 3
+     )or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'S'
+  and cd_education_status = 'Unknown'
+  and ss_sales_price between 50.00 and 100.00
+  and hd_dep_count = 1
+     ) or
+     (ss_hdemo_sk=hd_demo_sk
+  and cd_demo_sk = ss_cdemo_sk
+  and cd_marital_status = 'M'
+  and cd_education_status = 'Secondary'
+  and ss_sales_price between 150.00 and 200.00
+  and hd_dep_count = 1
+     ))
+ and((ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('IL', 'AR', 'NE')
+  and ss_net_profit between 100 and 200
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('TX', 'WV', 'LA')
+  and ss_net_profit between 150 and 300
+     ) or
+     (ss_addr_sk = ca_address_sk
+  and ca_country = 'United States'
+  and ca_state in ('PA', 'IN', 'TN')
+  and ss_net_profit between 50 and 250
+     ))
+;
+tpcds.13.sh|2024-04-09 07:49:15|2024-04-09 07:52:12|177
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)
@@ -1348,4 +1748,4 @@ select avg(ss_quantity)
      ))
 ;
 ERROR:  canceling statement due to user request
-tpcds.13.sh|2024-03-19 23:14:56|2024-03-19 23:18:12|196
+tpcds.13.sh|2024-04-09 07:52:13|2024-04-09 07:54:09|116

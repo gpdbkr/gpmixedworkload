@@ -4,31 +4,26 @@ BMT_NO=`basename $0`
 LOGDIR=../log
 mkdir -p $LOGDIR
 
-LOGFILE=$LOGDIR"/"$BMT_NO".log"
-STARTTIME=`date "+%Y%m%d_%H:%M:%S"`
+#sleep 600
 
-echo "#######>  START TPCDS INIT" > $LOGFILE
-STARTCHECK=`date "+%Y%m%d_%H:%M:%S"`
-echo $STARTCHECK >> $LOGFILE
-TPCSTART=$(date +%s)
+LOGFILE=$LOGDIR"/"$BMT_NO".log"
+
+START_TM1=`date "+%Y-%m-%d %H:%M:%S"`
+START_TM2=`date "+%Y-%m-%d_%H:%M:%S"`
 
 cd ../TPC-DS/
 cp ./tpcds_variables.sh.init ./tpcds_variables.sh
 ./tpcds.sh > ../log/tpcds.log.normal
 
-echo "#######>  FINISH TPCDS INIT" >> $LOGFILE
-ENDCHECK=`date "+%Y%m%d_%H:%M:%S"`
-echo $ENDCHECK >> $LOGFILE
-TPCEND=$(date +%s)
-ENDTIME=`date "+%Y%m%d_%H:%M:%S"`
+END_TM1=`date "+%Y-%m-%d %H:%M:%S"`
+END_TM2=`date "+%Y-%m-%d_%H:%M:%S"`
 
-echo "" >>  $LOGFILE
-echo $ENDCHECK1 >> $LOGFILE
+SEC1=`date +%s -d "${START_TM1}"`
+SEC2=`date +%s -d "${END_TM1}"`
+DIFFSEC=`expr ${SEC2} - ${SEC1}`
+
+echo $BMT_NO"|"$START_TM1"|"$END_TM1"|"$DIFFSEC  >> $LOGFILE
 
 echo "" >> $LOGFILE
-echo "TPCDS_INIT|$STARTCHECK|$ENDCHECK|$(($TPCEND-$TPCSTART))" >> $LOGFILE
-echo "" >> $LOGFILE
-echo "#######> TCPDS INIT SQL" >>$LOGFILE
-echo "init '$STARTTIME' '$ENDTIME'" >>$LOGFILE
-
-../shell/kill_poc.sh
+echo "Time conditions for system resource usage" >> $LOGFILE
+echo "normal '$START_TM2' '$END_TM2'" >>$LOGFILE

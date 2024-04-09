@@ -14,7 +14,7 @@ START_TM1=`date "+%Y-%m-%d %H:%M:%S"`
 echo "$0: START TIME : " $START_TM1
 ###### query start
 psql -d gpperfmon -At > $LOGFILE 2>&1 <<-!
-
+--explain analyze
 select    TO_CHAR(ctime, 'yyyymmdd') as dt, TO_CHAR(ctime, 'hh24:mi:ss') tm
      , sum(CASE WHEN hostname LIKE '%sdw1%' THEN 100 - round(cpu_idle) ELSE NULL end ) cpu_sdw1
      , sum(CASE WHEN hostname LIKE '%sdw2%' THEN 100 - round(cpu_idle) ELSE NULL end ) cpu_sdw2
@@ -22,8 +22,8 @@ select    TO_CHAR(ctime, 'yyyymmdd') as dt, TO_CHAR(ctime, 'hh24:mi:ss') tm
      , sum(CASE WHEN hostname LIKE '%sdw4%' THEN 100 - round(cpu_idle) ELSE NULL end ) cpu_sdw4 
   from    gpmetrics.gpcc_system_history
   where  hostname like '%sdw%'
-  and    ctime >= '$2'::timestamp
-  and    ctime <  '$3'::timestamp
+  and    ctime >= '$2'::timestamp - '5 minutes'::interval
+  and    ctime <  '$3'::timestamp + '5 minutes'::interval
 group by 1,2
 order by 1,2;
 

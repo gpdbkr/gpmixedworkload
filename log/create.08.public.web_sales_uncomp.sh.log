@@ -1,3 +1,3 @@
 create table public.web_sales_uncomp as select * from tpcds.web_sales distributed randomly;
 SELECT 2160017309
-create.08.public.web_sales_uncomp.sh|2024-03-19 20:52:30|2024-03-19 21:04:24|714
+create.08.public.web_sales_uncomp.sh|2024-04-09 05:28:03|2024-04-09 05:35:56|473

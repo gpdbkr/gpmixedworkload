@@ -15,7 +15,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:18:04|2024-03-19 21:20:35|151
+tpcds.15.sh|2024-04-09 05:53:58|2024-04-09 05:55:06|68
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -33,7 +33,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:20:36|2024-03-19 21:24:43|247
+tpcds.15.sh|2024-04-09 05:55:07|2024-04-09 05:56:30|83
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -51,7 +51,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:24:44|2024-03-19 21:27:24|160
+tpcds.15.sh|2024-04-09 05:56:31|2024-04-09 05:57:44|73
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -69,7 +69,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:27:25|2024-03-19 21:30:00|155
+tpcds.15.sh|2024-04-09 05:57:45|2024-04-09 05:58:56|71
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -87,7 +87,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:30:01|2024-03-19 21:31:29|88
+tpcds.15.sh|2024-04-09 05:58:57|2024-04-09 06:00:00|63
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -105,7 +105,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:31:30|2024-03-19 21:34:08|158
+tpcds.15.sh|2024-04-09 06:00:01|2024-04-09 06:00:56|55
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -123,7 +123,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:34:09|2024-03-19 21:36:18|129
+tpcds.15.sh|2024-04-09 06:00:57|2024-04-09 06:01:57|60
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -141,7 +141,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:36:19|2024-03-19 21:38:35|136
+tpcds.15.sh|2024-04-09 06:01:58|2024-04-09 06:02:51|53
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -159,7 +159,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:38:36|2024-03-19 21:40:43|127
+tpcds.15.sh|2024-04-09 06:02:52|2024-04-09 06:03:42|50
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -177,7 +177,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:40:44|2024-03-19 21:42:41|117
+tpcds.15.sh|2024-04-09 06:03:43|2024-04-09 06:04:39|56
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -195,7 +195,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:42:42|2024-03-19 21:44:58|136
+tpcds.15.sh|2024-04-09 06:04:40|2024-04-09 06:05:41|61
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -213,7 +213,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:44:59|2024-03-19 21:48:13|194
+tpcds.15.sh|2024-04-09 06:05:42|2024-04-09 06:06:47|65
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -231,7 +231,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:48:14|2024-03-19 21:51:18|184
+tpcds.15.sh|2024-04-09 06:06:48|2024-04-09 06:07:45|57
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -249,7 +249,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:51:19|2024-03-19 21:53:05|106
+tpcds.15.sh|2024-04-09 06:07:46|2024-04-09 06:08:48|62
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -267,7 +267,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:53:06|2024-03-19 21:54:32|86
+tpcds.15.sh|2024-04-09 06:08:49|2024-04-09 06:09:49|60
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -285,7 +285,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:54:33|2024-03-19 21:56:44|131
+tpcds.15.sh|2024-04-09 06:09:50|2024-04-09 06:10:48|58
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -303,7 +303,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:56:45|2024-03-19 21:58:42|117
+tpcds.15.sh|2024-04-09 06:10:49|2024-04-09 06:11:44|55
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -321,7 +321,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 21:58:43|2024-03-19 22:00:59|136
+tpcds.15.sh|2024-04-09 06:11:45|2024-04-09 06:12:37|52
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -339,7 +339,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:01:00|2024-03-19 22:03:14|134
+tpcds.15.sh|2024-04-09 06:12:38|2024-04-09 06:13:29|51
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -357,7 +357,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:03:15|2024-03-19 22:06:09|174
+tpcds.15.sh|2024-04-09 06:13:30|2024-04-09 06:14:29|59
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -375,7 +375,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:06:10|2024-03-19 22:08:38|148
+tpcds.15.sh|2024-04-09 06:14:30|2024-04-09 06:15:25|55
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -393,7 +393,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:08:39|2024-03-19 22:10:15|96
+tpcds.15.sh|2024-04-09 06:15:26|2024-04-09 06:16:22|56
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -411,7 +411,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:10:16|2024-03-19 22:11:32|76
+tpcds.15.sh|2024-04-09 06:16:23|2024-04-09 06:17:27|64
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -429,7 +429,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:11:33|2024-03-19 22:14:04|151
+tpcds.15.sh|2024-04-09 06:17:28|2024-04-09 06:18:15|47
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -447,7 +447,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:14:05|2024-03-19 22:17:16|191
+tpcds.15.sh|2024-04-09 06:18:16|2024-04-09 06:19:23|67
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -465,7 +465,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:17:17|2024-03-19 22:18:52|95
+tpcds.15.sh|2024-04-09 06:19:24|2024-04-09 06:20:43|79
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -483,7 +483,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:18:53|2024-03-19 22:20:44|111
+tpcds.15.sh|2024-04-09 06:20:44|2024-04-09 06:21:40|56
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -501,7 +501,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:20:45|2024-03-19 22:23:29|164
+tpcds.15.sh|2024-04-09 06:21:41|2024-04-09 06:22:40|59
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -519,7 +519,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:23:30|2024-03-19 22:26:05|155
+tpcds.15.sh|2024-04-09 06:22:41|2024-04-09 06:23:43|62
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -537,7 +537,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:26:06|2024-03-19 22:28:22|136
+tpcds.15.sh|2024-04-09 06:23:44|2024-04-09 06:24:52|68
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -555,7 +555,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:28:23|2024-03-19 22:29:28|65
+tpcds.15.sh|2024-04-09 06:24:53|2024-04-09 06:25:58|65
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -573,7 +573,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:29:29|2024-03-19 22:31:46|137
+tpcds.15.sh|2024-04-09 06:25:59|2024-04-09 06:26:49|50
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -591,7 +591,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:31:47|2024-03-19 22:33:49|122
+tpcds.15.sh|2024-04-09 06:26:50|2024-04-09 06:27:47|57
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -609,7 +609,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:33:50|2024-03-19 22:35:26|96
+tpcds.15.sh|2024-04-09 06:27:48|2024-04-09 06:28:44|56
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -627,7 +627,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:35:27|2024-03-19 22:36:45|78
+tpcds.15.sh|2024-04-09 06:28:45|2024-04-09 06:29:27|42
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -645,7 +645,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:36:46|2024-03-19 22:39:14|148
+tpcds.15.sh|2024-04-09 06:29:28|2024-04-09 06:30:23|55
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -663,7 +663,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:39:15|2024-03-19 22:41:52|157
+tpcds.15.sh|2024-04-09 06:30:24|2024-04-09 06:31:41|77
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -681,7 +681,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:41:53|2024-03-19 22:44:47|174
+tpcds.15.sh|2024-04-09 06:31:42|2024-04-09 06:32:42|60
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -699,7 +699,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:44:48|2024-03-19 22:46:48|120
+tpcds.15.sh|2024-04-09 06:32:43|2024-04-09 06:33:37|54
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -717,7 +717,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:46:49|2024-03-19 22:48:48|119
+tpcds.15.sh|2024-04-09 06:33:38|2024-04-09 06:34:31|53
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -735,7 +735,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:48:49|2024-03-19 22:51:07|138
+tpcds.15.sh|2024-04-09 06:34:32|2024-04-09 06:35:28|56
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -753,7 +753,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:51:08|2024-03-19 22:52:59|111
+tpcds.15.sh|2024-04-09 06:35:29|2024-04-09 06:36:33|64
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -771,7 +771,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:53:00|2024-03-19 22:53:53|53
+tpcds.15.sh|2024-04-09 06:36:34|2024-04-09 06:37:37|63
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -789,7 +789,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:53:54|2024-03-19 22:55:06|72
+tpcds.15.sh|2024-04-09 06:37:38|2024-04-09 06:38:56|78
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -807,7 +807,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:55:07|2024-03-19 22:56:49|102
+tpcds.15.sh|2024-04-09 06:38:57|2024-04-09 06:39:57|60
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -825,7 +825,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:56:50|2024-03-19 22:59:22|152
+tpcds.15.sh|2024-04-09 06:39:58|2024-04-09 06:40:45|47
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -843,7 +843,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 22:59:23|2024-03-19 23:01:22|119
+tpcds.15.sh|2024-04-09 06:40:46|2024-04-09 06:41:46|60
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -861,7 +861,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 23:01:23|2024-03-19 23:03:00|97
+tpcds.15.sh|2024-04-09 06:41:47|2024-04-09 06:42:52|65
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -879,7 +879,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 23:03:01|2024-03-19 23:05:08|127
+tpcds.15.sh|2024-04-09 06:42:53|2024-04-09 06:43:39|46
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -897,7 +897,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 23:05:09|2024-03-19 23:07:29|140
+tpcds.15.sh|2024-04-09 06:43:40|2024-04-09 06:44:42|62
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -915,7 +915,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 23:07:30|2024-03-19 23:09:46|136
+tpcds.15.sh|2024-04-09 06:44:43|2024-04-09 06:45:38|55
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -933,7 +933,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 23:09:47|2024-03-19 23:11:26|99
+tpcds.15.sh|2024-04-09 06:45:39|2024-04-09 06:46:34|55
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -951,7 +951,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 23:11:27|2024-03-19 23:13:09|102
+tpcds.15.sh|2024-04-09 06:46:35|2024-04-09 06:47:44|69
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -969,7 +969,7 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 23:13:10|2024-03-19 23:14:51|101
+tpcds.15.sh|2024-04-09 06:47:45|2024-04-09 06:48:46|61
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -987,7 +987,1141 @@ select  ca_zip
  group by ca_zip
  order by ca_zip
  limit 100;
-tpcds.15.sh|2024-03-19 23:14:52|2024-03-19 23:16:53|121
+tpcds.15.sh|2024-04-09 06:48:47|2024-04-09 06:50:00|73
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 06:50:01|2024-04-09 06:51:07|66
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 06:51:08|2024-04-09 06:51:58|50
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 06:51:59|2024-04-09 06:52:46|47
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 06:52:47|2024-04-09 06:53:39|52
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 06:53:40|2024-04-09 06:54:46|66
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 06:54:47|2024-04-09 06:55:44|57
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 06:55:45|2024-04-09 06:56:40|55
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 06:56:41|2024-04-09 06:57:48|67
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 06:57:49|2024-04-09 06:58:40|51
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 06:58:41|2024-04-09 06:59:47|66
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 06:59:48|2024-04-09 07:00:51|63
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:00:52|2024-04-09 07:01:47|55
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:01:48|2024-04-09 07:02:57|69
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:02:58|2024-04-09 07:03:46|48
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:03:47|2024-04-09 07:04:43|56
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:04:44|2024-04-09 07:05:46|62
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:05:47|2024-04-09 07:06:48|61
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:06:49|2024-04-09 07:07:51|62
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:07:52|2024-04-09 07:08:44|52
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:08:45|2024-04-09 07:09:43|58
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:09:44|2024-04-09 07:10:54|70
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:10:55|2024-04-09 07:11:48|53
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:11:49|2024-04-09 07:13:02|73
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:13:03|2024-04-09 07:14:02|59
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:14:03|2024-04-09 07:14:55|52
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:14:56|2024-04-09 07:15:54|58
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:15:55|2024-04-09 07:16:53|58
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:16:54|2024-04-09 07:17:53|59
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:17:54|2024-04-09 07:18:59|65
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:19:00|2024-04-09 07:20:09|69
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:20:10|2024-04-09 07:21:06|56
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:21:07|2024-04-09 07:22:13|66
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:22:14|2024-04-09 07:23:02|48
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:23:03|2024-04-09 07:23:53|50
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:23:54|2024-04-09 07:24:48|54
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:24:49|2024-04-09 07:26:05|76
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:26:06|2024-04-09 07:27:05|59
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:27:06|2024-04-09 07:27:59|53
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:28:00|2024-04-09 07:28:59|59
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:29:00|2024-04-09 07:30:14|74
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:30:15|2024-04-09 07:31:07|52
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:31:08|2024-04-09 07:31:56|48
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:31:57|2024-04-09 07:32:59|62
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:33:00|2024-04-09 07:34:00|60
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:34:01|2024-04-09 07:35:06|65
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:35:07|2024-04-09 07:36:07|60
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:36:08|2024-04-09 07:37:10|62
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:37:11|2024-04-09 07:38:11|60
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:38:12|2024-04-09 07:39:13|61
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:39:14|2024-04-09 07:40:26|72
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:40:28|2024-04-09 07:41:37|69
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:41:38|2024-04-09 07:42:27|49
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:42:28|2024-04-09 07:43:11|43
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:43:12|2024-04-09 07:44:14|62
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:44:15|2024-04-09 07:45:17|62
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:45:18|2024-04-09 07:46:25|67
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:46:26|2024-04-09 07:47:25|59
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:47:26|2024-04-09 07:48:27|61
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:48:28|2024-04-09 07:49:20|52
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:49:21|2024-04-09 07:50:17|56
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:50:18|2024-04-09 07:51:37|79
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:51:38|2024-04-09 07:52:48|70
+select  ca_zip
+       ,sum(cs_sales_price)
+ from catalog_sales
+     ,customer
+     ,customer_address
+     ,date_dim
+ where cs_bill_customer_sk = c_customer_sk
+ 	and c_current_addr_sk = ca_address_sk
+ 	and ( substr(ca_zip,1,5) in ('85669', '86197','88274','83405','86475',
+                                   '85392', '85460', '80348', '81792')
+ 	      or ca_state in ('CA','WA','GA')
+ 	      or cs_sales_price > 500)
+ 	and cs_sold_date_sk = d_date_sk
+ 	and d_qoy = 1 and d_year = 2002
+ group by ca_zip
+ order by ca_zip
+ limit 100;
+tpcds.15.sh|2024-04-09 07:52:49|2024-04-09 07:53:43|54
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales
@@ -1006,4 +2140,4 @@ select  ca_zip
  order by ca_zip
  limit 100;
 ERROR:  canceling statement due to user request
-tpcds.15.sh|2024-03-19 23:16:54|2024-03-19 23:18:12|78
+tpcds.15.sh|2024-04-09 07:53:44|2024-04-09 07:54:10|26

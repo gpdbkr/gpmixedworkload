@@ -15,7 +15,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:18:04|2024-03-19 21:22:26|262
+tpcds.22.sh|2024-04-09 05:53:58|2024-04-09 05:55:44|106
 select  i_product_name
              ,i_brand
              ,i_class
@@ -33,7 +33,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:22:27|2024-03-19 21:24:43|136
+tpcds.22.sh|2024-04-09 05:55:45|2024-04-09 05:57:56|131
 select  i_product_name
              ,i_brand
              ,i_class
@@ -51,7 +51,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:24:44|2024-03-19 21:28:00|196
+tpcds.22.sh|2024-04-09 05:57:57|2024-04-09 05:59:25|88
 select  i_product_name
              ,i_brand
              ,i_class
@@ -69,7 +69,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:28:01|2024-03-19 21:31:02|181
+tpcds.22.sh|2024-04-09 05:59:26|2024-04-09 06:01:14|108
 select  i_product_name
              ,i_brand
              ,i_class
@@ -87,7 +87,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:31:03|2024-03-19 21:34:41|218
+tpcds.22.sh|2024-04-09 06:01:15|2024-04-09 06:02:45|90
 select  i_product_name
              ,i_brand
              ,i_class
@@ -105,7 +105,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:34:42|2024-03-19 21:37:37|175
+tpcds.22.sh|2024-04-09 06:02:46|2024-04-09 06:03:52|66
 select  i_product_name
              ,i_brand
              ,i_class
@@ -123,7 +123,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:37:38|2024-03-19 21:39:31|113
+tpcds.22.sh|2024-04-09 06:03:53|2024-04-09 06:05:17|84
 select  i_product_name
              ,i_brand
              ,i_class
@@ -141,7 +141,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:39:32|2024-03-19 21:43:05|213
+tpcds.22.sh|2024-04-09 06:05:18|2024-04-09 06:06:53|95
 select  i_product_name
              ,i_brand
              ,i_class
@@ -159,7 +159,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:43:06|2024-03-19 21:46:20|194
+tpcds.22.sh|2024-04-09 06:06:54|2024-04-09 06:08:43|109
 select  i_product_name
              ,i_brand
              ,i_class
@@ -177,7 +177,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:46:21|2024-03-19 21:48:57|156
+tpcds.22.sh|2024-04-09 06:08:44|2024-04-09 06:10:23|99
 select  i_product_name
              ,i_brand
              ,i_class
@@ -195,7 +195,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:48:58|2024-03-19 21:51:37|159
+tpcds.22.sh|2024-04-09 06:10:24|2024-04-09 06:11:49|85
 select  i_product_name
              ,i_brand
              ,i_class
@@ -213,7 +213,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:51:38|2024-03-19 21:53:09|91
+tpcds.22.sh|2024-04-09 06:11:50|2024-04-09 06:12:47|57
 select  i_product_name
              ,i_brand
              ,i_class
@@ -231,7 +231,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:53:10|2024-03-19 21:56:48|218
+tpcds.22.sh|2024-04-09 06:12:48|2024-04-09 06:14:25|97
 select  i_product_name
              ,i_brand
              ,i_class
@@ -249,7 +249,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 21:56:49|2024-03-19 22:00:29|220
+tpcds.22.sh|2024-04-09 06:14:26|2024-04-09 06:16:11|105
 select  i_product_name
              ,i_brand
              ,i_class
@@ -267,7 +267,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:00:30|2024-03-19 22:02:52|142
+tpcds.22.sh|2024-04-09 06:16:12|2024-04-09 06:17:40|88
 select  i_product_name
              ,i_brand
              ,i_class
@@ -285,7 +285,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:02:53|2024-03-19 22:06:13|200
+tpcds.22.sh|2024-04-09 06:17:41|2024-04-09 06:18:55|74
 select  i_product_name
              ,i_brand
              ,i_class
@@ -303,7 +303,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:06:14|2024-03-19 22:09:31|197
+tpcds.22.sh|2024-04-09 06:18:56|2024-04-09 06:21:03|127
 select  i_product_name
              ,i_brand
              ,i_class
@@ -321,7 +321,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:09:32|2024-03-19 22:11:06|94
+tpcds.22.sh|2024-04-09 06:21:04|2024-04-09 06:22:29|85
 select  i_product_name
              ,i_brand
              ,i_class
@@ -339,7 +339,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:11:07|2024-03-19 22:12:47|100
+tpcds.22.sh|2024-04-09 06:22:30|2024-04-09 06:23:53|83
 select  i_product_name
              ,i_brand
              ,i_class
@@ -357,7 +357,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:12:48|2024-03-19 22:16:08|200
+tpcds.22.sh|2024-04-09 06:23:54|2024-04-09 06:25:57|123
 select  i_product_name
              ,i_brand
              ,i_class
@@ -375,7 +375,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:16:09|2024-03-19 22:18:19|130
+tpcds.22.sh|2024-04-09 06:25:58|2024-04-09 06:27:22|84
 select  i_product_name
              ,i_brand
              ,i_class
@@ -393,7 +393,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:18:20|2024-03-19 22:21:11|171
+tpcds.22.sh|2024-04-09 06:27:23|2024-04-09 06:28:41|78
 select  i_product_name
              ,i_brand
              ,i_class
@@ -411,7 +411,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:21:12|2024-03-19 22:24:16|184
+tpcds.22.sh|2024-04-09 06:28:42|2024-04-09 06:29:57|75
 select  i_product_name
              ,i_brand
              ,i_class
@@ -429,7 +429,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:24:17|2024-03-19 22:26:26|129
+tpcds.22.sh|2024-04-09 06:29:58|2024-04-09 06:31:38|100
 select  i_product_name
              ,i_brand
              ,i_class
@@ -447,7 +447,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:26:27|2024-03-19 22:28:36|129
+tpcds.22.sh|2024-04-09 06:31:39|2024-04-09 06:32:57|78
 select  i_product_name
              ,i_brand
              ,i_class
@@ -465,7 +465,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:28:37|2024-03-19 22:32:04|207
+tpcds.22.sh|2024-04-09 06:32:58|2024-04-09 06:34:11|73
 select  i_product_name
              ,i_brand
              ,i_class
@@ -483,7 +483,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:32:05|2024-03-19 22:34:42|157
+tpcds.22.sh|2024-04-09 06:34:12|2024-04-09 06:36:01|109
 select  i_product_name
              ,i_brand
              ,i_class
@@ -501,7 +501,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:34:43|2024-03-19 22:36:23|100
+tpcds.22.sh|2024-04-09 06:36:02|2024-04-09 06:37:54|112
 select  i_product_name
              ,i_brand
              ,i_class
@@ -519,7 +519,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:36:24|2024-03-19 22:38:34|130
+tpcds.22.sh|2024-04-09 06:37:55|2024-04-09 06:39:22|87
 select  i_product_name
              ,i_brand
              ,i_class
@@ -537,7 +537,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:38:35|2024-03-19 22:41:56|201
+tpcds.22.sh|2024-04-09 06:39:23|2024-04-09 06:41:18|115
 select  i_product_name
              ,i_brand
              ,i_class
@@ -555,7 +555,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:41:57|2024-03-19 22:45:34|217
+tpcds.22.sh|2024-04-09 06:41:19|2024-04-09 06:42:51|92
 select  i_product_name
              ,i_brand
              ,i_class
@@ -573,7 +573,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:45:35|2024-03-19 22:48:59|204
+tpcds.22.sh|2024-04-09 06:42:52|2024-04-09 06:43:56|64
 select  i_product_name
              ,i_brand
              ,i_class
@@ -591,7 +591,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:49:00|2024-03-19 22:52:26|206
+tpcds.22.sh|2024-04-09 06:43:57|2024-04-09 06:46:01|124
 select  i_product_name
              ,i_brand
              ,i_class
@@ -609,7 +609,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:52:27|2024-03-19 22:54:43|136
+tpcds.22.sh|2024-04-09 06:46:02|2024-04-09 06:47:10|68
 select  i_product_name
              ,i_brand
              ,i_class
@@ -627,7 +627,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:54:44|2024-03-19 22:56:29|105
+tpcds.22.sh|2024-04-09 06:47:11|2024-04-09 06:48:11|60
 select  i_product_name
              ,i_brand
              ,i_class
@@ -645,7 +645,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 22:56:30|2024-03-19 23:00:06|216
+tpcds.22.sh|2024-04-09 06:48:12|2024-04-09 06:49:53|101
 select  i_product_name
              ,i_brand
              ,i_class
@@ -663,7 +663,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 23:00:07|2024-03-19 23:02:27|140
+tpcds.22.sh|2024-04-09 06:49:54|2024-04-09 06:51:36|102
 select  i_product_name
              ,i_brand
              ,i_class
@@ -681,7 +681,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 23:02:28|2024-03-19 23:05:46|198
+tpcds.22.sh|2024-04-09 06:51:37|2024-04-09 06:52:51|74
 select  i_product_name
              ,i_brand
              ,i_class
@@ -699,7 +699,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 23:05:47|2024-03-19 23:08:59|192
+tpcds.22.sh|2024-04-09 06:52:52|2024-04-09 06:53:47|55
 select  i_product_name
              ,i_brand
              ,i_class
@@ -717,7 +717,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 23:09:00|2024-03-19 23:10:32|92
+tpcds.22.sh|2024-04-09 06:53:48|2024-04-09 06:55:43|115
 select  i_product_name
              ,i_brand
              ,i_class
@@ -735,7 +735,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 23:10:33|2024-03-19 23:13:08|155
+tpcds.22.sh|2024-04-09 06:55:44|2024-04-09 06:57:37|113
 select  i_product_name
              ,i_brand
              ,i_class
@@ -753,7 +753,7 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 23:13:09|2024-03-19 23:15:25|136
+tpcds.22.sh|2024-04-09 06:57:38|2024-04-09 06:59:08|90
 select  i_product_name
              ,i_brand
              ,i_class
@@ -771,7 +771,637 @@ select  i_product_name
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
-tpcds.22.sh|2024-03-19 23:15:26|2024-03-19 23:17:42|136
+tpcds.22.sh|2024-04-09 06:59:09|2024-04-09 07:01:00|111
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:01:01|2024-04-09 07:02:42|101
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:02:43|2024-04-09 07:04:01|78
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:04:02|2024-04-09 07:05:59|117
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:06:00|2024-04-09 07:07:39|99
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:07:40|2024-04-09 07:09:13|93
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:09:14|2024-04-09 07:10:44|90
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:10:45|2024-04-09 07:11:59|74
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:12:00|2024-04-09 07:13:28|88
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:13:29|2024-04-09 07:15:32|123
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:15:33|2024-04-09 07:16:52|79
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:16:53|2024-04-09 07:18:21|88
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:18:22|2024-04-09 07:20:37|135
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:20:38|2024-04-09 07:22:00|82
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:22:01|2024-04-09 07:23:02|61
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:23:03|2024-04-09 07:24:39|96
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:24:40|2024-04-09 07:26:31|111
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:26:32|2024-04-09 07:27:49|77
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:27:50|2024-04-09 07:29:11|81
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:29:12|2024-04-09 07:31:05|113
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:31:06|2024-04-09 07:32:17|71
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:32:18|2024-04-09 07:33:32|74
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:33:33|2024-04-09 07:34:36|63
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:34:37|2024-04-09 07:36:14|97
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:36:15|2024-04-09 07:37:39|84
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:37:40|2024-04-09 07:38:54|74
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:38:55|2024-04-09 07:40:51|116
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:40:52|2024-04-09 07:42:08|76
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:42:09|2024-04-09 07:43:09|60
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:43:10|2024-04-09 07:44:22|72
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:44:23|2024-04-09 07:46:25|122
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:46:26|2024-04-09 07:47:47|81
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:47:48|2024-04-09 07:48:47|59
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:48:48|2024-04-09 07:50:20|92
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:50:21|2024-04-09 07:52:03|102
+select  i_product_name
+             ,i_brand
+             ,i_class
+             ,i_category
+             ,avg(inv_quantity_on_hand) qoh
+       from inventory
+           ,date_dim
+           ,item
+       where inv_date_sk=d_date_sk
+              and inv_item_sk=i_item_sk
+              and d_month_seq between 1211 and 1211 + 11
+       group by rollup(i_product_name
+                       ,i_brand
+                       ,i_class
+                       ,i_category)
+order by qoh, i_product_name, i_brand, i_class, i_category
+limit 100;
+tpcds.22.sh|2024-04-09 07:52:04|2024-04-09 07:53:33|89
 select  i_product_name
              ,i_brand
              ,i_class
@@ -790,4 +1420,4 @@ select  i_product_name
 order by qoh, i_product_name, i_brand, i_class, i_category
 limit 100;
 ERROR:  canceling statement due to user request
-tpcds.22.sh|2024-03-19 23:17:43|2024-03-19 23:18:14|31
+tpcds.22.sh|2024-04-09 07:53:34|2024-04-09 07:54:10|36
