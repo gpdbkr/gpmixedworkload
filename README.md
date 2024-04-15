@@ -1,6 +1,6 @@
 # Scripts for Mixed Workload Test for Greenplum 6 and 7
-Greenplum TPCDS를 이용한 Mixed workload 테스트 
-Source: https://github.com/pivotal/TPC-DS
+- Mixed workload testing using Greenplum TPCDS
+- Greenplum TPCDS: https://github.com/pivotal/TPC-DS
 
 ## Mixed workload type
 Mixed workload can be adjusted by modifying the source. 
