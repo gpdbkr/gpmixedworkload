@@ -1,4 +1,22 @@
 # Scripts for Mixed Workload Test for Greenplum 6 and 7
+Greenplum TPCDS를 이용한 Mixed workload 테스트 
+Source: https://github.com/pivotal/TPC-DS
+
+## Mixed workload type
+Mixed workload can be adjusted by modifying the source. 
+1. Simple loading (15)   : CTAS with select * from tables 
+2. transform loading (6) : CTAS with array_agg and group by
+3. Simple queries (8)    : For clearing cache memory of Segment nodes
+4. Analysis queryes (TPC-DS, 40) : 40 of 99 TPCDS
+
+## Current test environment
+ - TPDCS : GEN_DATA_SCALE: 3000GB
+ - 1 Master + 4 Segment Nodes
+ - Segment node spec
+   * CPU : 48 core (96w/HT)
+   * Memory: 512 GB
+   * Disk : SATA SSD 16EA
+   * Network : 100Gbps * 2EA
 
 ## Rrerequisite
 
@@ -56,6 +74,7 @@ drwxrwxr-x  2 gpadmin gpadmin 12288  4월  9 21:49 shell          ## Scripts for
 [gpadmin@mdw log_gather]$ ls -la
 -rwxr-xr-x 1 gpadmin gpadmin 1150  4월 15 10:00 1.1.tb_size.sh             ## get table size
 -rwxr-xr-x 1 gpadmin gpadmin 1200  4월 15 10:02 1.2.tb_pt_size.sh          ## get table and partitioned table size
+-rwxr-xr-x 1 gpadmin gpadmin 2755  4월  9 21:49 2.1.system_rsc.sh          ## get system resource usage by 5 minutes
 -rwxr-xr-x 1 gpadmin gpadmin 2755  4월  9 21:49 2.1.system_rsc_1min.sh     ## get System resource usage per minute
 -rwxr-xr-x 1 gpadmin gpadmin 2795  4월  9 21:49 2.1.system_rsc_2min.sh     ## get system resource usage by 2 minutes
 -rwxr-xr-x 1 gpadmin gpadmin 2797  4월  9 21:49 2.1.system_rsc_5min.sh     ## get system resource usage by 5 minutes
@@ -109,7 +128,7 @@ sleep 600
 sleep 600
 
 ./poc_workload.sh            ## Perform mixed workload
-[gpadmin@mdw shell]$ nohup ./poc_run_all & 
+[gpadmin@mdw shell]$ nohup ./poc_run_all.sh & 
 
 ```
 
@@ -158,4 +177,3 @@ sleep 600
 [gpadmin@mdw log_gather]$ ./2.1.system_rsc_cpu.sh workload_cpu 'Start time' 'End Time'     ## Extract time from ../log/poc_workload.sh.log 
 [gpadmin@mdw log_gather]$ cat ../log/2.1.system_rsc_cpu.sh.log.workload_cpu
 ```
-# gpkrutil
