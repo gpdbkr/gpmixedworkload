@@ -109,6 +109,8 @@ gpconfig -c gp_resource_group_cpu_limit -v 1
 
 #gpconfig -c gp_resource_manager -v "queue"
 [gpadmin@mdw shell]$ sh gpconfigs.sh
+[gpadmin@mdw shell]$ gpstop -af
+[gpadmin@mdw shell]$ gpstart -a
 
 2. Performing TPCDS and Mixed workloads
 [gpadmin@mdw shell]$ ll poc*
