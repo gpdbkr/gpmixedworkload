@@ -15,7 +15,7 @@ Mixed workload can be adjusted by modifying the source.
  - Segment node spec
    * CPU : 48 core (96w/HT)
    * Memory: 512 GB
-   * Disk : SATA SSD 16EA
+   * Disk : NVME 4EA (no raid)
    * Network : 100Gbps * 2EA
 
 ## Rrerequisite
