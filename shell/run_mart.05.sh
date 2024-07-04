@@ -1,4 +1,4 @@
-source /data/poc/shell/env.sh
+source ./env.sh
 
 while true;
 do 
