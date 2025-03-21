@@ -1,0 +1,123 @@
+Rockey 9.x 버전에서 Greenplum TPC-DS 컴파일시 에러 발생 원인 및 조치 방법
+
+1. 개요 
+   - Rockey 8.x 에서는 gcc 8.x를 이용하여 컴파일하는데, Rockey 9.5 에서는 gcc 11.5를 이용하여 컴파일
+   - TPCDS 실행시 데이터 생성하는 dsdgen 컴파일시 에러 발생
+   - gcc 9.5 소스를 빌드하고 난뒤 gcc 9.5로 TPCDS를 컴파일하면 이슈 해결
+   - 주의 사항
+     * gcc 9.5를 설치하고, TPCDS를 수행 한 후에 gcc 파일명을 gcc-9로 이름 변경
+
+2. TPCDS 수행시 에러 
+[gpadmin@cdw TPC-DS]$ ./tpcds.sh
+...
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:234: dsdgen] Error 1
+
+
+3.gcc 9.5 설치 
+  1) 설치  
+     - root 계정으로 설치 
+[root@cdw local]# cd /usr/local
+[root@cdw local]# wget http://ftp.gnu.org/gnu/gcc/gcc-9.5.0/gcc-9.5.0.tar.gz
+[root@cdw local]# tar zxf gcc-9.5.0.tar.gz
+[root@cdw local]# cd gcc-9.5.0
+[root@cdw gcc-9.5.0]# ./contrib/download_prerequisites
+[root@cdw gcc-9.5.0]# mkdir build
+[root@cdw gcc-9.5.0]# ./configure --prefix=/usr/local/gcc-9.5.0 --enable-checking=release -disable-multilib --enable-languages=c,c++
+[root@cdw gcc-9.5.0]# make -j$(nproc)
+[root@cdw gcc-9.5.0]# make install
+[root@cdw gcc-9.5.0]# /usr/local/gcc-9.5.0/bin/gcc --version
+gcc (GCC) 9.5.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+#### gcc파일을 /usr/local/bin/ 하위디렉로리에 복사 
+[root@scdw ~]# env | grep PATH
+PATH=/root/.local/bin:/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+[root@scdw ~]#
+[root@scdw bin]# cp /usr/local/gcc-9.5.0/bin/gcc /usr/local/bin/gcc
+
+
+  2) 설치 도중 화면 출력 
+#### download_prerequisites 수행 후 output
+[root@scdw gcc-9.5.0]# ./contrib/download_prerequisites
+2025-03-13 12:27:37 URL: ftp://gcc.gnu.org/pub/gcc/infrastructure/gmp-6.1.0.tar.bz2 [2383840] -> "./gmp-6.1.0.tar.bz2" [1]
+2025-03-13 12:27:42 URL: ftp://gcc.gnu.org/pub/gcc/infrastructure/mpfr-3.1.4.tar.bz2 [1279284] -> "./mpfr-3.1.4.tar.bz2" [1]
+2025-03-13 12:27:47 URL: ftp://gcc.gnu.org/pub/gcc/infrastructure/mpc-1.0.3.tar.gz [669925] -> "./mpc-1.0.3.tar.gz" [1]
+2025-03-13 12:27:52 URL: ftp://gcc.gnu.org/pub/gcc/infrastructure/isl-0.18.tar.bz2 [1658291] -> "./isl-0.18.tar.bz2" [1]
+gmp-6.1.0.tar.bz2: OK
+mpfr-3.1.4.tar.bz2: OK
+mpc-1.0.3.tar.gz: OK
+isl-0.18.tar.bz2: OK
+All prerequisites downloaded successfully.
+[root@scdw gcc-9.5.0]#
+
+#### configure 수행 후 output 
+libtool: link: ranlib .libs/libtsan.a
+libtool: link: rm -fr .libs/libtsan.lax
+libtool: link: ( cd ".libs" && rm -f "libtsan.la" && ln -s "../libtsan.la" "libtsan.la" )
+make[4]: Leaving directory '/gcc-9.5.0/x86_64-pc-linux-gnu/libsanitizer/tsan'
+make[4]: Entering directory '/gcc-9.5.0/x86_64-pc-linux-gnu/libsanitizer'
+true "AR_FLAGS=rc" "CC_FOR_BUILD=gcc" "CFLAGS=-g -O2" "CXXFLAGS=-g -O2 -D_GNU_SOURCE" "CFLAGS_FOR_BUILD=-g -O2" "CFLAGS_FOR_TARGET=-g -O2" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=-g -O2" "LIBCFLAGS_FOR_TARGET=-g -O2" "MAKE=make" "MAKEINFO=/gcc-9.5.0/missing makeinfo --split-size=5000000 --split-size=5000000   " "PICFLAG=" "PICFLAG_FOR_TARGET=" "SHELL=/bin/sh" "RUNTESTFLAGS=" "exec_prefix=/usr/local/gcc-9.5.0" "infodir=/usr/local/gcc-9.5.0/share/info" "libdir=/usr/local/gcc-9.5.0/lib" "prefix=/usr/local/gcc-9.5.0" "includedir=/usr/local/gcc-9.5.0/include" "AR=ar" "AS=/gcc-9.5.0/host-x86_64-pc-linux-gnu/gcc/as" "LD=/gcc-9.5.0/host-x86_64-pc-linux-gnu/gcc/collect-ld" "LIBCFLAGS=-g -O2" "NM=/gcc-9.5.0/host-x86_64-pc-linux-gnu/gcc/nm" "PICFLAG=" "RANLIB=ranlib" "DESTDIR=" DO=all multi-do # make
+make[4]: Leaving directory '/gcc-9.5.0/x86_64-pc-linux-gnu/libsanitizer'
+make[3]: Leaving directory '/gcc-9.5.0/x86_64-pc-linux-gnu/libsanitizer'
+make[2]: Leaving directory '/gcc-9.5.0/x86_64-pc-linux-gnu/libsanitizer'
+make[1]: Leaving directory '/gcc-9.5.0'
+[root@cdw gcc-9.5.0]#
+
+#### make 수행 후 output
+make[4]: Entering directory '/usr/local/gcc-9.5.0/x86_64-pc-linux-gnu/libatomic/testsuite'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/usr/local/gcc-9.5.0/x86_64-pc-linux-gnu/libatomic/testsuite'
+make[4]: Entering directory '/usr/local/gcc-9.5.0/x86_64-pc-linux-gnu/libatomic'
+Makefile:867: warning: overriding recipe for target 'all-multi'
+Makefile:861: warning: ignoring old recipe for target 'all-multi'
+true  DO=all multi-do # make
+make[4]: Leaving directory '/usr/local/gcc-9.5.0/x86_64-pc-linux-gnu/libatomic'
+make[3]: Leaving directory '/usr/local/gcc-9.5.0/x86_64-pc-linux-gnu/libatomic'
+make[2]: Leaving directory '/usr/local/gcc-9.5.0/x86_64-pc-linux-gnu/libatomic'
+make[1]: Leaving directory '/usr/local/gcc-9.5.0'
+[root@scdw gcc-9.5.0]#
+
+
+#### make install 수행 후 output
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/usr/local/gcc-9.5.0/x86_64-pc-linux-gnu/libatomic'
+make[3]: Leaving directory '/usr/local/gcc-9.5.0/x86_64-pc-linux-gnu/libatomic'
+make[2]: Leaving directory '/usr/local/gcc-9.5.0/x86_64-pc-linux-gnu/libatomic'
+make[1]: Leaving directory '/usr/local/gcc-9.5.0'
+[root@scdw gcc-9.5.0]#
+
+4. 주의 및 기타 사항
+   1) gcc 빌드, TPCDS 컴파일 후 gcc 파일명 변경  
+      - PATH의 순위가 /usr/local/bin가 /usr/bin 보다 상위에 있기 때문에 Rockey 9.5 GCC가 변경되므로 
+        /usr/local/bin/gcc를 gcc-9으로 파일명 변경 
+      - gcc 버전 확인 - 반드시 세션 종료 후 재접속 필요 
+   2) TPCDS 컴파일 이후 TPCDS 실행 환경에 다시 컴파일 하지 않도록 파라미터 수정 
+      - TPC-DS/tpcds_variables.sh의 파일에서 true를 false로 변경하면 재 컴파일 하지 않음.
+        export RUN_COMPILE_TPCDS="true" => export RUN_COMPILE_TPCDS="false"
+   3) 경로별 버전 확인
+[root@cdw ~]# /usr/bin/gcc --version
+gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-5)
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+## TPCDS 컴파일 도중 
+[root@cdw ~]# /usr/local/bin/gcc --version
+gcc-9 (GCC) 9.5.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+## TPCDS 컴파일 이후 파일명 변경 
+[root@cdw ~]# mv /usr/local/bin/gcc /usr/local/bin/gcc-9
+[root@cdw ~]# /usr/local/bin/gcc-9 --version
+gcc-9 (GCC) 9.5.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

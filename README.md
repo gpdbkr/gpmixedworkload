@@ -179,3 +179,9 @@ sleep 600
 [gpadmin@mdw log_gather]$ ./2.1.system_rsc_cpu.sh workload_cpu 'Start time' 'End Time'     ## Extract time from ../log/poc_workload.sh.log 
 [gpadmin@mdw log_gather]$ cat ../log/2.1.system_rsc_cpu.sh.log.workload_cpu
 ```
+
+## Notice
+```
+Rockey 9.5에서 TPCDS 컴파일할 때 오류 발생시에는 gcc 9.5 설치로 해결
+Rockey 9.5에서 gcc 9.5 설치 방법은 Rockey9.5_Greenplum_TPCDS.txt 파일 참조
+```
